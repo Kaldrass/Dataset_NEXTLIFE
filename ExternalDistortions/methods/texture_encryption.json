@@ -1,0 +1,32 @@
+[
+  {
+    "profile_id": "texture_encryption_level1",
+    "group_id": "texture_encryption",
+    "method_family": "AES",
+    "level": 1,
+    "parameter_suffix": "0-6LSB",
+    "operator_rel": "operators/aes/aes_image_tool",
+    "args_template": "--op encrypt --mode bits --bits 0,1,2,3,4,5,6 --in {input} --out {output} --key operators/aes/key.bin --iv operators/aes/iv.bin --mask {mask}",
+    "notes": "Encrypts the seven least significant bit planes."
+  },
+  {
+    "profile_id": "texture_encryption_level2",
+    "group_id": "texture_encryption",
+    "method_family": "AES",
+    "level": 2,
+    "parameter_suffix": "MSB",
+    "operator_rel": "operators/aes/aes_image_tool",
+    "args_template": "--op encrypt --mode bits --bits 7 --in {input} --out {output} --key operators/aes/key.bin --iv operators/aes/iv.bin --mask {mask}",
+    "notes": "Encrypts only the most significant bit plane."
+  },
+  {
+    "profile_id": "texture_encryption_level3",
+    "group_id": "texture_encryption",
+    "method_family": "AES",
+    "level": 3,
+    "parameter_suffix": "FULL",
+    "operator_rel": "operators/aes/aes_image_tool",
+    "args_template": "--op encrypt --mode bits --bits 0,1,2,3,4,5,6,7 --in {input} --out {output} --key operators/aes/key.bin --iv operators/aes/iv.bin --mask {mask}",
+    "notes": "Encrypts all eight bit planes."
+  }
+]

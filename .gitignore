@@ -1,0 +1,61 @@
+# Dataset assets
+/Objects/
+/Scenes/
+/image/
+/Old/
+/3D_encryption/ply3dtools/
+
+# Images and textures
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tif
+*.tiff
+*.webp
+*.avif
+*.gif
+*.svg
+*.exr
+*.hdr
+*.tga
+*.dds
+*.ktx
+*.ktx2
+
+# 3D objects and generated geometry
+*.obj
+*.mtl
+*.drc
+*.glb
+*.gltf
+*.fbx
+*.ply
+*.stl
+*.dae
+*.blend
+*.abc
+*.3ds
+*.x3d
+*.usd
+*.usda
+*.usdc
+*.usdz
+
+# Binary payloads belonging to dataset objects and scenes
+/Objects/**/*.bin
+/Scenes/**/*.bin
+
+# Regenerable experiment catalogs and trial batches
+/ExperimentSecurity/dataset_catalog.json
+/ExperimentSecurity/recognition_trials.json
+/ExperimentDSIS/dsis_trials.json
+
+# Local experiment outputs and server logs
+/*_results.csv
+/ExperimentSecurity/results/
+*.log
+
+# Python caches
+__pycache__/
+*.py[cod]

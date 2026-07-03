@@ -1,0 +1,10 @@
+__pycache__/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+operators/aes/aes_image_tool
+operators/blurring/masked_blur
+operators/block_all_operation/block_all_operation

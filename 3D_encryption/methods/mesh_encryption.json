@@ -1,0 +1,38 @@
+[
+  {
+    "profile_id": "mesh_encryption_bits17",
+    "group_id": "mesh_encryption",
+    "method_family": "MantissaAESCFB",
+    "level": 17,
+    "nbBitsEnc": 17,
+    "nbClearLSB": 0,
+    "nbBytesKey": 16,
+    "nbBytesIV": 16,
+    "operator_rel": "app",
+    "notes": "Selective mantissa encryption with 17 encrypted bits and 0 clear LSB bits."
+  },
+  {
+    "profile_id": "mesh_encryption_bits21",
+    "group_id": "mesh_encryption",
+    "method_family": "MantissaAESCFB",
+    "level": 21,
+    "nbBitsEnc": 21,
+    "nbClearLSB": 0,
+    "nbBytesKey": 16,
+    "nbBytesIV": 16,
+    "operator_rel": "app",
+    "notes": "Selective mantissa encryption with 21 encrypted bits and 0 clear LSB bits."
+  },
+  {
+    "profile_id": "mesh_encryption_bits23",
+    "group_id": "mesh_encryption",
+    "method_family": "MantissaAESCFB",
+    "level": 23,
+    "nbBitsEnc": 23,
+    "nbClearLSB": 0,
+    "nbBytesKey": 16,
+    "nbBytesIV": 16,
+    "operator_rel": "app",
+    "notes": "Selective mantissa encryption with 23 encrypted bits and 0 clear LSB bits."
+  }
+]

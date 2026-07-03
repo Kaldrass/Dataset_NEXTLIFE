@@ -1,0 +1,17 @@
+[
+  {
+    "profile_id": "resize1",
+    "ts": 1,
+    "label": "low"
+  },
+  {
+    "profile_id": "resize2",
+    "ts": 2,
+    "label": "medium"
+  },
+  {
+    "profile_id": "resize4",
+    "ts": 4,
+    "label": "high"
+  }
+]

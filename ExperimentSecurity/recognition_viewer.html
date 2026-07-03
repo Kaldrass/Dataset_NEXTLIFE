@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NEXTLIFE reconnaissance</title>
+  <link rel="stylesheet" href="./recognition_style.css?v=20260624-jump-current">
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.165.0/build/three.module.js",
+        "three/addons/": "https://unpkg.com/three@0.165.0/examples/jsm/"
+      }
+    }
+  </script>
+</head>
+<body>
+  <main class="app">
+    <header class="topbar">
+      <div>
+        <strong>NEXTLIFE reconnaissance</strong>
+        <span id="progress">0 / 0</span>
+      </div>
+      <div class="actions">
+        <label class="jump-control">
+          <span>Aller a</span>
+          <input id="jumpInput" type="number" min="1" step="1" inputmode="numeric">
+        </label>
+        <button id="jumpBtn" type="button">OK</button>
+        <button id="prevBtn" type="button">Precedent</button>
+        <button id="resetBtn" type="button">Reset</button>
+        <button id="exportCsvBtn" type="button">CSV</button>
+        <button id="exportJsonBtn" type="button">JSON</button>
+      </div>
+    </header>
+
+    <section class="workspace">
+      <section class="viewer-wrap" aria-label="Objet distordu">
+        <canvas id="distortedCanvas" width="960" height="960"></canvas>
+      </section>
+
+      <aside class="panel">
+        <div class="trial-meta">
+          <span id="objectCode"></span>
+          <span id="distortionName"></span>
+        </div>
+
+        <section>
+          <h2>Label</h2>
+          <div id="labelChoices" class="choice-grid"></div>
+        </section>
+
+        <section>
+          <h2>Securite visuelle</h2>
+          <div id="securityChoices" class="security-grid"></div>
+        </section>
+
+        <textarea id="comment" rows="3" placeholder="Commentaire court"></textarea>
+
+        <div class="nav-row">
+          <span id="status" role="status"></span>
+          <button id="nextBtn" class="primary" type="button">Valider</button>
+        </div>
+      </aside>
+    </section>
+  </main>
+  <script type="module" src="./recognition_viewer.js?v=20260624-jump-current"></script>
+</body>
+</html>

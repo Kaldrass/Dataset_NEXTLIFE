@@ -1,0 +1,3972 @@
+{
+  "00231f668ece46ca991abbf94a5891a5": {
+    "name": "Albarello for the Tryphera magna preserve",
+    "description": "ID no.: KGZ 5935\n\nMuseum: The Museum of Pharmacy at the Jagiellonian University Medical College in Kraków\n\nhttps://muzea.malopolska.pl/en/objects-list/1957\n\nDigitalisation: RDW MIC, Virtual Małopolska project",
+    "user": "WirtualneMuzeaMalopolski",
+    "user_display": "Virtual Museums of Małopolska",
+    "tags": [
+      "storage",
+      "plants",
+      "painting",
+      "medicine",
+      "health",
+      "ceramics",
+      "pesaro",
+      "pharmacy",
+      "disease",
+      "glazing",
+      "16th-century",
+      "maiolica"
+    ],
+    "categories": [
+      "Art & Abstract",
+      "Cultural Heritage & History"
+    ],
+    "vertexCount": 83184,
+    "faceCount": 166364,
+    "max_texture": 8192,
+    "pbrType": "specular",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC0 Public Domain",
+    "thumbnail_url": "https://media.sketchfab.com/models/00231f668ece46ca991abbf94a5891a5/thumbnails/b394792ac2eb4ed9a17cdeb67bd19553/f930184314cd40e5abd12c125f062c18.jpeg",
+    "glb_paths": [
+      "glbs/glbs_8k/000-011/00231f668ece46ca991abbf94a5891a5_8192.glb",
+      "glbs/glbs_4k/000-021/00231f668ece46ca991abbf94a5891a5_4096.glb",
+      "glbs/glbs_1k/000-051/00231f668ece46ca991abbf94a5891a5_1024.glb"
+    ],
+    "imagenet_class": "vase",
+    "default_scene_id": "art_gallery"
+  },
+  "00a2471e88aa4178b7e81aa4bd1d2947": {
+    "name": "Adidas ozmillen 4K -Seamoding",
+    "description": "",
+    "user": "Nihigege",
+    "user_display": "Nihigege",
+    "tags": [],
+    "categories": [],
+    "vertexCount": 48616,
+    "faceCount": 97252,
+    "max_texture": 4096,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/00a2471e88aa4178b7e81aa4bd1d2947/thumbnails/c534f26020234f998dde04cb71ed617a/b985e8d0ed1c4d84b3dd40b0a3b35399.jpeg",
+    "glb_paths": [
+      "glbs/glbs_4k/000-000/00a2471e88aa4178b7e81aa4bd1d2947_4096.glb",
+      "glbs/glbs_1k/000-000/00a2471e88aa4178b7e81aa4bd1d2947_1024.glb"
+    ],
+    "imagenet_class": "running shoe",
+    "default_scene_id": "room_white"
+  },
+  "00aed98661224394a24221c4b2a930c2": {
+    "name": "Kodiak Selkirk - KD0A4TH5BRN",
+    "description": "",
+    "user": "wwof",
+    "user_display": "wwof",
+    "tags": [],
+    "categories": [],
+    "vertexCount": 1097560,
+    "faceCount": 2172223,
+    "max_texture": 2048,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/00aed98661224394a24221c4b2a930c2/thumbnails/075fe091e2184630ace7f20113ceff24/b0e6710c643a4812a7baadf5b20b30f7.jpeg",
+    "glb_paths": [
+      "glbs/glbs_2k/000-000/00aed98661224394a24221c4b2a930c2_2048.glb",
+      "glbs/glbs_1k/000-000/00aed98661224394a24221c4b2a930c2_1024.glb"
+    ],
+    "imagenet_class": "running shoe",
+    "default_scene_id": "room_white"
+  },
+  "00cc7cfdd780453e89fc101fd3e7db19": {
+    "name": "Metallic_bench",
+    "description": "Metallic bench model. Textures PBR 2048 x 2048 with ARM texture to use inside Unreal Engine.",
+    "user": "rickmaolly",
+    "user_display": "rickmaolly",
+    "tags": [
+      "archviz",
+      "bench",
+      "furniture",
+      "outdoor",
+      "metal",
+      "metallic",
+      "pbr",
+      "city",
+      "metallic-bench"
+    ],
+    "categories": [
+      "Architecture",
+      "Furniture & Home"
+    ],
+    "vertexCount": 15856,
+    "faceCount": 31668,
+    "max_texture": 2048,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/00cc7cfdd780453e89fc101fd3e7db19/thumbnails/d713d0d4fa4a4d64abda9aa938cc9ad9/8ea4328cb63141a0bc3d2fb443b813a4.jpeg",
+    "glb_paths": [
+      "glbs/glbs_2k/000-000/00cc7cfdd780453e89fc101fd3e7db19_2048.glb",
+      "glbs/glbs_1k/000-000/00cc7cfdd780453e89fc101fd3e7db19_1024.glb"
+    ],
+    "imagenet_class": "park bench",
+    "default_scene_id": "exterior"
+  },
+  "00d53dd03ef941b6a9ad5703add0c687": {
+    "name": "ginger Cat",
+    "description": "A ginger cat, also known as an orange tabby or marmalade cat, is a domestic feline with a distinct coat color that ranges from a deep reddish-orange to a pale yellowish-orange. These cats are often recognizable by their bold and striking stripes or spots, which may be solid or broken, and can vary in size and shape.\n\nTheir fur is typically short and dense, providing them with a plush and velvety texture that is both soft to the touch and visually appealing. Their eyes, which may be green, amber, or yellow, often stand out against the warm hues of their fur, giving them an alert and curious expression.\n\n\n\nOverall, ginger cats are a beloved and popular breed among cat enthusiasts, known for their striking appearance, charming personality, and loyal companionship.",
+    "user": "proEggracer",
+    "user_display": "proEggracer",
+    "tags": [
+      "cat",
+      "fbx",
+      "gingerbread",
+      "ginger",
+      "3d",
+      "cool"
+    ],
+    "categories": [
+      "Animals & Pets"
+    ],
+    "vertexCount": 35290,
+    "faceCount": 70576,
+    "max_texture": 1024,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/00d53dd03ef941b6a9ad5703add0c687/thumbnails/85dd3b8bdeb242a5a4ec39c54b192d95/65c2f7d22a4f4e86a823af6c22cc2112.jpeg",
+    "glb_paths": [
+      "glbs/glbs_1k/000-000/00d53dd03ef941b6a9ad5703add0c687_1024.glb"
+    ],
+    "imagenet_class": "Egyptian cat",
+    "default_scene_id": "exterior"
+  },
+  "00e942de349844198f4246985640ae0c": {
+    "name": "Vaas Inge",
+    "description": "virtual handpainted case by Inge Vreeswijk",
+    "user": "easellease",
+    "user_display": "easellease",
+    "tags": [
+      "drawing",
+      "vase",
+      "pottery",
+      "handpainted",
+      "lowpoly"
+    ],
+    "categories": [
+      "Art & Abstract",
+      "Furniture & Home"
+    ],
+    "vertexCount": 3234,
+    "faceCount": 6272,
+    "max_texture": 2048,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/00e942de349844198f4246985640ae0c/thumbnails/b51f340264c149708aee844120bf8e75/3af91509dd204f18ab7192dcf7ead07b.jpeg",
+    "glb_paths": [
+      "glbs/glbs_2k/000-016/00e942de349844198f4246985640ae0c_2048.glb",
+      "glbs/glbs_1k/000-051/00e942de349844198f4246985640ae0c_1024.glb"
+    ],
+    "imagenet_class": "vase",
+    "default_scene_id": "art_gallery"
+  },
+  "0142301eaacd4876823b65c33f54bcd0": {
+    "name": "Decorative Vase",
+    "description": "First try at scanning with the Einscan Pro 2x Plus",
+    "user": "unclebubs",
+    "user_display": "Azure",
+    "tags": [],
+    "categories": [],
+    "vertexCount": 151228,
+    "faceCount": 302452,
+    "max_texture": 1024,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/0142301eaacd4876823b65c33f54bcd0/thumbnails/672761324e234be38701c8f921214e42/178ec974ffc14d0f8ec95580a30d98d6.jpeg",
+    "glb_paths": [
+      "glbs/glbs_1k/000-079/0142301eaacd4876823b65c33f54bcd0_1024.glb"
+    ],
+    "imagenet_class": "vase",
+    "default_scene_id": "art_gallery"
+  },
+  "015e23eb6a40455a9fa1e3c4e54f2445": {
+    "name": "Morral indo Sketchfab",
+    "description": "",
+    "user": "hrojas26",
+    "user_display": "hrojas26",
+    "tags": [],
+    "categories": [],
+    "vertexCount": 111306,
+    "faceCount": 222590,
+    "max_texture": 8192,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/015e23eb6a40455a9fa1e3c4e54f2445/thumbnails/dc2bf984af9e4a6b809b5e51f7530b69/78a8d663f45b4902be211cfc5c89b6be.jpeg",
+    "glb_paths": [
+      "glbs/glbs_8k/000-000/015e23eb6a40455a9fa1e3c4e54f2445_8192.glb",
+      "glbs/glbs_4k/000-000/015e23eb6a40455a9fa1e3c4e54f2445_4096.glb",
+      "glbs/glbs_1k/000-000/015e23eb6a40455a9fa1e3c4e54f2445_1024.glb"
+    ],
+    "imagenet_class": "backpack",
+    "default_scene_id": "room_white"
+  },
+  "01d3dd3a93a34955b18dc0da9bf2c6f6": {
+    "name": "Flame-style deep bowl, Japan, 3500-2500 BC",
+    "description": "Read more on the Sainsbury Centre online catalogue:\nhttps://www.sainsburycentre.ac.uk/art-and-objects/1081-flame-style-deep-bowl/\n\n**Title/Description:** Flame-style deep bowl\n\n**Object Type:** Bowl, Earthenware\n\n**Materials:** Earthenware\n\n**Measurements:** h. 330 mm\n\n**Accession Number:** 1081\n\n**Historic Period:** Middle Jomon period (c. 3500-2500 BC)\n\n**Production Place:** Asia, East Asia, Japan",
+    "user": "sainsbury-centre",
+    "user_display": "Sainsbury Centre",
+    "tags": [
+      "japan",
+      "bowl",
+      "vessel",
+      "earthenware",
+      "bc",
+      "museum",
+      "jomon",
+      "jomonpottery",
+      "sainsbury-centre",
+      "jomon-period",
+      "flame-style"
+    ],
+    "categories": [
+      "Art & Abstract",
+      "Cultural Heritage & History"
+    ],
+    "vertexCount": 91323,
+    "faceCount": 182614,
+    "max_texture": 8192,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/01d3dd3a93a34955b18dc0da9bf2c6f6/thumbnails/296055322cd241b88bb890d4764f05a9/7b6fe058a8d74699b024c810b141702e.jpeg",
+    "glb_paths": [
+      "glbs/glbs_8k/000-000/01d3dd3a93a34955b18dc0da9bf2c6f6_8192.glb",
+      "glbs/glbs_4k/000-000/01d3dd3a93a34955b18dc0da9bf2c6f6_4096.glb",
+      "glbs/glbs_1k/000-000/01d3dd3a93a34955b18dc0da9bf2c6f6_1024.glb"
+    ],
+    "imagenet_class": "vase",
+    "default_scene_id": "art_gallery"
+  },
+  "030285707b9644c9b5b9364e4db05e9f": {
+    "name": "45MPH Speed Limit Sign",
+    "description": "A 45mph speed limit sign for america",
+    "user": "Scigh-on",
+    "user_display": "Scigh-on",
+    "tags": [
+      "dirty",
+      "streetsign",
+      "substancepainter",
+      "lowpoly",
+      "simple",
+      "speedlimitsign"
+    ],
+    "categories": [
+      "Architecture"
+    ],
+    "vertexCount": 90,
+    "faceCount": 168,
+    "max_texture": 4096,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/030285707b9644c9b5b9364e4db05e9f/thumbnails/1382e39aa4b342629db63fbe9e44df61/8f89d7b024744d9fbcc17ca795bf565f.jpeg",
+    "glb_paths": [
+      "glbs/glbs_4k/000-000/030285707b9644c9b5b9364e4db05e9f_4096.glb",
+      "glbs/glbs_1k/000-000/030285707b9644c9b5b9364e4db05e9f_1024.glb"
+    ],
+    "imagenet_class": "street sign",
+    "default_scene_id": "exterior_city"
+  },
+  "0316f0e13aba46e5a61e468397a07ab2": {
+    "name": "Reserved Shoe Sneakers 3D Scan",
+    "description": "Photogrammetry Reserved Shoe Sneakers 3D Scan Lowpoly Model",
+    "user": "zdenkoroman",
+    "user_display": "grafi",
+    "tags": [
+      "style",
+      "kids",
+      "skateboard",
+      "children",
+      "fashion",
+      "shopping",
+      "fitness",
+      "classic",
+      "shoes",
+      "sneakers",
+      "wear",
+      "reserved",
+      "freemodel",
+      "photogrammetry",
+      "asset",
+      "game",
+      "model",
+      "design",
+      "3dscan",
+      "house",
+      "street",
+      "blue",
+      "shop",
+      "sport",
+      "download"
+    ],
+    "categories": [
+      "Fashion & Style",
+      "Sports & Fitness"
+    ],
+    "vertexCount": 23554,
+    "faceCount": 47128,
+    "max_texture": 4096,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/0316f0e13aba46e5a61e468397a07ab2/thumbnails/07fbc645164f41858e463d0aa47f26e2/1fbf736c2a924953b5f3791d33759f74.jpeg",
+    "glb_paths": [
+      "glbs/glbs_4k/000-000/0316f0e13aba46e5a61e468397a07ab2_4096.glb",
+      "glbs/glbs_1k/000-000/0316f0e13aba46e5a61e468397a07ab2_1024.glb"
+    ],
+    "imagenet_class": "running shoe",
+    "default_scene_id": "room_white"
+  },
+  "0358bd85358143a585fef8ba3ab5c6b2": {
+    "name": "Old Clay Pot",
+    "description": "Clay pot made for my Photogrammetry class.",
+    "user": "Vixal",
+    "user_display": "Vixal",
+    "tags": [
+      "substancepainter",
+      "substance",
+      "maya"
+    ],
+    "categories": [],
+    "vertexCount": 272,
+    "faceCount": 540,
+    "max_texture": 2048,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/0358bd85358143a585fef8ba3ab5c6b2/thumbnails/41acd1e219914c33b75eff6ee207595f/2024cd8218dc43a8ac6502738eb04622.jpeg",
+    "glb_paths": [
+      "glbs/glbs_2k/000-016/0358bd85358143a585fef8ba3ab5c6b2_2048.glb",
+      "glbs/glbs_1k/000-051/0358bd85358143a585fef8ba3ab5c6b2_1024.glb"
+    ],
+    "imagenet_class": "vase",
+    "default_scene_id": "art_gallery"
+  },
+  "0375e5277a5e44fd9f45ac0695c53928": {
+    "name": "Bench_ Park - 13MB",
+    "description": "Bench\nPark",
+    "user": "ahmagh2e",
+    "user_display": "Mehdi Shahsavan",
+    "tags": [
+      "bench",
+      "park"
+    ],
+    "categories": [
+      "Architecture",
+      "Art & Abstract"
+    ],
+    "vertexCount": 2304,
+    "faceCount": 4522,
+    "max_texture": 2048,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/0375e5277a5e44fd9f45ac0695c53928/thumbnails/cf23769eb07e442d9ae17e59b36fbc7e/c5dcf39f5d3e45bebb96328fcd75a613.jpeg",
+    "glb_paths": [
+      "glbs/glbs_2k/000-000/0375e5277a5e44fd9f45ac0695c53928_2048.glb",
+      "glbs/glbs_1k/000-000/0375e5277a5e44fd9f45ac0695c53928_1024.glb"
+    ],
+    "imagenet_class": "park bench",
+    "default_scene_id": "exterior"
+  },
+  "03cd64f60dd04b4c9170132f9671cde5": {
+    "name": "Kettle",
+    "description": "Made in Blender 3.2\n\n**1. I recommend downloading the .blend so you can choose the number of polygons in the 3d model (subdivision modifier not applied)**\n\n2. Textures in 2048 px\n\n3. the gold color and the black color are exactly separated by the mesh, so you can change to the color you want",
+    "user": "gsusvfx",
+    "user_display": "Jesus",
+    "tags": [
+      "drink",
+      "tea",
+      "coffee",
+      "kettle",
+      "realistic",
+      "water",
+      "blender",
+      "home",
+      "free"
+    ],
+    "categories": [
+      "Food & Drink",
+      "Furniture & Home"
+    ],
+    "vertexCount": 47650,
+    "faceCount": 95296,
+    "max_texture": 2048,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/03cd64f60dd04b4c9170132f9671cde5/thumbnails/3cb090aba7f2483da4702ca65ff08a2d/14d192d2a41b42e4b9fc334f279d10df.jpeg",
+    "glb_paths": [
+      "glbs/glbs_2k/000-016/03cd64f60dd04b4c9170132f9671cde5_2048.glb",
+      "glbs/glbs_1k/000-051/03cd64f60dd04b4c9170132f9671cde5_1024.glb"
+    ],
+    "imagenet_class": "teapot",
+    "default_scene_id": "art_gallery"
+  },
+  "03ee1639bf0e4126b92167f8f460fdd1": {
+    "name": "Lécito - lekythos - λήκυθος (MET 27.122.6)",
+    "description": "O seguinte modelo 3D foi produzido com base em um **lécito** de cultura grega, que está localizado Museu Metropolitano de Arte de Nova York (EUA), por Vander Gabriel Camargo, mestrando em História da UFRGS e integrante do projeto de extensão Ergane, em março de 2023.\n\nDatação: ca. 480 A.E.C.; Técnica: Figuras vermelhas; Atríbuição: pintor de Títono; Inventário: 27.122.6; Cena: Atena segurando uma lança e um elmo.\n\nCatálogo Online do Museu: https://www.metmuseum.org/art/collection/search/252921\n\nInfos Artefato: http://www.beazley.ox.ac.uk/record/1FBBBB37-0EB7-4660-9CD1-975350AA15F6",
+    "user": "Ergane",
+    "user_display": "Ergane: Arqueologia Digital na Educação",
+    "tags": [
+      "greek",
+      "pottery",
+      "met",
+      "newyork",
+      "arqueologia",
+      "historia",
+      "ceramica"
+    ],
+    "categories": [
+      "Art & Abstract",
+      "Cultural Heritage & History"
+    ],
+    "vertexCount": 11020,
+    "faceCount": 22040,
+    "max_texture": 2048,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/03ee1639bf0e4126b92167f8f460fdd1/thumbnails/520af0d34dd3463890012b2a06651489/466881117c4441fb8de46379f17c79f4.jpeg",
+    "glb_paths": [
+      "glbs/glbs_2k/000-000/03ee1639bf0e4126b92167f8f460fdd1_2048.glb",
+      "glbs/glbs_1k/000-000/03ee1639bf0e4126b92167f8f460fdd1_1024.glb"
+    ],
+    "imagenet_class": "vase",
+    "default_scene_id": "art_gallery"
+  },
+  "0412b9f8685f449e9507a5cb381afb73": {
+    "name": "Sac Sapeur Pompier Grand Format",
+    "description": "If you would like to see other of my creations and discover my most important projects here is my discord : https://discord.gg/Gn3KrZEx6b",
+    "user": "Mrcaradacen",
+    "user_display": "Alec (Dreams Creator)",
+    "tags": [
+      "france",
+      "red",
+      "bag",
+      "firefighter",
+      "pompier",
+      "rescue",
+      "sac",
+      "secours",
+      "sapeur",
+      "dimatex"
+    ],
+    "categories": [],
+    "vertexCount": 7950,
+    "faceCount": 15827,
+    "max_texture": 4096,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/0412b9f8685f449e9507a5cb381afb73/thumbnails/a99ec3ac47c344929c836a69d0df0382/aa83a84739934acb89d0f2796219ca6f.jpeg",
+    "glb_paths": [
+      "glbs/glbs_4k/000-000/0412b9f8685f449e9507a5cb381afb73_4096.glb",
+      "glbs/glbs_1k/000-000/0412b9f8685f449e9507a5cb381afb73_1024.glb"
+    ],
+    "imagenet_class": "backpack",
+    "default_scene_id": "room_white"
+  },
+  "04263de17b794c64a478bf2c7caced96": {
+    "name": "Teapot",
+    "description": "Teapot 3D model created for college scene project. Flower png is downloaded from online png site for personal use.",
+    "user": "miranda.j.rice",
+    "user_display": "miranda.j.rice",
+    "tags": [
+      "teapot",
+      "tea",
+      "teaparty"
+    ],
+    "categories": [
+      "Food & Drink"
+    ],
+    "vertexCount": 8838,
+    "faceCount": 17568,
+    "max_texture": 4096,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/04263de17b794c64a478bf2c7caced96/thumbnails/e3e25e4859f6473f979b637d9c60ec47/229e0db9d0fe47f797ce1e99e3d9902d.jpeg",
+    "glb_paths": [
+      "glbs/glbs_4k/000-000/04263de17b794c64a478bf2c7caced96_4096.glb",
+      "glbs/glbs_1k/000-000/04263de17b794c64a478bf2c7caced96_1024.glb"
+    ],
+    "imagenet_class": "teapot",
+    "default_scene_id": "art_gallery"
+  },
+  "043794629a474896be25c2f6b06599d1": {
+    "name": "cat",
+    "description": "A Walking Cat.Made by 3DMAX . Include FPX and obj .\nOshi cat combines the feral cat's agility with the calm temperament of a breeding cat. This cat is a relatively new breed that was bred in the late 1950s by American breeders, based on the Abyssinian cat, and bred with the Siamese and American shorthair cats.",
+    "user": "Stephengury",
+    "user_display": "Stephengury",
+    "tags": [
+      "cat",
+      "cure"
+    ],
+    "categories": [
+      "Animals & Pets"
+    ],
+    "vertexCount": 16031,
+    "faceCount": 31758,
+    "max_texture": 1024,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/043794629a474896be25c2f6b06599d1/thumbnails/fa85c4d4445648e4987714cd2b12a049/f8699b8ad4bd449dae3ed3c5d132ef39.jpeg",
+    "glb_paths": [
+      "glbs/glbs_1k/000-000/043794629a474896be25c2f6b06599d1_1024.glb"
+    ],
+    "imagenet_class": "Egyptian cat",
+    "default_scene_id": "exterior"
+  },
+  "04c291b69d2b49ceb44a0c887d7db95c": {
+    "name": "GEK-3025",
+    "description": "",
+    "user": "gelazanskas",
+    "user_display": "gelazanskas",
+    "tags": [],
+    "categories": [
+      "Cultural Heritage & History"
+    ],
+    "vertexCount": 351589,
+    "faceCount": 653447,
+    "max_texture": 8192,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/04c291b69d2b49ceb44a0c887d7db95c/thumbnails/69bf94301bf343c888d2178fd1342725/30dafc7bfb414ddc8c316105226b25a7.jpeg",
+    "glb_paths": [
+      "glbs/glbs_8k/000-011/04c291b69d2b49ceb44a0c887d7db95c_8192.glb",
+      "glbs/glbs_4k/000-022/04c291b69d2b49ceb44a0c887d7db95c_4096.glb",
+      "glbs/glbs_1k/000-051/04c291b69d2b49ceb44a0c887d7db95c_1024.glb"
+    ],
+    "imagenet_class": "vase",
+    "default_scene_id": "art_gallery"
+  },
+  "04ff344e7c1c47d898d179dd0fb56270": {
+    "name": "Public Seat",
+    "description": "",
+    "user": "Omatar",
+    "user_display": "Omatar",
+    "tags": [
+      "bench",
+      "seat",
+      "property",
+      "public",
+      "metal",
+      "utility"
+    ],
+    "categories": [
+      "Architecture",
+      "Art & Abstract"
+    ],
+    "vertexCount": 35605,
+    "faceCount": 70192,
+    "max_texture": 4096,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/04ff344e7c1c47d898d179dd0fb56270/thumbnails/411d7f88577e40e4a1412a140d526244/ed2ba974039449f69542168dd28bd5b8.jpeg",
+    "glb_paths": [
+      "glbs/glbs_4k/000-000/04ff344e7c1c47d898d179dd0fb56270_4096.glb",
+      "glbs/glbs_1k/000-001/04ff344e7c1c47d898d179dd0fb56270_1024.glb"
+    ],
+    "imagenet_class": "park bench",
+    "default_scene_id": "exterior"
+  },
+  "055c7d29738e4fe18607e81566760c3b": {
+    "name": "Greek vessel",
+    "description": "For specific jobs, do not hesitate to contact me through my Facebook (click on the Facebook logo in the upper right corner).",
+    "user": "default.cube",
+    "user_display": "Brian Erbes",
+    "tags": [
+      "greek",
+      "ancient",
+      "vase",
+      "vessel",
+      "amphora",
+      "art",
+      "decoration"
+    ],
+    "categories": [
+      "Art & Abstract",
+      "Cultural Heritage & History"
+    ],
+    "vertexCount": 130,
+    "faceCount": 256,
+    "max_texture": 1024,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/055c7d29738e4fe18607e81566760c3b/thumbnails/f2082e80eda1418b914b5935e384eae0/05394fcddba745128ced3c22a02e9304.png",
+    "glb_paths": [
+      "glbs/glbs_1k/000-079/055c7d29738e4fe18607e81566760c3b_1024.glb"
+    ],
+    "imagenet_class": "vase",
+    "default_scene_id": "art_gallery"
+  },
+  "05a29682a8984f828922270aea880f63": {
+    "name": "Bench",
+    "description": "Model made in 3ds max, textures made in Substance painter.",
+    "user": "pinokio21",
+    "user_display": "pinokio21",
+    "tags": [
+      "bench",
+      "low-polly",
+      "game-model",
+      "gamereadymodel",
+      "pbr",
+      "3ds-max-substance-painter"
+    ],
+    "categories": [
+      "Architecture",
+      "Art & Abstract"
+    ],
+    "vertexCount": 184,
+    "faceCount": 304,
+    "max_texture": 4096,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/05a29682a8984f828922270aea880f63/thumbnails/8bdd6c8277e6471f80981ca86ef7ef8d/07bd7dc79aef4e779d39612c6d3c19c3.jpeg",
+    "glb_paths": [
+      "glbs/glbs_4k/000-022/05a29682a8984f828922270aea880f63_4096.glb",
+      "glbs/glbs_1k/000-051/05a29682a8984f828922270aea880f63_1024.glb"
+    ],
+    "imagenet_class": "park bench",
+    "default_scene_id": "exterior"
+  },
+  "0662622496ba4c4f95e5edac088cc272": {
+    "name": "#RTFKTChallenge - \"Golden\" by Franz Vega",
+    "description": "Based on “[RTFKT CREATOR ONE](https://sketchfab.com/3d-models/rtfkt-creator-one-9b8d69cfcd1b4addb770a4768bef6a6d) by [RTFKT Studios](https://sketchfab.com/rtfkt), licensed under CC-Attribution.",
+    "user": "franz_vc",
+    "user_display": "franz_vc",
+    "tags": [
+      "shoes",
+      "sport",
+      "rtfktchallenge"
+    ],
+    "categories": [
+      "Fashion & Style",
+      "Sports & Fitness"
+    ],
+    "vertexCount": 74260,
+    "faceCount": 145609,
+    "max_texture": 4096,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/0662622496ba4c4f95e5edac088cc272/thumbnails/2a442e82be204de39ddb68081944c608/d5708d29209d45aea0c88ffacd5f6153.jpeg",
+    "glb_paths": [
+      "glbs/glbs_4k/000-022/0662622496ba4c4f95e5edac088cc272_4096.glb",
+      "glbs/glbs_1k/000-051/0662622496ba4c4f95e5edac088cc272_1024.glb"
+    ],
+    "imagenet_class": "running shoe",
+    "default_scene_id": "room_white"
+  },
+  "066a6003d4294cedb26b0722eaf27d01": {
+    "name": "OLA Electric Scooter (Blue Color)",
+    "description": "Here is the first ever Ola electric 3D scooter (Coral Red) model on sketchfab. Good for any games, commercials, online market places, vehicle exhibitions, NFT collections etc. Available in four different colors with fine & detailed texturing. **Don’t hesitate to download it for free.**\n\nFor more such cool and interesting content follow us on: https://www.instagram.com/neshallads/ Drop Your Comments & Reviews!\n\nVisit Us! https://neshallads.com/",
+    "user": "neshallads",
+    "user_display": "neshallads",
+    "tags": [
+      "3dmodels",
+      "3dart",
+      "3dartist",
+      "3danimation",
+      "ola",
+      "3d",
+      "3dmodel",
+      "blue",
+      "3dmodeling",
+      "rendering",
+      "neshallads"
+    ],
+    "categories": [
+      "Cars & Vehicles",
+      "Electronics & Gadgets"
+    ],
+    "vertexCount": 32179,
+    "faceCount": 62612,
+    "max_texture": 4096,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/066a6003d4294cedb26b0722eaf27d01/thumbnails/d8f2bd18e70a493a93bd53f4d70fd026/64b521a5ceca4ec7b48ca4ce244e7b82.jpeg",
+    "glb_paths": [
+      "glbs/glbs_4k/000-000/066a6003d4294cedb26b0722eaf27d01_4096.glb",
+      "glbs/glbs_1k/000-001/066a6003d4294cedb26b0722eaf27d01_1024.glb"
+    ],
+    "imagenet_class": "motor scooter",
+    "default_scene_id": "exterior_city"
+  },
+  "06a5b4557b4d47b09f0259decd6fac33": {
+    "name": "nike shoes",
+    "description": "",
+    "user": "caualopes04",
+    "user_display": "caualopes04",
+    "tags": [],
+    "categories": [],
+    "vertexCount": 17825,
+    "faceCount": 35307,
+    "max_texture": 8192,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/06a5b4557b4d47b09f0259decd6fac33/thumbnails/b58202deac634b128242282197655202/6a074a47e32542e391d0ee4d26d57176.jpeg",
+    "glb_paths": [
+      "glbs/glbs_8k/000-000/06a5b4557b4d47b09f0259decd6fac33_8192.glb",
+      "glbs/glbs_4k/000-000/06a5b4557b4d47b09f0259decd6fac33_4096.glb",
+      "glbs/glbs_1k/000-001/06a5b4557b4d47b09f0259decd6fac33_1024.glb"
+    ],
+    "imagenet_class": "running shoe",
+    "default_scene_id": "room_white"
+  },
+  "081f588b9ca24a0ea5ed79ee3d7bed47": {
+    "name": "1986.85 Jar with Dragon Design",
+    "description": "You can copy, modify, and distribute this work, even for commercial purposes, all without asking permission. Learn more about The Cleveland Museum of Art’s Open Access initiative: http://www.clevelandart.org/open-access-faqs\n\nJar with Dragon Design, 1700s. Korea, Joseon dynasty (1392-1910). Porcelain with underglaze blue; diameter of base: 14.7 cm (5 13/16 in.); overall: 39.5 cm (15 9/16 in.). The Cleveland Museum of Art, Leonard C. Hanna, Jr. Fund 1986.85\n\nLearn more on The Cleveland Museum of Art’s Collection Online: https://www.clevelandart.org/art/1986.85",
+    "user": "clevelandart",
+    "user_display": "Cleveland Museum of Art",
+    "tags": [
+      "korea",
+      "porcelain",
+      "cleveland_museum_of_art",
+      "underglaze"
+    ],
+    "categories": [
+      "Art & Abstract",
+      "Cultural Heritage & History"
+    ],
+    "vertexCount": 10210,
+    "faceCount": 20412,
+    "max_texture": 8192,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC0 Public Domain",
+    "thumbnail_url": "https://media.sketchfab.com/models/081f588b9ca24a0ea5ed79ee3d7bed47/thumbnails/fa8104e93acd4b9bb98365e198dc0d74/d269a694f0f34e26999ddcdd38631a00.jpeg",
+    "glb_paths": [
+      "glbs/glbs_8k/000-011/081f588b9ca24a0ea5ed79ee3d7bed47_8192.glb",
+      "glbs/glbs_4k/000-022/081f588b9ca24a0ea5ed79ee3d7bed47_4096.glb",
+      "glbs/glbs_1k/000-052/081f588b9ca24a0ea5ed79ee3d7bed47_1024.glb"
+    ],
+    "imagenet_class": "vase",
+    "default_scene_id": "art_gallery"
+  },
+  "0904791974284e6898209f7510b3c6fb": {
+    "name": "Batavialand rijkscollectie baardmankruik NR4-69",
+    "description": "Een baardmankruik versierd met een in reliëf bebaard hoofd, zes medaillons, vier acanthusbladeren en een horizontale fries met daarin een spreuk: NIT VERGEZ IV REINCK UND EST GODEZ NIT VERGEZ IV REINCK UND EST GODEZ NIT VERGEZ IV, Duits steengoed (Frechen). Afkomstig van scheepswrak NR4 aangetroffen op kavel R4 vlakbij Luttelgeest in de Noordoostpolder. Afmetingen diameter 18 cm, hoogte 25 cm. Datering: 1590 - 1600\nA bartmann pitcher decorated with an embossed bearded head, six medallions, four acanthus leaves and a horizontal frieze containing a motto: NIT VERGEZ IV REINCK UND EST GODEZ NIT VERGEZ IV REINCK UND EST GODEZ NIT VERGEZ IV, German stoneware (Frechen). Originating from shipwreck NR4 found on lot R4 near Luttelgeest in the Noordoostpolder, province of Flevoland, the Netherlands. Dimensions diameter 18 cm, height 25 cm. Dating: 1590 - 1600. PAN-00142984.",
+    "user": "Frank.Postma",
+    "user_display": "Frank.Postma",
+    "tags": [
+      "drinking",
+      "pitcher",
+      "archeologie",
+      "jug",
+      "stoneware",
+      "gres",
+      "ceramique",
+      "kamionka",
+      "shipwrecks",
+      "shipwreck-archaeology",
+      "baardmankruik",
+      "steengoed",
+      "archaeology",
+      "history",
+      "shi-qi",
+      "bellarmine-jug",
+      "stoneware-jug",
+      "bartmann-jug",
+      "steingutgefass",
+      "steingutkrug",
+      "batavialand",
+      "maritiemerijkscollectie",
+      "nr4",
+      "gres-cerame",
+      "bartmannkrus",
+      "homme-barbu"
+    ],
+    "categories": [
+      "Cultural Heritage & History"
+    ],
+    "vertexCount": 163899,
+    "faceCount": 327798,
+    "max_texture": 8192,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/0904791974284e6898209f7510b3c6fb/thumbnails/bf62eca74044405e9c50fe5a2defe9ea/9d3608a3438f4cc389e8ee454059974d.jpeg",
+    "glb_paths": [
+      "glbs/glbs_8k/000-000/0904791974284e6898209f7510b3c6fb_8192.glb",
+      "glbs/glbs_4k/000-000/0904791974284e6898209f7510b3c6fb_4096.glb",
+      "glbs/glbs_1k/000-001/0904791974284e6898209f7510b3c6fb_1024.glb"
+    ],
+    "imagenet_class": "vase",
+    "default_scene_id": "art_gallery"
+  },
+  "095680ecb6a648d587cb61b20e79746e": {
+    "name": "Nikon Camera",
+    "description": "Small Nikon Camera Project I made, one of my first maya projects from early 2024. \n\n2k Textures. 3 Texture Sets",
+    "user": "ultraxeno777",
+    "user_display": "Isaiah_Singleton24",
+    "tags": [
+      "prop",
+      "nikon",
+      "realistic"
+    ],
+    "categories": [
+      "Electronics & Gadgets"
+    ],
+    "vertexCount": 12047,
+    "faceCount": 23892,
+    "max_texture": 2048,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/095680ecb6a648d587cb61b20e79746e/thumbnails/bdda5186fa9b428cac8bceb4f3bc9407/158334437ca646e0b9cb5d427c7d14d9.jpeg",
+    "glb_paths": [
+      "glbs/glbs_2k/000-000/095680ecb6a648d587cb61b20e79746e_2048.glb",
+      "glbs/glbs_1k/000-001/095680ecb6a648d587cb61b20e79746e_1024.glb"
+    ],
+    "imagenet_class": "reflex camera",
+    "default_scene_id": "room_white"
+  },
+  "09cee5df7f06445db1f16b04ab472329": {
+    "name": "Elephot",
+    "description": "An art test I just did for a locat company.",
+    "user": "ahmadsyafiq95",
+    "user_display": "ahmadsyafiq95",
+    "tags": [
+      "teapot",
+      "props",
+      "animal"
+    ],
+    "categories": [
+      "Art & Abstract",
+      "Food & Drink"
+    ],
+    "vertexCount": 3502,
+    "faceCount": 6948,
+    "max_texture": 4096,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/09cee5df7f06445db1f16b04ab472329/thumbnails/978673c97bd741729979280d35f8fd45/c114fe25b6934a95a0e18671aa8904b9.jpeg",
+    "glb_paths": [
+      "glbs/glbs_4k/000-022/09cee5df7f06445db1f16b04ab472329_4096.glb",
+      "glbs/glbs_1k/000-052/09cee5df7f06445db1f16b04ab472329_1024.glb"
+    ],
+    "imagenet_class": "teapot",
+    "default_scene_id": "art_gallery"
+  },
+  "0a10effdbfe049b490973dcf8f3d62fe": {
+    "name": "Camara2",
+    "description": "",
+    "user": "gnunezcl",
+    "user_display": "gnunezcl",
+    "tags": [],
+    "categories": [],
+    "vertexCount": 164118,
+    "faceCount": 323468,
+    "max_texture": 2048,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": null,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/0a10effdbfe049b490973dcf8f3d62fe/thumbnails/06e53e7db1134399adece37b7f3bb018/1024x576.jpeg",
+    "glb_paths": [
+      "glbs/glbs_2k/000-000/0a10effdbfe049b490973dcf8f3d62fe_2048.glb",
+      "glbs/glbs_1k/000-002/0a10effdbfe049b490973dcf8f3d62fe_1024.glb"
+    ],
+    "imagenet_class": "reflex camera",
+    "default_scene_id": "room_white"
+  },
+  "0b7f1eeb60cb457688083d216e40833a": {
+    "name": "Teapot",
+    "description": "Teapot with wooden handle. My first ever 3d photogrametry model.",
+    "user": "B0bik",
+    "user_display": "B0bik",
+    "tags": [
+      "teapot",
+      "tea",
+      "old",
+      "photoscan",
+      "photogrammetry",
+      "wooden-handle",
+      "teapot-ceramic",
+      "teapot-3d-model",
+      "old-teapot"
+    ],
+    "categories": [
+      "Food & Drink",
+      "Furniture & Home"
+    ],
+    "vertexCount": 11154,
+    "faceCount": 21975,
+    "max_texture": 4096,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/0b7f1eeb60cb457688083d216e40833a/thumbnails/934d4a655763447ebe82f4123d4901ce/b48295bb33d549d5a003214269d3334d.jpeg",
+    "glb_paths": [
+      "glbs/glbs_4k/000-000/0b7f1eeb60cb457688083d216e40833a_4096.glb",
+      "glbs/glbs_1k/000-002/0b7f1eeb60cb457688083d216e40833a_1024.glb"
+    ],
+    "imagenet_class": "teapot",
+    "default_scene_id": "art_gallery"
+  },
+  "0bb17661ab004906be1ab452c6b2ade6": {
+    "name": "DiscoverPack",
+    "description": "",
+    "user": "cmis91",
+    "user_display": "cmis91",
+    "tags": [],
+    "categories": [],
+    "vertexCount": 1249997,
+    "faceCount": 2500002,
+    "max_texture": 4096,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/0bb17661ab004906be1ab452c6b2ade6/thumbnails/d9ad19bdcc864214989ba678dabc5ff0/d29da9522c7d454f94760d81a6a5300c.jpeg",
+    "glb_paths": [
+      "glbs/glbs_4k/000-022/0bb17661ab004906be1ab452c6b2ade6_4096.glb",
+      "glbs/glbs_1k/000-052/0bb17661ab004906be1ab452c6b2ade6_1024.glb"
+    ],
+    "imagenet_class": "teapot",
+    "default_scene_id": "art_gallery"
+  },
+  "0c03234806fb457a90abf0d9a003cbd4": {
+    "name": "Salo",
+    "description": "",
+    "user": "lumenice",
+    "user_display": "lumenice",
+    "tags": [],
+    "categories": [],
+    "vertexCount": 243886,
+    "faceCount": 472374,
+    "max_texture": 8192,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/0c03234806fb457a90abf0d9a003cbd4/thumbnails/4f4088d31c154fb5a9e496928964a2a2/12f3b2f9e0ec4c08ab190baf020c6abd.jpeg",
+    "glb_paths": [
+      "glbs/glbs_8k/000-000/0c03234806fb457a90abf0d9a003cbd4_8192.glb",
+      "glbs/glbs_4k/000-001/0c03234806fb457a90abf0d9a003cbd4_4096.glb",
+      "glbs/glbs_1k/000-002/0c03234806fb457a90abf0d9a003cbd4_1024.glb"
+    ],
+    "imagenet_class": "running shoe",
+    "default_scene_id": "room_white"
+  },
+  "0c19bbe155ac495f8a3f26c6f4d7e174": {
+    "name": "Edward VII Post Box",
+    "description": "A red (double width) post box bearing the royal cypher of Edward VII located on Northumberland Avenue, London.\n\nDate: 1901-1910\n\n115 photos taken in September 2019 with a Sony a6000 and processed in Reality Capture.",
+    "user": "artfletch",
+    "user_display": "artfletch",
+    "tags": [],
+    "categories": [
+      "Cultural Heritage & History"
+    ],
+    "vertexCount": 560543,
+    "faceCount": 1121082,
+    "max_texture": 8192,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/0c19bbe155ac495f8a3f26c6f4d7e174/thumbnails/e79b3bb0e0cc4a30bc533f13181164c2/7e0c682bbbd74b1aa14a15795bb39194.jpeg",
+    "glb_paths": [
+      "glbs/glbs_8k/000-011/0c19bbe155ac495f8a3f26c6f4d7e174_8192.glb",
+      "glbs/glbs_4k/000-022/0c19bbe155ac495f8a3f26c6f4d7e174_4096.glb",
+      "glbs/glbs_1k/000-052/0c19bbe155ac495f8a3f26c6f4d7e174_1024.glb"
+    ],
+    "imagenet_class": "mailbox",
+    "default_scene_id": "exterior_city"
+  },
+  "0d83c8fdc02e4f55a1f971edf0a3c056": {
+    "name": "Unwanted Slips Super Low Poly FREE",
+    "description": "Introducing the Unwanted Slips made by LordSamueliSolo, the programs used to make this object are as follows: Blender 3 & G.I.M.P 2.10.28…The ‘Textures’ inclued in this object are the following: 2k Diffuse & Normal…Textures are obtained from my own camera…free of Charge\n\nBackdrop image by Micah Boerma over on https://www.pexels.com\n\nUnwanted Slips: Vert: 12 …Tri: 10\n\n:D",
+    "user": "LadyLionStudios",
+    "user_display": "LordSamueliSolo",
+    "tags": [
+      "trash",
+      "atm",
+      "slips",
+      "bank",
+      "bin",
+      "box",
+      "slip",
+      "unwanted",
+      "lowpoly",
+      "free"
+    ],
+    "categories": [
+      "Architecture",
+      "Places & Travel"
+    ],
+    "vertexCount": 502,
+    "faceCount": 970,
+    "max_texture": 2048,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/0d83c8fdc02e4f55a1f971edf0a3c056/thumbnails/72c2deee67d94306b74e38efcac95915/727d53488fbd424c98d5ebee306a0a5f.jpeg",
+    "glb_paths": [
+      "glbs/glbs_2k/000-017/0d83c8fdc02e4f55a1f971edf0a3c056_2048.glb",
+      "glbs/glbs_1k/000-052/0d83c8fdc02e4f55a1f971edf0a3c056_1024.glb"
+    ],
+    "imagenet_class": "mailbox",
+    "default_scene_id": "exterior_city"
+  },
+  "0da7aed85b394dac98ed848ed1d9799c": {
+    "name": "Jordan 3 Blue and Gray",
+    "description": "photogrammetry\n\nPlease run the model inspector to view model without textures.\n\nThanks!",
+    "user": "leadblacktech",
+    "user_display": "Andre Bond Sr.",
+    "tags": [
+      "shoe",
+      "nike",
+      "jordan",
+      "blue"
+    ],
+    "categories": [
+      "Fashion & Style",
+      "Sports & Fitness"
+    ],
+    "vertexCount": 763290,
+    "faceCount": 1526592,
+    "max_texture": 8192,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/0da7aed85b394dac98ed848ed1d9799c/thumbnails/6aff551ef5604529ad021033bf35c948/1ada555addb144da938e16728974d983.jpeg",
+    "glb_paths": [
+      "glbs/glbs_8k/000-000/0da7aed85b394dac98ed848ed1d9799c_8192.glb",
+      "glbs/glbs_4k/000-001/0da7aed85b394dac98ed848ed1d9799c_4096.glb",
+      "glbs/glbs_1k/000-002/0da7aed85b394dac98ed848ed1d9799c_1024.glb"
+    ],
+    "imagenet_class": "running shoe",
+    "default_scene_id": "room_white"
+  },
+  "0df115ac63fa4bd2a4dd1aad72bb8257": {
+    "name": "Лавка",
+    "description": "",
+    "user": "alexlexs",
+    "user_display": "Alexey",
+    "tags": [],
+    "categories": [
+      "Architecture",
+      "Cultural Heritage & History"
+    ],
+    "vertexCount": 23576,
+    "faceCount": 49352,
+    "max_texture": 1024,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": null,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/0df115ac63fa4bd2a4dd1aad72bb8257/thumbnails/1e5a02981d6b44ffb499b84ac86c493c/1024x576.jpeg",
+    "glb_paths": [
+      "glbs/glbs_1k/000-079/0df115ac63fa4bd2a4dd1aad72bb8257_1024.glb"
+    ],
+    "imagenet_class": "park bench",
+    "default_scene_id": "exterior"
+  },
+  "0e342ea75d9745fdb213658856d69dab": {
+    "name": "ASAHI PENTAX K1000",
+    "description": "",
+    "user": "LOOWIE",
+    "user_display": "LOOWIE",
+    "tags": [
+      "dae",
+      "camera",
+      "gap",
+      "daehowest",
+      "asahi",
+      "pentaxk1000",
+      "gap2021-2022"
+    ],
+    "categories": [
+      "Electronics & Gadgets",
+      "Science & Technology"
+    ],
+    "vertexCount": 8335,
+    "faceCount": 16050,
+    "max_texture": 4096,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/0e342ea75d9745fdb213658856d69dab/thumbnails/49708dbd76a04149b7de3ffdcd6d5d32/26bd9a43265e4e95a1aed994329b5c80.jpeg",
+    "glb_paths": [
+      "glbs/glbs_4k/000-022/0e342ea75d9745fdb213658856d69dab_4096.glb",
+      "glbs/glbs_1k/000-052/0e342ea75d9745fdb213658856d69dab_1024.glb"
+    ],
+    "imagenet_class": "reflex camera",
+    "default_scene_id": "room_white"
+  },
+  "0eb111108b4f40d9881a29d7a073c6b4": {
+    "name": "Old Tea Kettle",
+    "description": "",
+    "user": "mickeymoose1204",
+    "user_display": "mickeymoose1204",
+    "tags": [
+      "tea",
+      "pot",
+      "rusty",
+      "kettle",
+      "water",
+      "old",
+      "boil"
+    ],
+    "categories": [
+      "Electronics & Gadgets",
+      "Food & Drink"
+    ],
+    "vertexCount": 2001,
+    "faceCount": 3760,
+    "max_texture": 1024,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/0eb111108b4f40d9881a29d7a073c6b4/thumbnails/6f739325a3924b5ea9399a0e33492e4f/8d611522128c4205ba9c962b4db5c6b4.jpeg",
+    "glb_paths": [
+      "glbs/glbs_1k/000-002/0eb111108b4f40d9881a29d7a073c6b4_1024.glb"
+    ],
+    "imagenet_class": "teapot",
+    "default_scene_id": "art_gallery"
+  },
+  "10bc3ea327ac4953a29cfc544b70c345": {
+    "name": "Sweet Dumpling Squash",
+    "description": "Sweet Dumpling Squash created with Polycam.",
+    "user": "peterkatz",
+    "user_display": "Peter Katz",
+    "tags": [
+      "polycam"
+    ],
+    "categories": [
+      "Nature & Plants"
+    ],
+    "vertexCount": 50002,
+    "faceCount": 100000,
+    "max_texture": 4096,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution-NonCommercial-ShareAlike",
+    "thumbnail_url": "https://media.sketchfab.com/models/10bc3ea327ac4953a29cfc544b70c345/thumbnails/658b1444ebe44fb5a3567ae93a71d34a/3610062933e54d88b71c7a7e346ce83f.jpeg",
+    "glb_paths": [
+      "glbs/glbs_4k/000-022/10bc3ea327ac4953a29cfc544b70c345_4096.glb",
+      "glbs/glbs_1k/000-053/10bc3ea327ac4953a29cfc544b70c345_1024.glb"
+    ],
+    "imagenet_class": "acorn squash",
+    "default_scene_id": "exterior"
+  },
+  "122abfd70d84443698fb8ed0925a6fa1": {
+    "name": "Gustav Holst's Piano (LiDAR)",
+    "description": "This is a 3D model of the real piano used by Gustav Holst in the 1900s, created using LiDAR scanning with a Artec Leo 3D scanner. The scanner works by emitting laser pulses, measuring the time it takes for the reflected light to return to the scanner, and then calculating the distance using the speed of light. I  scanned the piano in sections, then stitching them together in software to create the final model. \n\nCreated by Ryan McNab.",
+    "user": "RyNMC",
+    "user_display": "Ryan",
+    "tags": [
+      "music",
+      "piano",
+      "gustav-holst",
+      "holst150"
+    ],
+    "categories": [
+      "Music"
+    ],
+    "vertexCount": 1975738,
+    "faceCount": 3951752,
+    "max_texture": 8192,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/122abfd70d84443698fb8ed0925a6fa1/thumbnails/23e0449ddb6047eea0483313aafd33ae/7b6bdb6c791046279cf4e0a0297fa1af.jpeg",
+    "glb_paths": [
+      "glbs/glbs_8k/000-000/122abfd70d84443698fb8ed0925a6fa1_8192.glb",
+      "glbs/glbs_4k/000-001/122abfd70d84443698fb8ed0925a6fa1_4096.glb",
+      "glbs/glbs_1k/000-003/122abfd70d84443698fb8ed0925a6fa1_1024.glb"
+    ],
+    "imagenet_class": "grand piano",
+    "default_scene_id": "art_gallery"
+  },
+  "12e306766d004ab1937c585bff410cec": {
+    "name": "Teapot WIP",
+    "description": "",
+    "user": "sharp3d",
+    "user_display": "Trey Sharp",
+    "tags": [
+      "substancepainter",
+      "substance"
+    ],
+    "categories": [],
+    "vertexCount": 3649,
+    "faceCount": 7116,
+    "max_texture": 2048,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/12e306766d004ab1937c585bff410cec/thumbnails/22dbfc0a383143ea9fee1b7fe6661ac7/22d567da871c4dc2803adb39f7b129a2.jpeg",
+    "glb_paths": [
+      "glbs/glbs_2k/000-017/12e306766d004ab1937c585bff410cec_2048.glb",
+      "glbs/glbs_1k/000-053/12e306766d004ab1937c585bff410cec_1024.glb"
+    ],
+    "imagenet_class": "teapot",
+    "default_scene_id": "art_gallery"
+  },
+  "1331f07bb85f4a3f9ed3e2f03b244902": {
+    "name": "Realistic Custom Concert Grand Piano",
+    "description": "Detailed custom Grand Piano. Action is fully modeled but not animated. Some parts can be animated by rotating the element on X or Y axis around the object origin.",
+    "user": "mert16art",
+    "user_display": "Meast",
+    "tags": [
+      "music",
+      "instrument",
+      "wooden",
+      "vintage",
+      "antique",
+      "classic",
+      "old",
+      "concert",
+      "grandpiano",
+      "3d",
+      "model",
+      "piano",
+      "textured"
+    ],
+    "categories": [
+      "Furniture & Home",
+      "Music"
+    ],
+    "vertexCount": 292356,
+    "faceCount": 550107,
+    "max_texture": 2048,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/1331f07bb85f4a3f9ed3e2f03b244902/thumbnails/5e3cb352a2c2413c890fcf10f65d0b25/b054e7a465384c85a6bb7d8808e8e0b8.jpeg",
+    "glb_paths": [
+      "glbs/glbs_2k/000-001/1331f07bb85f4a3f9ed3e2f03b244902_2048.glb",
+      "glbs/glbs_1k/000-003/1331f07bb85f4a3f9ed3e2f03b244902_1024.glb"
+    ],
+    "imagenet_class": "grand piano",
+    "default_scene_id": "art_gallery"
+  },
+  "1443433035054564801ca9098c7e6e9f": {
+    "name": "B’Twin Triban 100 Road Bike",
+    "description": "I decided to create my own bike in 3D since It’s always by my side.\n\nThis is my first ever project that I made, so I learned alot while making It, so basically Its my course from absolute beginner to somewhat intermediate, so some parts are not that great then others.\n\nModelled in Blender\n\nhttps://www.artstation.com/tomaskranauskas",
+    "user": "Tomasoo",
+    "user_display": "Tomaso",
+    "tags": [
+      "bike",
+      "wheel",
+      "bicycle",
+      "road",
+      "sports",
+      "cycling",
+      "bic",
+      "roadbike",
+      "vehicle",
+      "racing",
+      "city"
+    ],
+    "categories": [
+      "Cars & Vehicles",
+      "Sports & Fitness"
+    ],
+    "vertexCount": 140780,
+    "faceCount": 283494,
+    "max_texture": 2048,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/1443433035054564801ca9098c7e6e9f/thumbnails/731477c7a0134357a1c457b57ceda4a8/a56051c2781442c29e3ec8086f381cac.jpeg",
+    "glb_paths": [
+      "glbs/glbs_2k/000-017/1443433035054564801ca9098c7e6e9f_2048.glb",
+      "glbs/glbs_1k/000-053/1443433035054564801ca9098c7e6e9f_1024.glb"
+    ],
+    "imagenet_class": "mountain bike",
+    "default_scene_id": "exterior_city"
+  },
+  "15093d764b56404d9ad2fccddf3534d9": {
+    "name": "Kettle",
+    "description": "a Basic Kettle Design",
+    "user": "rboag1",
+    "user_display": "rboag1",
+    "tags": [
+      "teapot",
+      "tea",
+      "food",
+      "pot",
+      "pottery",
+      "potted",
+      "kettle",
+      "brunch"
+    ],
+    "categories": [
+      "Food & Drink",
+      "Furniture & Home"
+    ],
+    "vertexCount": 5505,
+    "faceCount": 10962,
+    "max_texture": 1024,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/15093d764b56404d9ad2fccddf3534d9/thumbnails/01d8678c11f646e7ad4b83eefb89b679/04cbab74b3e347e89b18a66a82aaf182.jpeg",
+    "glb_paths": [
+      "glbs/glbs_1k/000-004/15093d764b56404d9ad2fccddf3534d9_1024.glb"
+    ],
+    "imagenet_class": "teapot",
+    "default_scene_id": "art_gallery"
+  },
+  "15ad4dbacaeb4229b038003730efdcc6": {
+    "name": "Mo Grand Piano Mo 35",
+    "description": "Ready for rendering in any enviroment.\nthe file includes :\n\n-FBX version\n\n-texture (PBR) set is in 4k resolution. They contain:\n\nBase color map    (4096*4096)\nMetallic map    (4096*4096)\nRoughness map    (4096*4096)\nNormal map    (4096*4096)\nAmbient Occlusion Map    (4096*4096)\n\n\nfollow me on  [Artsation](http://www.artstation.com/mohamedhussien1)",
+    "user": "mohamedhussien",
+    "user_display": "mohamedhussien",
+    "tags": [
+      "modern",
+      "vray",
+      "high",
+      "obj",
+      "fbx",
+      "realistic",
+      "max",
+      "quality",
+      "contemporary"
+    ],
+    "categories": [
+      "Electronics & Gadgets",
+      "Music"
+    ],
+    "vertexCount": 127047,
+    "faceCount": 245722,
+    "max_texture": 4096,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/15ad4dbacaeb4229b038003730efdcc6/thumbnails/789eaa7efec041cbacabffe0c572f5e1/17c31de83a214907a47aa22ef03af09c.jpeg",
+    "glb_paths": [
+      "glbs/glbs_4k/000-001/15ad4dbacaeb4229b038003730efdcc6_4096.glb",
+      "glbs/glbs_1k/000-004/15ad4dbacaeb4229b038003730efdcc6_1024.glb"
+    ],
+    "imagenet_class": "grand piano",
+    "default_scene_id": "art_gallery"
+  },
+  "15afd84d8761487abebdb0fcdc9ce506": {
+    "name": "Pumpkin Scan",
+    "description": "Made with Agisoft Metashape and Blender.  \nReconstructed from 76 12MP images.  \nRoughness map painted in Blender.",
+    "user": "valiv4491",
+    "user_display": "valiv4491",
+    "tags": [
+      "plant",
+      "fruit",
+      "detailed",
+      "fruits",
+      "scanned",
+      "nature",
+      "vegetable",
+      "8k",
+      "photoscan",
+      "photogrammetry",
+      "scan",
+      "halloween",
+      "pumpkin",
+      "highpoly"
+    ],
+    "categories": [
+      "Food & Drink",
+      "Nature & Plants"
+    ],
+    "vertexCount": 481973,
+    "faceCount": 963941,
+    "max_texture": 8192,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/15afd84d8761487abebdb0fcdc9ce506/thumbnails/22e82333e4944af681ae7698b4c3dd8e/3988acd71d3a4cd9bcc7c4ce24ef6cf8.jpeg",
+    "glb_paths": [
+      "glbs/glbs_8k/000-011/15afd84d8761487abebdb0fcdc9ce506_8192.glb",
+      "glbs/glbs_4k/000-023/15afd84d8761487abebdb0fcdc9ce506_4096.glb",
+      "glbs/glbs_1k/000-053/15afd84d8761487abebdb0fcdc9ce506_1024.glb"
+    ],
+    "imagenet_class": "acorn squash",
+    "default_scene_id": "exterior"
+  },
+  "17c6c270995e4f838ab66eeecddfc07c": {
+    "name": "Yamaha DGX 660 Piano",
+    "description": "This was my first digital piano I ever played and loved it to bits. Decided to make a 3D model of it because there were so many buttons and options I think it deserves to live in my library forever",
+    "user": "Steve.Lapp",
+    "user_display": "Steve.Lapp",
+    "tags": [
+      "music",
+      "key",
+      "yamaha",
+      "board",
+      "keys",
+      "model",
+      "piano",
+      "digital",
+      "keyboard"
+    ],
+    "categories": [
+      "Electronics & Gadgets",
+      "Music"
+    ],
+    "vertexCount": 3247,
+    "faceCount": 5038,
+    "max_texture": 4096,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/17c6c270995e4f838ab66eeecddfc07c/thumbnails/145c2e3e37c649d6a9b513e011061449/1d897f20076f44b7ab21b5207ff5138d.jpeg",
+    "glb_paths": [
+      "glbs/glbs_4k/000-023/17c6c270995e4f838ab66eeecddfc07c_4096.glb",
+      "glbs/glbs_1k/000-053/17c6c270995e4f838ab66eeecddfc07c_1024.glb"
+    ],
+    "imagenet_class": "grand piano",
+    "default_scene_id": "art_gallery"
+  },
+  "184eb5c0a3154b169c37f52f4b4cc49c": {
+    "name": "Jordan 9 University Gold",
+    "description": "470+ Photos\nPhotogrammetry\n\nWill reduce size of model soon.\n\n\nThanks!",
+    "user": "leadblacktech",
+    "user_display": "Andre Bond Sr.",
+    "tags": [
+      "shoe",
+      "nike",
+      "univesity",
+      "jordan",
+      "gold",
+      "thelab"
+    ],
+    "categories": [
+      "Fashion & Style",
+      "Sports & Fitness"
+    ],
+    "vertexCount": 1261862,
+    "faceCount": 2523828,
+    "max_texture": 8192,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/184eb5c0a3154b169c37f52f4b4cc49c/thumbnails/8fac362f917a457281cf8bd21645532b/c8550f8044b74b8487a9d0fb37fcfd24.jpeg",
+    "glb_paths": [
+      "glbs/glbs_8k/000-001/184eb5c0a3154b169c37f52f4b4cc49c_8192.glb",
+      "glbs/glbs_4k/000-002/184eb5c0a3154b169c37f52f4b4cc49c_4096.glb",
+      "glbs/glbs_1k/000-004/184eb5c0a3154b169c37f52f4b4cc49c_1024.glb"
+    ],
+    "imagenet_class": "running shoe",
+    "default_scene_id": "room_white"
+  },
+  "19d5c065b01744909f9830ba440a5bdb": {
+    "name": "Prototip_bike",
+    "description": "",
+    "user": "vav206",
+    "user_display": "Andrei V",
+    "tags": [],
+    "categories": [],
+    "vertexCount": 8306,
+    "faceCount": 14834,
+    "max_texture": 8192,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/19d5c065b01744909f9830ba440a5bdb/thumbnails/93924a7a271d4e77b94cbc4c7e3c2386/569692206c50475a85081ae99d8aaa51.jpeg",
+    "glb_paths": [
+      "glbs/glbs_8k/000-001/19d5c065b01744909f9830ba440a5bdb_8192.glb",
+      "glbs/glbs_4k/000-002/19d5c065b01744909f9830ba440a5bdb_4096.glb",
+      "glbs/glbs_1k/000-005/19d5c065b01744909f9830ba440a5bdb_1024.glb"
+    ],
+    "imagenet_class": "motor scooter",
+    "default_scene_id": "exterior_city"
+  },
+  "1a01e9f7d8d24b7b95f25e4c89de8361": {
+    "name": "Letter box",
+    "description": "The box is from World War II. I made textures for the surface that looks like rust and added some paper scraps to warn of danger. This is my second job after making the violin, so don't judge it too harshly.",
+    "user": "lavrenov",
+    "user_display": "Konstantin Lavrenov",
+    "tags": [
+      "mailbox",
+      "letters",
+      "letterbox",
+      "substancepainter",
+      "substance",
+      "lowpoly"
+    ],
+    "categories": [
+      "Furniture & Home",
+      "Weapons & Military"
+    ],
+    "vertexCount": 962,
+    "faceCount": 1854,
+    "max_texture": 4096,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/1a01e9f7d8d24b7b95f25e4c89de8361/thumbnails/4ee89ff8e74c47858bdc865b5259d090/c791fb62dc5e4077b4ca594694bb7693.jpeg",
+    "glb_paths": [
+      "glbs/glbs_4k/000-023/1a01e9f7d8d24b7b95f25e4c89de8361_4096.glb",
+      "glbs/glbs_1k/000-054/1a01e9f7d8d24b7b95f25e4c89de8361_1024.glb"
+    ],
+    "imagenet_class": "mailbox",
+    "default_scene_id": "exterior_city"
+  },
+  "1a314f00699e49fab01f6c73afe0f2b8": {
+    "name": "DSLR Camera Low Poly",
+    "description": "DSLR Camera Low Poly",
+    "user": "hamzaunity3d",
+    "user_display": "Free Models.",
+    "tags": [
+      "electronic",
+      "camera",
+      "photomodel",
+      "lowpoly"
+    ],
+    "categories": [
+      "Electronics & Gadgets"
+    ],
+    "vertexCount": 468,
+    "faceCount": 818,
+    "max_texture": 2048,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/1a314f00699e49fab01f6c73afe0f2b8/thumbnails/c18bcbeeedf54865aeae501cd784648c/09129325c6d84e22accec98665685705.jpeg",
+    "glb_paths": [
+      "glbs/glbs_2k/000-001/1a314f00699e49fab01f6c73afe0f2b8_2048.glb",
+      "glbs/glbs_1k/000-005/1a314f00699e49fab01f6c73afe0f2b8_1024.glb"
+    ],
+    "imagenet_class": "reflex camera",
+    "default_scene_id": "room_white"
+  },
+  "1a49b0714571487d9164b9ba13d03e3f": {
+    "name": "Cast Iron Tetsubin",
+    "description": "First try at a realistic prop. Started off with creating the cast iron material in substance designer and added normal detail and further weathering in substance painter, modelled in Maya. Had a lot of fun with this one, feedback is appreciated!",
+    "user": "toomuchtea",
+    "user_display": "toomuchtea",
+    "tags": [
+      "substancedesigner",
+      "substancepainter",
+      "substance",
+      "maya",
+      "japanese"
+    ],
+    "categories": [
+      "Cultural Heritage & History"
+    ],
+    "vertexCount": 1325,
+    "faceCount": 2608,
+    "max_texture": 2048,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/1a49b0714571487d9164b9ba13d03e3f/thumbnails/e73a1c21b04d484ca4763df3734f01c5/0d58d82039d544caa5b71f22cab9a890.jpeg",
+    "glb_paths": [
+      "glbs/glbs_2k/000-017/1a49b0714571487d9164b9ba13d03e3f_2048.glb",
+      "glbs/glbs_1k/000-054/1a49b0714571487d9164b9ba13d03e3f_1024.glb"
+    ],
+    "imagenet_class": "teapot",
+    "default_scene_id": "art_gallery"
+  },
+  "1a6ebb13c2284aed862d1ac9272f1d9b": {
+    "name": "Mailbox",
+    "description": "Low poly 3d model of a mailbox with PBR texture set",
+    "user": "Replexx",
+    "user_display": "Replexx",
+    "tags": [
+      "prop",
+      "urban",
+      "post",
+      "mail",
+      "clean",
+      "dirty",
+      "mailbox",
+      "letter",
+      "box",
+      "letterbox",
+      "asset",
+      "pbr",
+      "lowpoly",
+      "street",
+      "blue"
+    ],
+    "categories": [
+      "Architecture"
+    ],
+    "vertexCount": 1966,
+    "faceCount": 3714,
+    "max_texture": 2048,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/1a6ebb13c2284aed862d1ac9272f1d9b/thumbnails/d1c0971131804aca8bac4cc68edae012/c895db20568546179c0899ae0c6ebb9f.jpeg",
+    "glb_paths": [
+      "glbs/glbs_2k/000-001/1a6ebb13c2284aed862d1ac9272f1d9b_2048.glb",
+      "glbs/glbs_1k/000-005/1a6ebb13c2284aed862d1ac9272f1d9b_1024.glb"
+    ],
+    "imagenet_class": "mailbox",
+    "default_scene_id": "exterior_city"
+  },
+  "1a6f1b545dbb442386e8365c55e8a6ce": {
+    "name": "Minolta X-300",
+    "description": "# Minolta X-300\nModel of my favourite analog camera. This camera was first released in literally 1984 in Japan.\n\n# Technical stuff\nThis model was my first real try at highpoly to lowpoly baking and I think it turned out pretty good. I used blender for modeling and rendering, substance painter for baking and texturing. I also used photoshop for extracting coustom textures I got from my own camera.\n\n* Low poly mesh has 3700 tris \n* High poly mesh had 43200 tris\n* Textures are 4K\n\n# Download\nYou can download this model and use it however you want.\nSo enjoy!\n\nYou can also follow me on my socials\n\n* Instagram: [instagram.com/radek_3d](http://www.instagram.com/radek_3d)\n\n* Artstation: [artstation.com/radovanstastny](http://www.artstation.com/radovanstastny)",
+    "user": "radovan_stastny",
+    "user_display": "radovan_stastny",
+    "tags": [
+      "film",
+      "photo",
+      "retro",
+      "props",
+      "camera",
+      "realistic",
+      "analog",
+      "minolta",
+      "lowpoly",
+      "gameready",
+      "x-300"
+    ],
+    "categories": [
+      "Electronics & Gadgets",
+      "Science & Technology"
+    ],
+    "vertexCount": 2178,
+    "faceCount": 3700,
+    "max_texture": 4096,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/1a6f1b545dbb442386e8365c55e8a6ce/thumbnails/c1736514fdb043ae95b7443b0a169ec9/3e8c592945294a0992c3b8c0a8d877e0.jpeg",
+    "glb_paths": [
+      "glbs/glbs_4k/000-002/1a6f1b545dbb442386e8365c55e8a6ce_4096.glb",
+      "glbs/glbs_1k/000-005/1a6f1b545dbb442386e8365c55e8a6ce_1024.glb"
+    ],
+    "imagenet_class": "reflex camera",
+    "default_scene_id": "room_white"
+  },
+  "1b1d8faa230c4378bb123d7f1cb3b2d3": {
+    "name": "Cow Converse 100k Triangles (100% Texture 4k)",
+    "description": "",
+    "user": "sonnycirasuolo",
+    "user_display": "sonnycirasuolo",
+    "tags": [
+      "cow",
+      "shoe",
+      "print",
+      "converse",
+      "photogrammetry",
+      "low",
+      "poly"
+    ],
+    "categories": [
+      "Fashion & Style"
+    ],
+    "vertexCount": 58499,
+    "faceCount": 99982,
+    "max_texture": 4096,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/1b1d8faa230c4378bb123d7f1cb3b2d3/thumbnails/d3567f65a1354ab7bb849b1926eaa461/c46d329ade7448adab75c2eb74255aa1.jpeg",
+    "glb_paths": [
+      "glbs/glbs_4k/000-023/1b1d8faa230c4378bb123d7f1cb3b2d3_4096.glb",
+      "glbs/glbs_1k/000-054/1b1d8faa230c4378bb123d7f1cb3b2d3_1024.glb"
+    ],
+    "imagenet_class": "running shoe",
+    "default_scene_id": "room_white"
+  },
+  "1d9270f82a34460e928709bbf7709d56": {
+    "name": "Mountain bike",
+    "description": "# Ghost kato bicycle with textures & UV maps \n\n* Also contains 3d models of Shimano brake levers and gears.",
+    "user": "niilo.poutanen",
+    "user_display": "Niilo Poutanen",
+    "tags": [
+      "bike",
+      "bicycle",
+      "mountain",
+      "mountainbike",
+      "shimano",
+      "bikemodeling"
+    ],
+    "categories": [
+      "Cars & Vehicles",
+      "Sports & Fitness"
+    ],
+    "vertexCount": 231754,
+    "faceCount": 409290,
+    "max_texture": 2048,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/1d9270f82a34460e928709bbf7709d56/thumbnails/00c1e8bee7be461b8d4f93f4e7080530/6580eba832ee420bb52a354a85da7b6f.jpeg",
+    "glb_paths": [
+      "glbs/glbs_2k/000-018/1d9270f82a34460e928709bbf7709d56_2048.glb",
+      "glbs/glbs_1k/000-054/1d9270f82a34460e928709bbf7709d56_1024.glb"
+    ],
+    "imagenet_class": "mountain bike",
+    "default_scene_id": "exterior_city"
+  },
+  "1da6d0f0976344fdb3a2e860edd79f95": {
+    "name": "Bronze Oil Lamp 19th Century",
+    "description": "A model of a bronze oil lamp from the 18th-19th century Europe.\n\nModeled in Blender, textured in Substance Painter. \n\nComes with diffuse, roughness, metallic, and normal textures",
+    "user": "BigHatLogan",
+    "user_display": "Big Hat Logan",
+    "tags": [
+      "lamp",
+      "bronze",
+      "european",
+      "vintage",
+      "medieval",
+      "lamps",
+      "flame",
+      "antique",
+      "candle",
+      "classic",
+      "renaissance",
+      "europe",
+      "oil-lamp",
+      "asset",
+      "blender",
+      "textured",
+      "light"
+    ],
+    "categories": [
+      "Cultural Heritage & History",
+      "Furniture & Home"
+    ],
+    "vertexCount": 11693,
+    "faceCount": 23258,
+    "max_texture": 2048,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/1da6d0f0976344fdb3a2e860edd79f95/thumbnails/e3ba60b8a9c34ed8a118515596b1337f/e499e9cb2a1d4aa582588e298e6d7e1f.jpeg",
+    "glb_paths": [
+      "glbs/glbs_2k/000-001/1da6d0f0976344fdb3a2e860edd79f95_2048.glb",
+      "glbs/glbs_1k/000-005/1da6d0f0976344fdb3a2e860edd79f95_1024.glb"
+    ],
+    "imagenet_class": "teapot",
+    "default_scene_id": "art_gallery"
+  },
+  "1ddafec2fda5430697aaf403b3deba96": {
+    "name": "Street Bench",
+    "description": "Public bench PBR 3D model. Generic design which can be seen on streets, at parks, stations and other public places. Created as game asset for real-time engines, but works great for architectural renders as well.\n\nJust one combined object and a single material.",
+    "user": "donnichols",
+    "user_display": "donnichols",
+    "tags": [
+      "wooden",
+      "bench",
+      "garden",
+      "exterior",
+      "urban",
+      "seat",
+      "worn",
+      "classic",
+      "furniture",
+      "park",
+      "outdoor",
+      "seating",
+      "public",
+      "rest",
+      "old",
+      "station",
+      "street"
+    ],
+    "categories": [
+      "Furniture & Home"
+    ],
+    "vertexCount": 6936,
+    "faceCount": 13076,
+    "max_texture": 2048,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/1ddafec2fda5430697aaf403b3deba96/thumbnails/ce2d5d20b67a4ac58012e1d6b4059ea7/59f9ce27faec4ecc8aa18491d070000c.jpeg",
+    "glb_paths": [
+      "glbs/glbs_2k/000-001/1ddafec2fda5430697aaf403b3deba96_2048.glb",
+      "glbs/glbs_1k/000-006/1ddafec2fda5430697aaf403b3deba96_1024.glb"
+    ],
+    "imagenet_class": "park bench",
+    "default_scene_id": "exterior"
+  },
+  "1df9199e2a5c432abc48f38425b018fa": {
+    "name": "Backpack_obj",
+    "description": "",
+    "user": "smolinski",
+    "user_display": "Joseph Smolinski",
+    "tags": [],
+    "categories": [],
+    "vertexCount": 249916,
+    "faceCount": 500000,
+    "max_texture": 2048,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/1df9199e2a5c432abc48f38425b018fa/thumbnails/843eda8f945a4cb1bb987d2752e26dd3/d9b30c4175d441668bdb5ac977331dda.jpeg",
+    "glb_paths": [
+      "glbs/glbs_2k/000-001/1df9199e2a5c432abc48f38425b018fa_2048.glb",
+      "glbs/glbs_1k/000-006/1df9199e2a5c432abc48f38425b018fa_1024.glb"
+    ],
+    "imagenet_class": "backpack",
+    "default_scene_id": "room_white"
+  },
+  "1e405e4fe22347f38c5d23d21167f1d2": {
+    "name": "Bicycle Alpha",
+    "description": "Second model, it has many tiny defects of course",
+    "user": "Arcadai",
+    "user_display": "Arcadai",
+    "tags": [
+      "bicycle"
+    ],
+    "categories": [
+      "Cars & Vehicles",
+      "Sports & Fitness"
+    ],
+    "vertexCount": 189061,
+    "faceCount": 385734,
+    "max_texture": 4096,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/1e405e4fe22347f38c5d23d21167f1d2/thumbnails/bd9f6bc0b79047a1b4b2a6ad696ec8c2/b1e41518500f4fb0b762b509bb80e4f5.jpeg",
+    "glb_paths": [
+      "glbs/glbs_4k/000-002/1e405e4fe22347f38c5d23d21167f1d2_4096.glb",
+      "glbs/glbs_1k/000-006/1e405e4fe22347f38c5d23d21167f1d2_1024.glb"
+    ],
+    "imagenet_class": "mountain bike",
+    "default_scene_id": "exterior_city"
+  },
+  "2205f4e69bc64df3aab03c71ab9d7492": {
+    "name": "Vino",
+    "description": "Yamaha Vino,\nHQ Pics : https://www.artstation.com/artwork/48Yd0L\n![](https://cdnb.artstation.com/p/assets/images/images/040/759/405/large/ming-hau-loh-vino.jpg?1629809961)\n![](https://cdna.artstation.com/p/assets/images/images/040/759/418/large/ming-hau-loh-vinocamping.jpg?1629809976)",
+    "user": "minghau",
+    "user_display": "minghauLoh",
+    "tags": [
+      "bike",
+      "motor",
+      "yamaha",
+      "camp",
+      "scooter",
+      "vino",
+      "yuru"
+    ],
+    "categories": [
+      "Cars & Vehicles"
+    ],
+    "vertexCount": 49484,
+    "faceCount": 95599,
+    "max_texture": 4096,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/2205f4e69bc64df3aab03c71ab9d7492/thumbnails/299563ea9326432b8bfc5874897cd057/ac208851c7ab478f91ecf39598c5d65d.jpeg",
+    "glb_paths": [
+      "glbs/glbs_4k/000-023/2205f4e69bc64df3aab03c71ab9d7492_4096.glb",
+      "glbs/glbs_1k/000-054/2205f4e69bc64df3aab03c71ab9d7492_1024.glb"
+    ],
+    "imagenet_class": "motor scooter",
+    "default_scene_id": "exterior_city"
+  },
+  "2225281a19c74c76a711c673c3b9b35e": {
+    "name": "Honda Spacy",
+    "description": "",
+    "user": "RusikBBK",
+    "user_display": "RusikMDLR",
+    "tags": [
+      "motor",
+      "motorbike",
+      "motorcycle",
+      "1980",
+      "80s",
+      "1980s",
+      "honda",
+      "scooter",
+      "80",
+      "spacy"
+    ],
+    "categories": [
+      "Cars & Vehicles"
+    ],
+    "vertexCount": 44251,
+    "faceCount": 90690,
+    "max_texture": 1024,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/2225281a19c74c76a711c673c3b9b35e/thumbnails/26ad5611d52b4de3b1b3222995481550/74356af120514d209ad288b61de6baa8.jpeg",
+    "glb_paths": [
+      "glbs/glbs_1k/000-006/2225281a19c74c76a711c673c3b9b35e_1024.glb"
+    ],
+    "imagenet_class": "motor scooter",
+    "default_scene_id": "exterior_city"
+  },
+  "24a5890e3f51492abc40325f7df82111": {
+    "name": "road sign_OLD_4к",
+    "description": "**road sign_OLD_4к",
+    "user": "PauleMenson",
+    "user_display": "Paule Gennadievich",
+    "tags": [
+      "test_sign_1_old"
+    ],
+    "categories": [
+      "Architecture",
+      "Art & Abstract"
+    ],
+    "vertexCount": 796392,
+    "faceCount": 1198583,
+    "max_texture": 4096,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/24a5890e3f51492abc40325f7df82111/thumbnails/69acf1b03bf847258d18485f9110afee/663337f8d5ac40d1b8cc07e77866a4f8.jpeg",
+    "glb_paths": [
+      "glbs/glbs_4k/000-023/24a5890e3f51492abc40325f7df82111_4096.glb",
+      "glbs/glbs_1k/000-055/24a5890e3f51492abc40325f7df82111_1024.glb"
+    ],
+    "imagenet_class": "street sign",
+    "default_scene_id": "exterior_city"
+  },
+  "2721e946c7ac4ba2b1eb65aa99e2f77d": {
+    "name": "pumpkin3",
+    "description": "A little small pumpkin\n\nBoiled pumpkin\n\n1/4 pumpkin\nWater 100 ml\n(A) 1 tablespoon of soy sauce\n(A) 1 tablespoon of sake\n(A) 1 tablespoon sugar\n(A) Mirin 1 tablespoon\n\nHow to make!\n\n1. Remove the pumpkin seeds.\n2. Wrap it tightly on the pumpkin and heat it in the 600w range for 3 minutes and 30 seconds, then cut it into bite-sized pieces.\n3. Put water, pumpkin and (A) in a pan, drop it, cover it and heat it over medium heat.\n4. When it comes to normal, reduce the heat to low and simmer until the pumpkin is soft, and you're done!\n\n5.Enjoy!",
+    "user": "hiroyuki.ogata1",
+    "user_display": "NAMAHAGE 120%",
+    "tags": [
+      "vegetable",
+      "metashape",
+      "photogrammetry",
+      "free"
+    ],
+    "categories": [
+      "Food & Drink"
+    ],
+    "vertexCount": 15042,
+    "faceCount": 30080,
+    "max_texture": 4096,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/2721e946c7ac4ba2b1eb65aa99e2f77d/thumbnails/3edbdfba9fee43a795de0c59786ecf3c/dbe9673661fa4d0aa52e99948e90aa9e.jpeg",
+    "glb_paths": [
+      "glbs/glbs_4k/000-024/2721e946c7ac4ba2b1eb65aa99e2f77d_4096.glb",
+      "glbs/glbs_1k/000-055/2721e946c7ac4ba2b1eb65aa99e2f77d_1024.glb"
+    ],
+    "imagenet_class": "acorn squash",
+    "default_scene_id": "exterior"
+  },
+  "278b9deb2df146dcbf6d52518fef9c16": {
+    "name": "USA Mailbox",
+    "description": "Homework from course by Alexander Kolyasa.",
+    "user": "zeuuws",
+    "user_display": "FiresSky",
+    "tags": [
+      "mailbox",
+      "letter",
+      "fedex",
+      "dhl",
+      "usa",
+      "usapostoffice"
+    ],
+    "categories": [
+      "Architecture",
+      "Places & Travel"
+    ],
+    "vertexCount": 962,
+    "faceCount": 1854,
+    "max_texture": 4096,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/278b9deb2df146dcbf6d52518fef9c16/thumbnails/7bcc4b1cb67640ef9ebedd0711adcdad/b9f6908f428e46ec89ec8ccbdadee449.jpeg",
+    "glb_paths": [
+      "glbs/glbs_4k/000-024/278b9deb2df146dcbf6d52518fef9c16_4096.glb",
+      "glbs/glbs_1k/000-055/278b9deb2df146dcbf6d52518fef9c16_1024.glb"
+    ],
+    "imagenet_class": "mailbox",
+    "default_scene_id": "exterior_city"
+  },
+  "2878901520ff4100aa237a9b1365b7fb": {
+    "name": "Fire Exit Sign",
+    "description": "Model by hrycebilton",
+    "user": "Einheri",
+    "user_display": "Einheri",
+    "tags": [
+      "turva",
+      "turvatekniikka"
+    ],
+    "categories": [],
+    "vertexCount": 92,
+    "faceCount": 180,
+    "max_texture": 2048,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/2878901520ff4100aa237a9b1365b7fb/thumbnails/4eb1208a90a54e889583c96130e524c3/4faddbb960f44ac584e6d7c903640b7b.jpeg",
+    "glb_paths": [
+      "glbs/glbs_2k/000-018/2878901520ff4100aa237a9b1365b7fb_2048.glb",
+      "glbs/glbs_1k/000-055/2878901520ff4100aa237a9b1365b7fb_1024.glb"
+    ],
+    "imagenet_class": "street sign",
+    "default_scene_id": "exterior_city"
+  },
+  "28c62497d0c24582aad53183bd6badf2": {
+    "name": "ACORN SQUASH",
+    "description": "A very nice acorn squash! All the way around, colors are green and orange",
+    "user": "LittlePrairieWitch",
+    "user_display": "Etta",
+    "tags": [
+      "green",
+      "plant",
+      "food",
+      "plants",
+      "orange",
+      "garden",
+      "cooking",
+      "tasty",
+      "vegetable",
+      "squash",
+      "yum",
+      "acorn",
+      "planting"
+    ],
+    "categories": [
+      "Food & Drink",
+      "Nature & Plants"
+    ],
+    "vertexCount": 50002,
+    "faceCount": 100000,
+    "max_texture": 4096,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/28c62497d0c24582aad53183bd6badf2/thumbnails/ff84dda84c1e425d84d51d80f29b487f/e71c13f4e6c441018494b02ec55c7ee6.jpeg",
+    "glb_paths": [
+      "glbs/glbs_4k/000-003/28c62497d0c24582aad53183bd6badf2_4096.glb",
+      "glbs/glbs_1k/000-008/28c62497d0c24582aad53183bd6badf2_1024.glb"
+    ],
+    "imagenet_class": "acorn squash",
+    "default_scene_id": "exterior"
+  },
+  "29d9e9f2fdb2461aa0e24578f89848e4": {
+    "name": "Camera for final XYZ Daily",
+    "description": "Old, but still capable..he'll be back, right after he grabs a spare cartridge of photoframes",
+    "user": "stella.apparatus",
+    "user_display": "stella.apparatus",
+    "tags": [
+      "device",
+      "photocamera",
+      "retrodesign"
+    ],
+    "categories": [
+      "Electronics & Gadgets"
+    ],
+    "vertexCount": 4951,
+    "faceCount": 9262,
+    "max_texture": 2048,
+    "pbrType": "metalness",
+    "isRigged": true,
+    "animation": 1,
+    "animationCount": true,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/29d9e9f2fdb2461aa0e24578f89848e4/thumbnails/d3f744813fde4673854b3ae98d98ba85/e5ef1c4af91d48aa8cdda115d4e8da09.jpeg",
+    "glb_paths": [
+      "glbs/glbs_2k/000-018/29d9e9f2fdb2461aa0e24578f89848e4_2048.glb",
+      "glbs/glbs_1k/000-055/29d9e9f2fdb2461aa0e24578f89848e4_1024.glb"
+    ],
+    "imagenet_class": "reflex camera",
+    "default_scene_id": "room_white"
+  },
+  "29f9fe13febe4884bb1ac1804328aba0": {
+    "name": "Garden bench",
+    "description": "Garden/park bench\nThe 3D model is presented in FBX format",
+    "user": "andrey.giun",
+    "user_display": "Stereocat",
+    "tags": [
+      "bench",
+      "furniture",
+      "park",
+      "outdoor-furniture"
+    ],
+    "categories": [
+      "Architecture",
+      "Furniture & Home"
+    ],
+    "vertexCount": 27982,
+    "faceCount": 55584,
+    "max_texture": 4096,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/29f9fe13febe4884bb1ac1804328aba0/thumbnails/b527d7a0deaf49a5b77d91f14b14cdf8/6f00a90343f74c61abf1b9e0a08a95ce.jpeg",
+    "glb_paths": [
+      "glbs/glbs_4k/000-003/29f9fe13febe4884bb1ac1804328aba0_4096.glb",
+      "glbs/glbs_1k/000-008/29f9fe13febe4884bb1ac1804328aba0_1024.glb"
+    ],
+    "imagenet_class": "park bench",
+    "default_scene_id": "exterior"
+  },
+  "2d9ca224323840eeb64e44430c0b306d": {
+    "name": "AirMax Wheat Right Shoe (Mirrored)",
+    "description": "Shoe mirrored from Previous AirMax Wheat Post. Please look at the logos",
+    "user": "leadblacktech",
+    "user_display": "Andre Bond Sr.",
+    "tags": [
+      "shoe",
+      "nike",
+      "reality-capture",
+      "substance-painter",
+      "zbrush"
+    ],
+    "categories": [
+      "Fashion & Style"
+    ],
+    "vertexCount": 724087,
+    "faceCount": 1441376,
+    "max_texture": 4096,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/2d9ca224323840eeb64e44430c0b306d/thumbnails/c6a9654d3e074e80a301fdfae940c5f3/2d1d1a5653954798bb6735eff548d6a4.jpeg",
+    "glb_paths": [
+      "glbs/glbs_4k/000-003/2d9ca224323840eeb64e44430c0b306d_4096.glb",
+      "glbs/glbs_1k/000-009/2d9ca224323840eeb64e44430c0b306d_1024.glb"
+    ],
+    "imagenet_class": "running shoe",
+    "default_scene_id": "room_white"
+  },
+  "2f7473ff87184bbcba11bc7de0bb51c4": {
+    "name": "Grand Piano",
+    "description": "#**Grand Piano**\n\n![](https://cdnb.artstation.com/p/assets/images/images/089/230/805/large/guy-in-a-poncho-thumb.jpg?1750377188)\n\n**Description**\n\n\n\nA highpoly grand piano with an adjustable bench.\n\n\n\n**Model Contents**\n\n*  x1 Bench\n\n*  x1 Piano\n\n\n\n**Model Tier**\n\n\n\nHigh-poly\n\n\n\n**Trianlges**\n\n\n\n90,632\n\n\n\n**Vertices**\n\n\n\n62,932\n\n\n\n**Mesh Type**\n\n\n\nTriangulated Mesh\n\n\n\n**Edge Split**\n\n\n\nSmoothing Split\n\n\n\n**Rigging and Animation**\n\n*  N/A\n\n\n\n**UV Mapping**\n\n*  Non-overlapping\n\n\n\n**Texture Sets**\n\n*  Bench (1024 x 1024)\n\n*  Piano (2048 x 2048)\n\n\n\n**Texture Workflow**\n\n*  PBR Metallic Roughness\n\n\n\n**Texture Format**\n\n*  .PNG\n\n\n\n**Texture Maps**\n\n1.  Ambient Occlusion\n\n1.  Base Color\n\n1.  Metallic\n\n1.  Normal GL\n\n1.  Roughness",
+    "user": "ponchoguy",
+    "user_display": "Guy in a Poncho",
+    "tags": [
+      "grand",
+      "grandpiano",
+      "piano",
+      "black"
+    ],
+    "categories": [
+      "Furniture & Home",
+      "Music"
+    ],
+    "vertexCount": 45793,
+    "faceCount": 90632,
+    "max_texture": 1024,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/2f7473ff87184bbcba11bc7de0bb51c4/thumbnails/7aa9d9d06c0d44278099986fa87bbe67/d0815372bb6d46e1b57cb68f942ae1d4.jpeg",
+    "glb_paths": [
+      "glbs/glbs_1k/000-080/2f7473ff87184bbcba11bc7de0bb51c4_1024.glb"
+    ],
+    "imagenet_class": "grand piano",
+    "default_scene_id": "art_gallery"
+  },
+  "313a6cd25ba1475097fbf5cfe7d2f7f6": {
+    "name": "backpack",
+    "description": "",
+    "user": "Mylom",
+    "user_display": "Mylom",
+    "tags": [],
+    "categories": [],
+    "vertexCount": 7941,
+    "faceCount": 15144,
+    "max_texture": 1024,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/313a6cd25ba1475097fbf5cfe7d2f7f6/thumbnails/fa58cfd063a0486db7c0203ae79b42e5/09599b7822b642898b906b9f93935cc5.jpeg",
+    "glb_paths": [
+      "glbs/glbs_1k/000-009/313a6cd25ba1475097fbf5cfe7d2f7f6_1024.glb"
+    ],
+    "imagenet_class": "backpack",
+    "default_scene_id": "room_white"
+  },
+  "32b8cbb6f6c64db7b1d1f51cf527a1e2": {
+    "name": "Old French post office box (Buhl, Alsace)",
+    "description": "Photogrammetry capture of November 11, 2021, at Rue de l'Église (Buhl, Alsace, France). Made with RealityCapture. Model decimated at 500K. 14M triangles model is in the extra files.",
+    "user": "Mickanside",
+    "user_display": "Mickanside",
+    "tags": [
+      "office",
+      "french",
+      "post",
+      "mail",
+      "old",
+      "box",
+      "buhl"
+    ],
+    "categories": [
+      "Architecture",
+      "Furniture & Home"
+    ],
+    "vertexCount": 249918,
+    "faceCount": 499828,
+    "max_texture": 8192,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/32b8cbb6f6c64db7b1d1f51cf527a1e2/thumbnails/df224cf7a84946e8a5a767fbaa8ef805/08f694f154df478fab06ac30b50b1cd5.jpeg",
+    "glb_paths": [
+      "glbs/glbs_8k/000-012/32b8cbb6f6c64db7b1d1f51cf527a1e2_8192.glb",
+      "glbs/glbs_4k/000-024/32b8cbb6f6c64db7b1d1f51cf527a1e2_4096.glb",
+      "glbs/glbs_1k/000-056/32b8cbb6f6c64db7b1d1f51cf527a1e2_1024.glb"
+    ],
+    "imagenet_class": "mailbox",
+    "default_scene_id": "exterior_city"
+  },
+  "33001ed6f05042d89ac8690ffaaed0a4": {
+    "name": "Canon EOS 5D Mark IV",
+    "description": "Canon EOS 5D Mark IV",
+    "user": "ocbsketch",
+    "user_display": "RAW",
+    "tags": [
+      "dslr",
+      "canon",
+      "phone",
+      "eos",
+      "pbr",
+      "gameready"
+    ],
+    "categories": [
+      "Electronics & Gadgets"
+    ],
+    "vertexCount": 15350,
+    "faceCount": 25294,
+    "max_texture": 2048,
+    "pbrType": "specular",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/33001ed6f05042d89ac8690ffaaed0a4/thumbnails/53c0c74b100c413189ee1ce57704a741/0564b7c89a3348f787e94aae664fcbe1.jpeg",
+    "glb_paths": [
+      "glbs/glbs_2k/000-003/33001ed6f05042d89ac8690ffaaed0a4_2048.glb",
+      "glbs/glbs_1k/000-010/33001ed6f05042d89ac8690ffaaed0a4_1024.glb"
+    ],
+    "imagenet_class": "reflex camera",
+    "default_scene_id": "room_white"
+  },
+  "36c91f94e5304dfe8f7c6252348110ce": {
+    "name": "Pumpkin",
+    "description": "Pumpkin",
+    "user": "looperman86",
+    "user_display": "looperman86",
+    "tags": [
+      "substancepainter",
+      "substance"
+    ],
+    "categories": [
+      "Animals & Pets"
+    ],
+    "vertexCount": 3437,
+    "faceCount": 6866,
+    "max_texture": 1024,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/36c91f94e5304dfe8f7c6252348110ce/thumbnails/92d920725a3c420f9edf6c044b24fc8e/75cde86f720843f78251595533f1216d.jpeg",
+    "glb_paths": [
+      "glbs/glbs_1k/000-080/36c91f94e5304dfe8f7c6252348110ce_1024.glb"
+    ],
+    "imagenet_class": "acorn squash",
+    "default_scene_id": "exterior"
+  },
+  "39594fee120849d3999e09ae505ce76e": {
+    "name": "Tric Negro Trick Sketchfab",
+    "description": "",
+    "user": "hrojas26",
+    "user_display": "hrojas26",
+    "tags": [],
+    "categories": [],
+    "vertexCount": 142770,
+    "faceCount": 283204,
+    "max_texture": 8192,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/39594fee120849d3999e09ae505ce76e/thumbnails/9280b6d88f494b7cb21d645c5f6d160d/5abb15d28a654a2bbd08ea205378fe13.jpeg",
+    "glb_paths": [
+      "glbs/glbs_8k/000-002/39594fee120849d3999e09ae505ce76e_8192.glb",
+      "glbs/glbs_4k/000-004/39594fee120849d3999e09ae505ce76e_4096.glb",
+      "glbs/glbs_1k/000-011/39594fee120849d3999e09ae505ce76e_1024.glb"
+    ],
+    "imagenet_class": "backpack",
+    "default_scene_id": "room_white"
+  },
+  "3a43f13374b1412f845c7f07d9e511c8": {
+    "name": "Stop Sign",
+    "description": "",
+    "user": "MBernick",
+    "user_display": "Mark Bernick",
+    "tags": [
+      "substancepainter",
+      "substance"
+    ],
+    "categories": [],
+    "vertexCount": 274,
+    "faceCount": 536,
+    "max_texture": 4096,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/3a43f13374b1412f845c7f07d9e511c8/thumbnails/cb3311df937a459dac9c8a4396559a3c/9dda7999f37741e294b90a5a7bf51206.jpeg",
+    "glb_paths": [
+      "glbs/glbs_4k/000-004/3a43f13374b1412f845c7f07d9e511c8_4096.glb",
+      "glbs/glbs_1k/000-011/3a43f13374b1412f845c7f07d9e511c8_1024.glb"
+    ],
+    "imagenet_class": "street sign",
+    "default_scene_id": "exterior_city"
+  },
+  "442547a0a2224fb595841957261acbc7": {
+    "name": "scooter_2092_ADK20013D-kunst og generalisering",
+    "description": "stud # 2092",
+    "user": "AlexFG",
+    "user_display": "AlexFG",
+    "tags": [],
+    "categories": [],
+    "vertexCount": 23596,
+    "faceCount": 43483,
+    "max_texture": 2048,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/442547a0a2224fb595841957261acbc7/thumbnails/c2bfdc6fba554bc588005ca8099cd0df/64b99628e4d049758953abbe33bbcb36.jpeg",
+    "glb_paths": [
+      "glbs/glbs_2k/000-019/442547a0a2224fb595841957261acbc7_2048.glb",
+      "glbs/glbs_1k/000-058/442547a0a2224fb595841957261acbc7_1024.glb"
+    ],
+    "imagenet_class": "motor scooter",
+    "default_scene_id": "exterior_city"
+  },
+  "463375182b944b0ba606f77a304358be": {
+    "name": "Weathered Speedsign | Stylized",
+    "description": "Stylized Speedsign, Handpainted in Substance Painter and modelled in Blender.\n\n1062 Faces Quad Topology",
+    "user": "jmelving",
+    "user_display": "jmelving",
+    "tags": [
+      "speed",
+      "limit",
+      "stylized",
+      "speedsign"
+    ],
+    "categories": [
+      "Cars & Vehicles"
+    ],
+    "vertexCount": 1070,
+    "faceCount": 2124,
+    "max_texture": 2048,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/463375182b944b0ba606f77a304358be/thumbnails/dca7a8e3567a48f6ba2581db8b754b1a/b1f61021eccf4117822522f4e1a28a64.jpeg",
+    "glb_paths": [
+      "glbs/glbs_2k/000-020/463375182b944b0ba606f77a304358be_2048.glb",
+      "glbs/glbs_1k/000-058/463375182b944b0ba606f77a304358be_1024.glb"
+    ],
+    "imagenet_class": "street sign",
+    "default_scene_id": "exterior_city"
+  },
+  "470ff8d50c9e4b46af7408e61c7c21ec": {
+    "name": "Home_Decor",
+    "description": "",
+    "user": "denj666",
+    "user_display": "denj666",
+    "tags": [
+      "decorative"
+    ],
+    "categories": [
+      "Furniture & Home"
+    ],
+    "vertexCount": 25002,
+    "faceCount": 50000,
+    "max_texture": 2048,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/470ff8d50c9e4b46af7408e61c7c21ec/thumbnails/4a1217bc8e7f44f6b1cf16c8f58e3002/61d0df3bb50843b48fbb09bc36a32897.jpeg",
+    "glb_paths": [
+      "glbs/glbs_2k/000-004/470ff8d50c9e4b46af7408e61c7c21ec_2048.glb",
+      "glbs/glbs_1k/000-014/470ff8d50c9e4b46af7408e61c7c21ec_1024.glb"
+    ],
+    "imagenet_class": "Egyptian cat",
+    "default_scene_id": "exterior"
+  },
+  "476076cd3e19403eac5919ba70d9a635": {
+    "name": "Backpack Oakley",
+    "description": "Black Backpack Oakley 1diffuse 1 normal 8k",
+    "user": "specimen3d",
+    "user_display": "Specimen 3D",
+    "tags": [
+      "oakley",
+      "backpack",
+      "photoscan",
+      "realitycapture",
+      "photogrammetry",
+      "3dscan",
+      "sport"
+    ],
+    "categories": [
+      "Fashion & Style",
+      "Sports & Fitness"
+    ],
+    "vertexCount": 50053,
+    "faceCount": 99987,
+    "max_texture": 8192,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/476076cd3e19403eac5919ba70d9a635/thumbnails/1c3cc862341b476d83606230a80ae8d1/740d69b19dc0404296478fecc52c68b1.jpeg",
+    "glb_paths": [
+      "glbs/glbs_8k/000-003/476076cd3e19403eac5919ba70d9a635_8192.glb",
+      "glbs/glbs_4k/000-006/476076cd3e19403eac5919ba70d9a635_4096.glb",
+      "glbs/glbs_1k/000-014/476076cd3e19403eac5919ba70d9a635_1024.glb"
+    ],
+    "imagenet_class": "backpack",
+    "default_scene_id": "room_white"
+  },
+  "4859892da656436daa8fbc869938692e": {
+    "name": "Cat Sculpt - Blender",
+    "description": "Blender 7.9\n\nMy first sculpting I have ever made. Also used tablet for the first time in my life :)\n\nSculpted a highpoly Cat, I did not add much detail because I wanted to add fur later.\n\nI did an retopology, I hope my topology is good enough!\n\nI did a normal map highpoly+lowpoly bake.",
+    "user": "Socka",
+    "user_display": "Fredrik Appelholm",
+    "tags": [
+      "sculpt-blender"
+    ],
+    "categories": [
+      "Animals & Pets"
+    ],
+    "vertexCount": 14112,
+    "faceCount": 28212,
+    "max_texture": 2048,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/4859892da656436daa8fbc869938692e/thumbnails/032fdc95355b42b482633998be2920ae/2151906e153a45518ca6e7cf141c4a67.jpeg",
+    "glb_paths": [
+      "glbs/glbs_2k/000-004/4859892da656436daa8fbc869938692e_2048.glb",
+      "glbs/glbs_1k/000-014/4859892da656436daa8fbc869938692e_1024.glb"
+    ],
+    "imagenet_class": "Egyptian cat",
+    "default_scene_id": "exterior"
+  },
+  "4cd225d87c334543a34e4c6d0aadbe38": {
+    "name": "Bench 1 USSR (Game ready)",
+    "description": "An old bench often found in Soviet cities.\nThe model is prepared for use in game engines",
+    "user": "nikita3dvisions",
+    "user_display": "Nikita Filimonov",
+    "tags": [
+      "bench",
+      "assets",
+      "soviet",
+      "urban",
+      "props",
+      "ussr",
+      "realism",
+      "oldcity",
+      "lowpoly",
+      "gameasset",
+      "gameready"
+    ],
+    "categories": [
+      "Architecture",
+      "Furniture & Home"
+    ],
+    "vertexCount": 248,
+    "faceCount": 440,
+    "max_texture": 2048,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/4cd225d87c334543a34e4c6d0aadbe38/thumbnails/408ad9f691a647a2bcedb173f0a113be/28c20d96e5334c5d883798adf5dde7f9.jpeg",
+    "glb_paths": [
+      "glbs/glbs_2k/000-004/4cd225d87c334543a34e4c6d0aadbe38_2048.glb",
+      "glbs/glbs_1k/000-015/4cd225d87c334543a34e4c6d0aadbe38_1024.glb"
+    ],
+    "imagenet_class": "park bench",
+    "default_scene_id": "exterior"
+  },
+  "4ce373095762426f95f0e3accd2adf3d": {
+    "name": "Avanti Bicycle",
+    "description": "Modeling Software: Maya \nTexturing: Substance Painter & illustrator",
+    "user": "amalucka",
+    "user_display": "amalucka",
+    "tags": [
+      "bicycle",
+      "avanti"
+    ],
+    "categories": [
+      "Cars & Vehicles",
+      "Places & Travel"
+    ],
+    "vertexCount": 639875,
+    "faceCount": 1241388,
+    "max_texture": 4096,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/4ce373095762426f95f0e3accd2adf3d/thumbnails/a643ba24cb824ad195cd794ca4ecebba/1e4417d8a9f742c693aa45bda788e0e1.jpeg",
+    "glb_paths": [
+      "glbs/glbs_4k/000-006/4ce373095762426f95f0e3accd2adf3d_4096.glb",
+      "glbs/glbs_1k/000-015/4ce373095762426f95f0e3accd2adf3d_1024.glb"
+    ],
+    "imagenet_class": "mountain bike",
+    "default_scene_id": "exterior_city"
+  },
+  "51593e90dde84b52a57d5ffa7320b69c": {
+    "name": "Canon AE1",
+    "description": "Hires Mesh for Vfx modelled in all quads. \nTextures downscaled to 2k to match file size limit.\nReady for subdivision but only needed for extreme closeups.\nRenders in Blender 2.8 and with minimal conversion in Arnold 5.",
+    "user": "anaho",
+    "user_display": "anaho",
+    "tags": [],
+    "categories": [
+      "Electronics & Gadgets"
+    ],
+    "vertexCount": 342843,
+    "faceCount": 678500,
+    "max_texture": 2048,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/51593e90dde84b52a57d5ffa7320b69c/thumbnails/19a016911d0e47ecaf49c5933817743d/3f758855e5114c4aaeb25714d49c369d.jpeg",
+    "glb_paths": [
+      "glbs/glbs_2k/000-020/51593e90dde84b52a57d5ffa7320b69c_2048.glb",
+      "glbs/glbs_1k/000-059/51593e90dde84b52a57d5ffa7320b69c_1024.glb"
+    ],
+    "imagenet_class": "reflex camera",
+    "default_scene_id": "room_white"
+  },
+  "5431bb42de5743088c849ba080e7ac33": {
+    "name": "vespa_HP",
+    "description": "",
+    "user": "fox_amelie",
+    "user_display": "fox_amelie",
+    "tags": [
+      "vespa",
+      "scooter"
+    ],
+    "categories": [
+      "Cars & Vehicles",
+      "Fashion & Style"
+    ],
+    "vertexCount": 72190,
+    "faceCount": 130887,
+    "max_texture": 2048,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/5431bb42de5743088c849ba080e7ac33/thumbnails/b7532ba055ca436bbec055899f3a8f9a/c6419c6255324c4684a346af2ebbad0c.jpeg",
+    "glb_paths": [
+      "glbs/glbs_2k/000-020/5431bb42de5743088c849ba080e7ac33_2048.glb",
+      "glbs/glbs_1k/000-060/5431bb42de5743088c849ba080e7ac33_1024.glb"
+    ],
+    "imagenet_class": "motor scooter",
+    "default_scene_id": "exterior_city"
+  },
+  "5702c0179e3a45d7bd66d072f3b47dff": {
+    "name": "路牌",
+    "description": "我做的不是很好，下次一定",
+    "user": "ajimihua1",
+    "user_display": "ajimihua1",
+    "tags": [
+      "chinese-architecture",
+      "city"
+    ],
+    "categories": [
+      "Architecture"
+    ],
+    "vertexCount": 97261,
+    "faceCount": 219332,
+    "max_texture": 4096,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/5702c0179e3a45d7bd66d072f3b47dff/thumbnails/6e78d16b890149d6be68300907eba6fc/57bdc428ad8e4b56b864b2f2dd81b5dd.jpeg",
+    "glb_paths": [
+      "glbs/glbs_4k/000-026/5702c0179e3a45d7bd66d072f3b47dff_4096.glb",
+      "glbs/glbs_1k/000-060/5702c0179e3a45d7bd66d072f3b47dff_1024.glb"
+    ],
+    "imagenet_class": "street sign",
+    "default_scene_id": "exterior_city"
+  },
+  "57573068329c4182a493fa69cc298658": {
+    "name": "NeonSign Scifi City",
+    "description": "",
+    "user": "cyrilvrancken",
+    "user_display": "cyrilvrancken",
+    "tags": [
+      "substancepainter",
+      "substance"
+    ],
+    "categories": [],
+    "vertexCount": 51799,
+    "faceCount": 101394,
+    "max_texture": 2048,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/57573068329c4182a493fa69cc298658/thumbnails/36943c9bb3764f7694e30dd548320634/fbbeb24d5f2e4192b33b0f4c0228fa58.jpeg",
+    "glb_paths": [
+      "glbs/glbs_2k/000-005/57573068329c4182a493fa69cc298658_2048.glb",
+      "glbs/glbs_1k/000-017/57573068329c4182a493fa69cc298658_1024.glb"
+    ],
+    "imagenet_class": "street sign",
+    "default_scene_id": "exterior_city"
+  },
+  "59fba50057104b9c9322e4827813ab05": {
+    "name": "Indian Post Box",
+    "description": "Indian Post Box Low poly model With PBR Textures",
+    "user": "Geeky_kek",
+    "user_display": "Geeky_",
+    "tags": [
+      "product",
+      "boxes",
+      "post",
+      "substancepainter",
+      "substance",
+      "digital"
+    ],
+    "categories": [
+      "Architecture"
+    ],
+    "vertexCount": 1236,
+    "faceCount": 2420,
+    "max_texture": 4096,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/59fba50057104b9c9322e4827813ab05/thumbnails/5d3265fd141a42efa2cccc54ff5ab230/6fca3deaa746429c96a63508cdc6aabe.jpeg",
+    "glb_paths": [
+      "glbs/glbs_4k/000-026/59fba50057104b9c9322e4827813ab05_4096.glb",
+      "glbs/glbs_1k/000-060/59fba50057104b9c9322e4827813ab05_1024.glb"
+    ],
+    "imagenet_class": "mailbox",
+    "default_scene_id": "exterior_city"
+  },
+  "5a72499918244db084c30898c9b2367b": {
+    "name": "military DEFCON Ares backpack",
+    "description": "",
+    "user": "denj666",
+    "user_display": "denj666",
+    "tags": [
+      "backpack"
+    ],
+    "categories": [
+      "Weapons & Military"
+    ],
+    "vertexCount": 30708,
+    "faceCount": 61627,
+    "max_texture": 2048,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/5a72499918244db084c30898c9b2367b/thumbnails/760d63ad5d5644aea6d5dd1bf593037c/ed928d68a5ba4efcafc7f57fb2f2d9c6.jpeg",
+    "glb_paths": [
+      "glbs/glbs_2k/000-005/5a72499918244db084c30898c9b2367b_2048.glb",
+      "glbs/glbs_1k/000-018/5a72499918244db084c30898c9b2367b_1024.glb"
+    ],
+    "imagenet_class": "backpack",
+    "default_scene_id": "room_white"
+  },
+  "5afe84fbdf274be390722e4716a03ffc": {
+    "name": "Morra Zoom",
+    "description": "",
+    "user": "hrojas26",
+    "user_display": "hrojas26",
+    "tags": [],
+    "categories": [],
+    "vertexCount": 157517,
+    "faceCount": 312281,
+    "max_texture": 8192,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/5afe84fbdf274be390722e4716a03ffc/thumbnails/d8544acfa9eb400baef5553e6ca84445/6b77026e926e4dc38a7b218bea070f25.jpeg",
+    "glb_paths": [
+      "glbs/glbs_8k/000-004/5afe84fbdf274be390722e4716a03ffc_8192.glb",
+      "glbs/glbs_4k/000-007/5afe84fbdf274be390722e4716a03ffc_4096.glb",
+      "glbs/glbs_1k/000-018/5afe84fbdf274be390722e4716a03ffc_1024.glb"
+    ],
+    "imagenet_class": "backpack",
+    "default_scene_id": "room_white"
+  },
+  "5cd13916f89e4552a25efa27e03170b7": {
+    "name": "abbey_backpack",
+    "description": "",
+    "user": "suningDEMO",
+    "user_display": "suningDEMO",
+    "tags": [],
+    "categories": [],
+    "vertexCount": 9504,
+    "faceCount": 18045,
+    "max_texture": 1024,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/5cd13916f89e4552a25efa27e03170b7/thumbnails/50f099cfdc054a53b95c9ab731ab9037/5dae799f6cbc4752880921d254e46362.jpeg",
+    "glb_paths": [
+      "glbs/glbs_1k/000-082/5cd13916f89e4552a25efa27e03170b7_1024.glb"
+    ],
+    "imagenet_class": "backpack",
+    "default_scene_id": "room_white"
+  },
+  "5e0f504bb5d144809390dac8c66a6dd5": {
+    "name": "Old Japanese Post Box",
+    "description": "",
+    "user": "dustyrusty",
+    "user_display": "Rusty-exe",
+    "tags": [
+      "japanese",
+      "post_box"
+    ],
+    "categories": [
+      "Art & Abstract",
+      "Furniture & Home"
+    ],
+    "vertexCount": 729,
+    "faceCount": 1454,
+    "max_texture": 2048,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/5e0f504bb5d144809390dac8c66a6dd5/thumbnails/46813e3ddb9b4425bb14a9ccdda6b67a/19d5f3d461cc431fbc8cfa539b6aabd3.jpeg",
+    "glb_paths": [
+      "glbs/glbs_2k/000-021/5e0f504bb5d144809390dac8c66a6dd5_2048.glb",
+      "glbs/glbs_1k/000-061/5e0f504bb5d144809390dac8c66a6dd5_1024.glb"
+    ],
+    "imagenet_class": "mailbox",
+    "default_scene_id": "exterior_city"
+  },
+  "5f51bfaef86f463188c511bab729c232": {
+    "name": "Vespa Scooter",
+    "description": "Vespa scooter model ss 180. Made using Maya program. An educational project for the XYZ school of the Draft Punk course.\nMy ArtStation:https://www.artstation.com/olgagoncharenko1",
+    "user": "da.oly",
+    "user_display": "OllyBurda",
+    "tags": [
+      "bike",
+      "wheel",
+      "vehicles",
+      "bycicle",
+      "mud",
+      "bag",
+      "vespa",
+      "rubber",
+      "scooter",
+      "canister",
+      "headlight",
+      "digital3d",
+      "maya",
+      "glass",
+      "texture",
+      "helmet",
+      "hardsurface",
+      "car",
+      "skin"
+    ],
+    "categories": [
+      "Cars & Vehicles"
+    ],
+    "vertexCount": 41212,
+    "faceCount": 71166,
+    "max_texture": 4096,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/5f51bfaef86f463188c511bab729c232/thumbnails/8570260ed45c49bcbc909443ebf60ae9/2368774167874c50932605d7bc3b3165.jpeg",
+    "glb_paths": [
+      "glbs/glbs_4k/000-008/5f51bfaef86f463188c511bab729c232_4096.glb",
+      "glbs/glbs_1k/000-019/5f51bfaef86f463188c511bab729c232_1024.glb"
+    ],
+    "imagenet_class": "motor scooter",
+    "default_scene_id": "exterior_city"
+  },
+  "6034ec0be4d24890ad7a939c97d52650": {
+    "name": "Blue mailbox on a wooden stand",
+    "description": "*Give me feedback in the comments, I really need to understand if I am working in the right direction and what is missing in my models (number of triangles, texture sizes, types of texture maps, etc.)*<br><br>\n\nLow-poly (2615 triangles) game ready model, checked in Unreal Engine 5.4.3.<br>\n\n3-piece mesh: mailbox, wooden counter and wooden floor<br>\n\n4K textures: Base Color, Emissive, Normal, Occlusion-Roughness-Metallic<br>\n\n—<br>\nIdeal for outdoor scenes, suburban settings, or rural landscapes, this model adds a touch of realism and character to any project. Optimized for real-time performance, this low-poly model is suitable for game development, architectural visualizations, or any digital project requiring a visually appealing and efficient prop.<br><br>",
+    "user": "risteralline",
+    "user_display": "Rylae Shylna",
+    "tags": [
+      "scene",
+      "virtual",
+      "wooden",
+      "product",
+      "exterior",
+      "prop",
+      "post",
+      "production",
+      "rustic",
+      "on",
+      "mailbox",
+      "outdoor",
+      "stock",
+      "decor",
+      "rural",
+      "props",
+      "realistic",
+      "suburban",
+      "setting",
+      "low-poly",
+      "asset",
+      "game",
+      "3d",
+      "low",
+      "poly",
+      "model",
+      "design",
+      "digital",
+      "environment"
+    ],
+    "categories": [
+      "Furniture & Home",
+      "Nature & Plants"
+    ],
+    "vertexCount": 1352,
+    "faceCount": 2615,
+    "max_texture": 4096,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/6034ec0be4d24890ad7a939c97d52650/thumbnails/a009036cb5c849048760ed812a73ff56/39e7c9b975ea47829ce018dc9b3d5801.jpeg",
+    "glb_paths": [
+      "glbs/glbs_4k/000-008/6034ec0be4d24890ad7a939c97d52650_4096.glb",
+      "glbs/glbs_1k/000-019/6034ec0be4d24890ad7a939c97d52650_1024.glb"
+    ],
+    "imagenet_class": "mailbox",
+    "default_scene_id": "exterior_city"
+  },
+  "6081a54e64a94edda2c444d81e8aec2c": {
+    "name": "Bench_ Park - 14MB",
+    "description": "Bench\nPark",
+    "user": "ahmagh2e",
+    "user_display": "Mehdi Shahsavan",
+    "tags": [
+      "bench",
+      "park"
+    ],
+    "categories": [
+      "Architecture",
+      "Art & Abstract"
+    ],
+    "vertexCount": 11114,
+    "faceCount": 21940,
+    "max_texture": 2048,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/6081a54e64a94edda2c444d81e8aec2c/thumbnails/c7f44c808fc24e159481eba0e4995490/de9efa6527e14d00a025a1660d43e95d.jpeg",
+    "glb_paths": [
+      "glbs/glbs_2k/000-006/6081a54e64a94edda2c444d81e8aec2c_2048.glb",
+      "glbs/glbs_1k/000-019/6081a54e64a94edda2c444d81e8aec2c_1024.glb"
+    ],
+    "imagenet_class": "park bench",
+    "default_scene_id": "exterior"
+  },
+  "62954f4d59c34c11b22c62eab8cfad57": {
+    "name": "Pumpkin6",
+    "description": "Ingredients [For 2 people] 1/6 pumpkin (200g) 1/4 onion (50g) 1/4 teaspoon salt ☆Seasoning Mayonnaise 2 tablespoons Milk 1 tablespoon A little pepper\n\n1.Remove seeds and pulp from pumpkin and cut into small bite-sized pieces. Put the pumpkin and water (not included in the ingredients: 1 tbsp) in a heat-resistant container, cover with plastic wrap, and heat in the microwave at 600W for 4-5 minutes until the pumpkin becomes soft. Remove the plastic wrap, add salt while still hot, and mash well until smooth to cool.\n\n2.Cut the onion into thin slices lengthwise, put it in a separate heat-resistant container, wrap it loosely, and heat it in a 600W range for 1 minute. Take a rough fever.\n\n3.Add onions and ☆ to a heat-resistant container and mix well.\n\n4.Enjoy!",
+    "user": "hiroyuki.ogata1",
+    "user_display": "NAMAHAGE 120%",
+    "tags": [
+      "japan",
+      "realitycapture",
+      "photogrammetry"
+    ],
+    "categories": [
+      "Food & Drink"
+    ],
+    "vertexCount": 99993,
+    "faceCount": 199982,
+    "max_texture": 8192,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/62954f4d59c34c11b22c62eab8cfad57/thumbnails/0b1a6b36b6bd4fdca4174cb8f451e4b1/ea7ab7865c11472db7f2a3241a8d4117.jpeg",
+    "glb_paths": [
+      "glbs/glbs_8k/000-013/62954f4d59c34c11b22c62eab8cfad57_8192.glb",
+      "glbs/glbs_4k/000-027/62954f4d59c34c11b22c62eab8cfad57_4096.glb",
+      "glbs/glbs_1k/000-061/62954f4d59c34c11b22c62eab8cfad57_1024.glb"
+    ],
+    "imagenet_class": "acorn squash",
+    "default_scene_id": "exterior"
+  },
+  "640acbe0339546c9ab5944b7d5ef147d": {
+    "name": "DIOR - Mochila Oblique Negra ❤️like if download",
+    "description": "DIOR - Mochila Oblique Negra ❤️like if download\n\nDownloaded from: https://www.dior.com/es_es/fashion/products/1EIBA187YKY_H03E-mochila-dior-8-con-solapa-dior-oblique-en-jacquard-negro\n\nReferencia: 1EIBA187YKY_H03E",
+    "user": "vmmaniac",
+    "user_display": "vmmaniac",
+    "tags": [
+      "luxury",
+      "fashion",
+      "bag",
+      "retail",
+      "backpack",
+      "lujo",
+      "bolso",
+      "dior",
+      "mochila",
+      "visualmerchandising",
+      "retaildesign",
+      "escaparate",
+      "escaparatismo"
+    ],
+    "categories": [
+      "Cultural Heritage & History",
+      "Fashion & Style"
+    ],
+    "vertexCount": 55496,
+    "faceCount": 99964,
+    "max_texture": 2048,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/640acbe0339546c9ab5944b7d5ef147d/thumbnails/3132e622449942c080668c94848814ad/fc6caaf3e09349d186af84a2c79a4743.jpeg",
+    "glb_paths": [
+      "glbs/glbs_2k/000-006/640acbe0339546c9ab5944b7d5ef147d_2048.glb",
+      "glbs/glbs_1k/000-020/640acbe0339546c9ab5944b7d5ef147d_1024.glb"
+    ],
+    "imagenet_class": "backpack",
+    "default_scene_id": "room_white"
+  },
+  "65e16e9785de4a019e35f599e47c9ee6": {
+    "name": "Santa Cruz V10 Downhill Mountain Bicycle",
+    "description": "A fairly detailed model of Santa Cruz V10 along with other bike parts.\n\nCheck it out on ArtStation: https://www.artstation.com/artwork/QX5OZ4\n\nModeled in Blender, textured in Substance Painter",
+    "user": "fdgasd7",
+    "user_display": "Arsen Ismailov",
+    "tags": [
+      "bike",
+      "bicycle",
+      "mtb",
+      "santa_cruz",
+      "mountainbike"
+    ],
+    "categories": [
+      "Cars & Vehicles",
+      "Sports & Fitness"
+    ],
+    "vertexCount": 309577,
+    "faceCount": 599468,
+    "max_texture": 4096,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/65e16e9785de4a019e35f599e47c9ee6/thumbnails/4689b5552a5c47889c71d7943ed45d39/c35db6e7d0d24540a588525c8715ba91.jpeg",
+    "glb_paths": [
+      "glbs/glbs_4k/000-008/65e16e9785de4a019e35f599e47c9ee6_4096.glb",
+      "glbs/glbs_1k/000-020/65e16e9785de4a019e35f599e47c9ee6_1024.glb"
+    ],
+    "imagenet_class": "mountain bike",
+    "default_scene_id": "exterior_city"
+  },
+  "66a9f233bbaa43e0a91f1eb9d8353356": {
+    "name": "Japanese sign board 003",
+    "description": "cc0 public domain",
+    "user": "sa6",
+    "user_display": "sa6",
+    "tags": [
+      "japan",
+      "cyberpunk",
+      "sign",
+      "signboard",
+      "japanese"
+    ],
+    "categories": [
+      "Architecture",
+      "Electronics & Gadgets"
+    ],
+    "vertexCount": 320,
+    "faceCount": 596,
+    "max_texture": 2048,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/66a9f233bbaa43e0a91f1eb9d8353356/thumbnails/c817c37ad9134bce9de272c52c582cec/a9117f6739e743d380ff6e3d0c4833af.jpeg",
+    "glb_paths": [
+      "glbs/glbs_2k/000-006/66a9f233bbaa43e0a91f1eb9d8353356_2048.glb",
+      "glbs/glbs_1k/000-020/66a9f233bbaa43e0a91f1eb9d8353356_1024.glb"
+    ],
+    "imagenet_class": "street sign",
+    "default_scene_id": "exterior_city"
+  },
+  "6c509cce43e54b3685e94f5226d5ae7e": {
+    "name": "Golden Piano",
+    "description": "polys:23 730\nvert: 15 279",
+    "user": "mohamedhussien",
+    "user_display": "mohamedhussien",
+    "tags": [
+      "music",
+      "bench",
+      "grand",
+      "vic",
+      "engine",
+      "real-time",
+      "relistic",
+      "game",
+      "pbr",
+      "lowpoly",
+      "piano",
+      "black",
+      "gold",
+      "gameready",
+      "keyboard"
+    ],
+    "categories": [
+      "Art & Abstract",
+      "Music"
+    ],
+    "vertexCount": 12354,
+    "faceCount": 23730,
+    "max_texture": 2048,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/6c509cce43e54b3685e94f5226d5ae7e/thumbnails/414ad3c7f465486abf57b193e226b390/37c933c41da341b2b271bb796116b2a3.jpeg",
+    "glb_paths": [
+      "glbs/glbs_2k/000-007/6c509cce43e54b3685e94f5226d5ae7e_2048.glb",
+      "glbs/glbs_1k/000-021/6c509cce43e54b3685e94f5226d5ae7e_1024.glb"
+    ],
+    "imagenet_class": "grand piano",
+    "default_scene_id": "art_gallery"
+  },
+  "6d79cd1c4347432fbae96fdd9d74a5b2": {
+    "name": "Pumpkin",
+    "description": "",
+    "user": "dkkaple",
+    "user_display": "dkkaple",
+    "tags": [],
+    "categories": [],
+    "vertexCount": 904024,
+    "faceCount": 1800444,
+    "max_texture": 1024,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/6d79cd1c4347432fbae96fdd9d74a5b2/thumbnails/a48f599392dc424ab9eed2b994f73f6d/f7a6206948194b91a2063ab4ea938f59.jpeg",
+    "glb_paths": [
+      "glbs/glbs_1k/000-082/6d79cd1c4347432fbae96fdd9d74a5b2_1024.glb"
+    ],
+    "imagenet_class": "acorn squash",
+    "default_scene_id": "exterior"
+  },
+  "700819fd4fc749ab9aeef22fea18b030": {
+    "name": "Bengal cat by Yaroslav Dorofeev",
+    "description": "",
+    "user": "3dYaroslav",
+    "user_display": "3dYaroslav",
+    "tags": [
+      "cat"
+    ],
+    "categories": [],
+    "vertexCount": 18606,
+    "faceCount": 36005,
+    "max_texture": 2048,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/700819fd4fc749ab9aeef22fea18b030/thumbnails/ae169d55a59143cbbdae1d929b44ba93/b1a0283367d24e06aa356d09f4ca58ea.jpeg",
+    "glb_paths": [
+      "glbs/glbs_2k/000-007/700819fd4fc749ab9aeef22fea18b030_2048.glb",
+      "glbs/glbs_1k/000-022/700819fd4fc749ab9aeef22fea18b030_1024.glb"
+    ],
+    "imagenet_class": "Egyptian cat",
+    "default_scene_id": "exterior"
+  },
+  "74a33f959e7b4c1692187a188dacb827": {
+    "name": "Grand piano",
+    "description": "",
+    "user": "adrian.wallin",
+    "user_display": "adrian.wallin",
+    "tags": [
+      "music",
+      "furniture",
+      "keys",
+      "song",
+      "grandpiano",
+      "pedals",
+      "musical-instrument",
+      "maya",
+      "lowpoly",
+      "piano",
+      "createdwithmaya"
+    ],
+    "categories": [
+      "Furniture & Home",
+      "Music"
+    ],
+    "vertexCount": 1674,
+    "faceCount": 3273,
+    "max_texture": 2048,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/74a33f959e7b4c1692187a188dacb827/thumbnails/9794f2c7547a4996b558a5607d3084e7/dda32738d63349b7b6cccaf9ce070ece.jpeg",
+    "glb_paths": [
+      "glbs/glbs_2k/000-007/74a33f959e7b4c1692187a188dacb827_2048.glb",
+      "glbs/glbs_1k/000-023/74a33f959e7b4c1692187a188dacb827_1024.glb"
+    ],
+    "imagenet_class": "grand piano",
+    "default_scene_id": "art_gallery"
+  },
+  "76413ace50744f288c00ddd37756fa49": {
+    "name": "Park bench (CC BY 3.0)",
+    "description": "Simple worn out Park bench. Low poly with some UV issues, free to download.",
+    "user": "pgonarg",
+    "user_display": "pgonarg",
+    "tags": [
+      "bench",
+      "picnic",
+      "seat",
+      "furniture",
+      "park",
+      "holiday",
+      "outdoors"
+    ],
+    "categories": [
+      "Furniture & Home"
+    ],
+    "vertexCount": 450,
+    "faceCount": 836,
+    "max_texture": 2048,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/76413ace50744f288c00ddd37756fa49/thumbnails/2db21a277b5a4ef38b0153b922847d84/fd5a2cc273cd4f4396188df6a667ce79.jpeg",
+    "glb_paths": [
+      "glbs/glbs_2k/000-022/76413ace50744f288c00ddd37756fa49_2048.glb",
+      "glbs/glbs_1k/000-063/76413ace50744f288c00ddd37756fa49_1024.glb"
+    ],
+    "imagenet_class": "park bench",
+    "default_scene_id": "exterior"
+  },
+  "7ee33d48960f4a78ba40103159f08dc8": {
+    "name": "Letter boxes - photogrammetry",
+    "description": "Quick and dirty scan of two French letter boxes \n\nCreated with Polycam",
+    "user": "nicolasdiolez",
+    "user_display": "Nicolas Diolez",
+    "tags": [
+      "paris",
+      "mailbox",
+      "letterbox",
+      "3dasset",
+      "freemodel",
+      "street-furniture",
+      "photoscan",
+      "photogrammetry",
+      "city",
+      "free",
+      "street",
+      "polycam",
+      "urban-photogrammetry"
+    ],
+    "categories": [
+      "Furniture & Home",
+      "Places & Travel"
+    ],
+    "vertexCount": 13348,
+    "faceCount": 26438,
+    "max_texture": 8192,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/7ee33d48960f4a78ba40103159f08dc8/thumbnails/eb614af0b211428a9bf5fbb38e82bb68/9788dfe41432419399f5e47a0ca90f25.jpeg",
+    "glb_paths": [
+      "glbs/glbs_8k/000-013/7ee33d48960f4a78ba40103159f08dc8_8192.glb",
+      "glbs/glbs_4k/000-029/7ee33d48960f4a78ba40103159f08dc8_4096.glb",
+      "glbs/glbs_1k/000-064/7ee33d48960f4a78ba40103159f08dc8_1024.glb"
+    ],
+    "imagenet_class": "mailbox",
+    "default_scene_id": "exterior_city"
+  },
+  "7effbb9fae0145b3b9d19450dc8ae1bc": {
+    "name": "Poštovní schránka cca. - 1910 - Postbox",
+    "description": "**Poštovní schránka cca. 1910 – Postbox approx. 1910**\n\n---\nPostbox approx. 1910 - antique museum item\n\nkomentář čte kurátor Mgr. Tomáš Okurka Ph.D.\n\nModel Commisioned by the Municipal Museum of Ústí nad Labem,\nCzech audio commentary\n\nphotogrammetry (160 x 24MP) photos by Aleš Bárta",
+    "user": "matousekfoto",
+    "user_display": "matousekfoto",
+    "tags": [
+      "office",
+      "symbol",
+      "eagle",
+      "3d-scan",
+      "german",
+      "post",
+      "mail",
+      "austria",
+      "letter",
+      "metal",
+      "museum",
+      "box",
+      "delivery",
+      "czech",
+      "hungary",
+      "postal",
+      "usti",
+      "labem",
+      "nad",
+      "photoscan",
+      "realitycapture",
+      "sudetenland"
+    ],
+    "categories": [
+      "Cultural Heritage & History"
+    ],
+    "vertexCount": 95000,
+    "faceCount": 190000,
+    "max_texture": 8192,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/7effbb9fae0145b3b9d19450dc8ae1bc/thumbnails/ee7de385f0f3462f81eb5506c363568c/77134672879b4dc691761a571e4cc7ee.jpeg",
+    "glb_paths": [
+      "glbs/glbs_8k/000-013/7effbb9fae0145b3b9d19450dc8ae1bc_8192.glb",
+      "glbs/glbs_4k/000-029/7effbb9fae0145b3b9d19450dc8ae1bc_4096.glb",
+      "glbs/glbs_1k/000-064/7effbb9fae0145b3b9d19450dc8ae1bc_1024.glb"
+    ],
+    "imagenet_class": "mailbox",
+    "default_scene_id": "exterior_city"
+  },
+  "82cb507c89e04d3a8e1423bbe37b8f87": {
+    "name": "BMX",
+    "description": "I wanted to make something quick and easy, but ended up adding to it, so decided to tell myself off and return to original plan. Quick and easy.\n\n\nHere is a used BMX bicycle. \n\n\n![Donations board](https://rebrand.ly/wvdoi)\n\n\n<a href=\"https://rebrand.ly/Ko-Fi-link\" target=\"_blank\"><img src=\"https://rebrand.ly/6a3b9\"></a>\n<a href=\"https://www.paypal.com/paypalme/Warkarma\" target=\"_blank\"><img src=\"https://rebrand.ly/6967d\"></a>\n\n\n![Follow](https://rebrand.ly/5e0f6) \n\n\nReference images:\n\n![reference](https://i.imgur.com/gGIbbGp.png)",
+    "user": "warkarma",
+    "user_display": "Warkarma",
+    "tags": [
+      "bicycle",
+      "bmx",
+      "used",
+      "blender",
+      "free",
+      "download",
+      "warkarma"
+    ],
+    "categories": [
+      "Cars & Vehicles",
+      "Sports & Fitness"
+    ],
+    "vertexCount": 142213,
+    "faceCount": 276996,
+    "max_texture": 4096,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/82cb507c89e04d3a8e1423bbe37b8f87/thumbnails/3c171fb9ea6a4790bc6a85bc5c2ada0a/e71b39f2230f47ff97eb9eb43b0b928c.jpeg",
+    "glb_paths": [
+      "glbs/glbs_4k/000-029/82cb507c89e04d3a8e1423bbe37b8f87_4096.glb",
+      "glbs/glbs_1k/000-064/82cb507c89e04d3a8e1423bbe37b8f87_1024.glb"
+    ],
+    "imagenet_class": "mountain bike",
+    "default_scene_id": "exterior_city"
+  },
+  "836312def1b84e588866500a2bf79f0f": {
+    "name": "Cat [Murdered: Soul Suspect]",
+    "description": "[Steam workshop](http://steamcommunity.com/sharedfiles/filedetails/?id=1095995004)\n[SFMLab](https://sfmlab.com/item/2237/)",
+    "user": "mark2580",
+    "user_display": "mark2580",
+    "tags": [
+      "cat",
+      "sfm",
+      "game",
+      "animal"
+    ],
+    "categories": [
+      "Animals & Pets",
+      "Characters & Creatures"
+    ],
+    "vertexCount": 4061,
+    "faceCount": 7372,
+    "max_texture": 2048,
+    "pbrType": null,
+    "isRigged": true,
+    "animation": 1,
+    "animationCount": true,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/836312def1b84e588866500a2bf79f0f/thumbnails/aa39802b85824e9aa004c3bdfc0f71d8/1920x1080.jpeg",
+    "glb_paths": [
+      "glbs/glbs_2k/000-022/836312def1b84e588866500a2bf79f0f_2048.glb",
+      "glbs/glbs_1k/000-065/836312def1b84e588866500a2bf79f0f_1024.glb"
+    ],
+    "imagenet_class": "Egyptian cat",
+    "default_scene_id": "exterior"
+  },
+  "8801b377a9934c1191b513561db845d5": {
+    "name": "DimiBikeNoBone",
+    "description": "",
+    "user": "reusedimitri",
+    "user_display": "Dimitri",
+    "tags": [],
+    "categories": [],
+    "vertexCount": 291052,
+    "faceCount": 565830,
+    "max_texture": 2048,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/8801b377a9934c1191b513561db845d5/thumbnails/2eab15e8441c417dbe27db8131bae93a/3ee20ded74be49359414e908657878ca.jpeg",
+    "glb_paths": [
+      "glbs/glbs_2k/000-023/8801b377a9934c1191b513561db845d5_2048.glb",
+      "glbs/glbs_1k/000-065/8801b377a9934c1191b513561db845d5_1024.glb"
+    ],
+    "imagenet_class": "motor scooter",
+    "default_scene_id": "exterior_city"
+  },
+  "8d4142b2c2d94dc7a314764f621845c6": {
+    "name": "Grand Piano (Marble)",
+    "description": "Grand Piano made of Marble Stone.\n\nI made this for the forest scene.\nThis piano was arranged based on [Grand Piano](https://sketchfab.com/3d-models/grand-piano-159b0bd1ef114b32888d9d39885cac68) made by me.\n\nSOFTWARE — MAYA, Blender, RizomUV, Substance Painter, CLIP STUDIO PAINT",
+    "user": "Amatsukast",
+    "user_display": "Amatsukast",
+    "tags": [
+      "music",
+      "instrument",
+      "bench",
+      "white",
+      "marble",
+      "grandpiano",
+      "musical-instrument",
+      "substancepainter",
+      "substance",
+      "chair",
+      "piano",
+      "fantasy",
+      "abadoned"
+    ],
+    "categories": [
+      "Furniture & Home",
+      "Music"
+    ],
+    "vertexCount": 669012,
+    "faceCount": 1326421,
+    "max_texture": 4096,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution-NonCommercial-ShareAlike",
+    "thumbnail_url": "https://media.sketchfab.com/models/8d4142b2c2d94dc7a314764f621845c6/thumbnails/d68839202a7a4e658013f2499a4a639e/891775a08256456f9954816fb3364714.jpeg",
+    "glb_paths": [
+      "glbs/glbs_4k/000-029/8d4142b2c2d94dc7a314764f621845c6_4096.glb",
+      "glbs/glbs_1k/000-066/8d4142b2c2d94dc7a314764f621845c6_1024.glb"
+    ],
+    "imagenet_class": "grand piano",
+    "default_scene_id": "art_gallery"
+  },
+  "8eb72dee3cec407f88c546d064258adb": {
+    "name": "Road Sign metal - 6MB",
+    "description": "Road \nSign \nmetal",
+    "user": "ahmagh2e",
+    "user_display": "Mehdi Shahsavan",
+    "tags": [
+      "road",
+      "sign",
+      "metal"
+    ],
+    "categories": [
+      "Architecture",
+      "Art & Abstract"
+    ],
+    "vertexCount": 5522,
+    "faceCount": 10366,
+    "max_texture": 1024,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/8eb72dee3cec407f88c546d064258adb/thumbnails/295a63d91e6a4dc1b915d08552681870/6a8dd14cb65745c9959ccb5274453aae.jpeg",
+    "glb_paths": [
+      "glbs/glbs_1k/000-028/8eb72dee3cec407f88c546d064258adb_1024.glb"
+    ],
+    "imagenet_class": "street sign",
+    "default_scene_id": "exterior_city"
+  },
+  "a090798626964b369df85d3f78f67741": {
+    "name": "Piano",
+    "description": "卒制のアセットに使用したピアノです。\nモデリングはMaya.\nテクスチャはSubstancepainer。",
+    "user": "equalrightenemy",
+    "user_display": "adasi",
+    "tags": [
+      "piano"
+    ],
+    "categories": [
+      "Furniture & Home"
+    ],
+    "vertexCount": 7088,
+    "faceCount": 12516,
+    "max_texture": 4096,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/a090798626964b369df85d3f78f67741/thumbnails/921235c3ff304f15996aaed1992bbae7/5dff7c337d3e427ca09c4dcb3617818e.jpeg",
+    "glb_paths": [
+      "glbs/glbs_4k/000-031/a090798626964b369df85d3f78f67741_4096.glb",
+      "glbs/glbs_1k/000-068/a090798626964b369df85d3f78f67741_1024.glb"
+    ],
+    "imagenet_class": "grand piano",
+    "default_scene_id": "art_gallery"
+  },
+  "a481272d8e1c4d07a332e3c680a25d0d": {
+    "name": "UPLDATED: The Smallest Pumpkin Photogrammetry",
+    "description": "I deceided to take a deeper dive in to my Pumpkin experement. \nI used Darktable to edit the photos and crop to a very close pixel ratio to background to object. It worked. \nHere is the \"WAY\" better version. (in my opnion)",
+    "user": "thewhz",
+    "user_display": "The Whz",
+    "tags": [],
+    "categories": [],
+    "vertexCount": 627933,
+    "faceCount": 1255840,
+    "max_texture": 4096,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/a481272d8e1c4d07a332e3c680a25d0d/thumbnails/ab458996457b4046ac72a510439e2aa9/69e0ec5109e043c8bd6581e1647cd978.jpeg",
+    "glb_paths": [
+      "glbs/glbs_4k/000-013/a481272d8e1c4d07a332e3c680a25d0d_4096.glb",
+      "glbs/glbs_1k/000-032/a481272d8e1c4d07a332e3c680a25d0d_1024.glb"
+    ],
+    "imagenet_class": "acorn squash",
+    "default_scene_id": "exterior"
+  },
+  "a9b21823730249deac3d234e6b3ae4e8": {
+    "name": "concrete_cat_statue",
+    "description": "high detailed low poly cat statue.",
+    "user": "White_sniper",
+    "user_display": "White_sniper",
+    "tags": [
+      "cat",
+      "statue",
+      "lowpoly",
+      "stone"
+    ],
+    "categories": [
+      "Animals & Pets",
+      "Cultural Heritage & History"
+    ],
+    "vertexCount": 5977,
+    "faceCount": 11950,
+    "max_texture": 2048,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/a9b21823730249deac3d234e6b3ae4e8/thumbnails/0046d2369b424e0182eb737a28d28a65/3ad13ec6f4a0471682949193c3158daf.jpeg",
+    "glb_paths": [
+      "glbs/glbs_2k/000-011/a9b21823730249deac3d234e6b3ae4e8_2048.glb",
+      "glbs/glbs_1k/000-033/a9b21823730249deac3d234e6b3ae4e8_1024.glb"
+    ],
+    "imagenet_class": "Egyptian cat",
+    "default_scene_id": "exterior"
+  },
+  "af558c0f9d2b4b78b782283a7e7f518b": {
+    "name": "bicycle",
+    "description": "bicycle model made in blender",
+    "user": "wojciechmiedziocha",
+    "user_display": "wojciechmiedziocha",
+    "tags": [
+      "bike",
+      "wheel",
+      "bicycle",
+      "pedal",
+      "rust",
+      "metal",
+      "old",
+      "part",
+      "60s",
+      "bicycles",
+      "bicycle-parts",
+      "pedal-power"
+    ],
+    "categories": [
+      "Cars & Vehicles",
+      "Science & Technology"
+    ],
+    "vertexCount": 233372,
+    "faceCount": 469446,
+    "max_texture": 4096,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/af558c0f9d2b4b78b782283a7e7f518b/thumbnails/c4773fab562f4893ac97723a02519fc4/fa365bce07cd4c2e9a83d1efc685e6d3.jpeg",
+    "glb_paths": [
+      "glbs/glbs_4k/000-014/af558c0f9d2b4b78b782283a7e7f518b_4096.glb",
+      "glbs/glbs_1k/000-035/af558c0f9d2b4b78b782283a7e7f518b_1024.glb"
+    ],
+    "imagenet_class": "mountain bike",
+    "default_scene_id": "exterior_city"
+  },
+  "b278dd1aff22467e8c4d0f147a35b39f": {
+    "name": "Cat",
+    "description": "это реалистичная кошка и причем можно скачать бесплатно!)",
+    "user": "timshinilia1",
+    "user_display": "Илья Тимшин",
+    "tags": [],
+    "categories": [
+      "Animals & Pets"
+    ],
+    "vertexCount": 13981,
+    "faceCount": 24649,
+    "max_texture": 2048,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/b278dd1aff22467e8c4d0f147a35b39f/thumbnails/5bf24a94fd1947c684522f81c5bab6bc/b8130b184b3c4fa0abdb3e596e881e74.jpeg",
+    "glb_paths": [
+      "glbs/glbs_2k/000-011/b278dd1aff22467e8c4d0f147a35b39f_2048.glb",
+      "glbs/glbs_1k/000-035/b278dd1aff22467e8c4d0f147a35b39f_1024.glb"
+    ],
+    "imagenet_class": "Egyptian cat",
+    "default_scene_id": "exterior"
+  },
+  "b7017b3785fa4b98a5985bffe503f70f": {
+    "name": "Pumpkin",
+    "description": "A Lidar scan of a Pumpkin taken with an iPhone 13 Pro and the Scaniverse App",
+    "user": "drmdouglass",
+    "user_display": "Michael Douglass",
+    "tags": [
+      "lidar",
+      "vegetable",
+      "pumpkin",
+      "scaniverse"
+    ],
+    "categories": [
+      "Food & Drink",
+      "Nature & Plants"
+    ],
+    "vertexCount": 38411,
+    "faceCount": 76480,
+    "max_texture": 8192,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/b7017b3785fa4b98a5985bffe503f70f/thumbnails/015993152ca4418184336dfb57633d89/9c07a6fe873c4767b23978bf08ab84f2.jpeg",
+    "glb_paths": [
+      "glbs/glbs_8k/000-015/b7017b3785fa4b98a5985bffe503f70f_8192.glb",
+      "glbs/glbs_4k/000-032/b7017b3785fa4b98a5985bffe503f70f_4096.glb",
+      "glbs/glbs_1k/000-070/b7017b3785fa4b98a5985bffe503f70f_1024.glb"
+    ],
+    "imagenet_class": "acorn squash",
+    "default_scene_id": "exterior"
+  },
+  "b78e420240f44349bd4efc21f01afe66": {
+    "name": "BMW K1600 GTL",
+    "description": "BMW K1600 GTL travel bike 3d model made in Blender.",
+    "user": "appsnation.co",
+    "user_display": "appsnation",
+    "tags": [
+      "bike",
+      "bmw",
+      "blender",
+      "vehicle",
+      "blender3d"
+    ],
+    "categories": [
+      "Cars & Vehicles"
+    ],
+    "vertexCount": 583299,
+    "faceCount": 1086520,
+    "max_texture": 2048,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/b78e420240f44349bd4efc21f01afe66/thumbnails/dad728410f3d434bab6c4f1b1b972ab0/d960c1a4d5eb4eb6b99b2e568fa677dd.jpeg",
+    "glb_paths": [
+      "glbs/glbs_2k/000-011/b78e420240f44349bd4efc21f01afe66_2048.glb",
+      "glbs/glbs_1k/000-036/b78e420240f44349bd4efc21f01afe66_1024.glb"
+    ],
+    "imagenet_class": "motor scooter",
+    "default_scene_id": "exterior_city"
+  },
+  "c11f877c565e487b8213b4a49708f727": {
+    "name": "BMX",
+    "description": "BMX Bicycle Bike stunt",
+    "user": "stealth86",
+    "user_display": "stealth86",
+    "tags": [
+      "bike",
+      "wheel",
+      "bicycle",
+      "rim",
+      "red",
+      "bmx",
+      "tyre",
+      "stunt",
+      "game",
+      "cool",
+      "sport"
+    ],
+    "categories": [
+      "Cars & Vehicles",
+      "Sports & Fitness"
+    ],
+    "vertexCount": 45502,
+    "faceCount": 88250,
+    "max_texture": 1024,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/c11f877c565e487b8213b4a49708f727/thumbnails/3f16e6d912d74457ac110918bb660fce/b065a36f08d441979574cd9c2d77dd2b.jpeg",
+    "glb_paths": [
+      "glbs/glbs_1k/000-085/c11f877c565e487b8213b4a49708f727_1024.glb"
+    ],
+    "imagenet_class": "mountain bike",
+    "default_scene_id": "exterior_city"
+  },
+  "e075373be60f40d5ae5e6b42c8271e2e": {
+    "name": "Cat",
+    "description": "a cat.",
+    "user": "Xfdfgd",
+    "user_display": "all of life",
+    "tags": [],
+    "categories": [],
+    "vertexCount": 18892,
+    "faceCount": 37536,
+    "max_texture": 2048,
+    "pbrType": "specular",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/e075373be60f40d5ae5e6b42c8271e2e/thumbnails/949d2932cee142f28af2611762940aa5/e0346f729f884d3d87c416dc236f727a.jpeg",
+    "glb_paths": [
+      "glbs/glbs_2k/000-014/e075373be60f40d5ae5e6b42c8271e2e_2048.glb",
+      "glbs/glbs_1k/000-044/e075373be60f40d5ae5e6b42c8271e2e_1024.glb"
+    ],
+    "imagenet_class": "Egyptian cat",
+    "default_scene_id": "exterior"
+  },
+  "f927bdf50ecd4848b89a8f0961270bc1": {
+    "name": "Bicycle m.",
+    "description": "Created by using photo references.",
+    "user": "milionna",
+    "user_display": "Milionna",
+    "tags": [
+      "bicycle",
+      "yellow",
+      "substance",
+      "maya",
+      "blue",
+      "black"
+    ],
+    "categories": [
+      "Cars & Vehicles",
+      "Science & Technology"
+    ],
+    "vertexCount": 329340,
+    "faceCount": 655828,
+    "max_texture": 8192,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/f927bdf50ecd4848b89a8f0961270bc1/thumbnails/494d5b64b72a43b794a43f9721989155/31253ce71b0f45139ee2a5e4b0ac02c6.jpeg",
+    "glb_paths": [
+      "glbs/glbs_8k/000-016/f927bdf50ecd4848b89a8f0961270bc1_8192.glb",
+      "glbs/glbs_4k/000-036/f927bdf50ecd4848b89a8f0961270bc1_4096.glb",
+      "glbs/glbs_1k/000-077/f927bdf50ecd4848b89a8f0961270bc1_1024.glb"
+    ],
+    "imagenet_class": "mountain bike",
+    "default_scene_id": "exterior_city"
+  },
+  "fa1dff43b76d4a65b8062c4606817856": {
+    "name": "Grand Piano",
+    "description": "",
+    "user": "wojciechmiedziocha",
+    "user_display": "wojciechmiedziocha",
+    "tags": [
+      "instrument",
+      "instruments",
+      "grand",
+      "vintage",
+      "old",
+      "piano"
+    ],
+    "categories": [
+      "Furniture & Home",
+      "Music"
+    ],
+    "vertexCount": 10242,
+    "faceCount": 19020,
+    "max_texture": 4096,
+    "pbrType": "metalness",
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/fa1dff43b76d4a65b8062c4606817856/thumbnails/ab923102732d49c6af58748e4e04c79f/8945ba2414804d08b8c5f3b1a7cf5949.jpeg",
+    "glb_paths": [
+      "glbs/glbs_4k/000-036/fa1dff43b76d4a65b8062c4606817856_4096.glb",
+      "glbs/glbs_1k/000-077/fa1dff43b76d4a65b8062c4606817856_1024.glb"
+    ],
+    "imagenet_class": "grand piano",
+    "default_scene_id": "art_gallery"
+  },
+  "fe9362b1238046248f6abf22d8d7453e": {
+    "name": "Turks Turban Pumpkin",
+    "description": "Turks Turban Pumpkin\nPerfect for Autumn and Halloween related productions\n\n160 images shot with Sony A6400 & processed with capturing reality.\n360° view\n\n4K Color texture map\n4K Normal map\n\n\nModel size \nTriangle count: 100K\nVertice count: 50K",
+    "user": "kamixyz",
+    "user_display": "VERGULT XYZ",
+    "tags": [
+      "fall",
+      "autumn",
+      "pumpkin-halloween",
+      "halloween",
+      "pumpkin"
+    ],
+    "categories": [
+      "Food & Drink",
+      "Nature & Plants"
+    ],
+    "vertexCount": 49988,
+    "faceCount": 99978,
+    "max_texture": 4096,
+    "pbrType": null,
+    "isRigged": false,
+    "animation": 0,
+    "animationCount": false,
+    "license": "CC Attribution",
+    "thumbnail_url": "https://media.sketchfab.com/models/fe9362b1238046248f6abf22d8d7453e/thumbnails/6199b362737b4012b44102b3a66e9add/d03f1a4d4e4548018d864417a4eaec19.jpeg",
+    "glb_paths": [
+      "glbs/glbs_4k/000-021/fe9362b1238046248f6abf22d8d7453e_4096.glb",
+      "glbs/glbs_1k/000-050/fe9362b1238046248f6abf22d8d7453e_1024.glb"
+    ],
+    "imagenet_class": "acorn squash",
+    "default_scene_id": "exterior"
+  }
+}

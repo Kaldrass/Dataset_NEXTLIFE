@@ -1,0 +1,17 @@
+[
+  {
+    "profile_id": "jpeg_q100",
+    "tq": 100,
+    "label": "low"
+  },
+  {
+    "profile_id": "jpeg_q75",
+    "tq": 75,
+    "label": "medium"
+  },
+  {
+    "profile_id": "jpeg_q50",
+    "tq": 50,
+    "label": "high"
+  }
+]

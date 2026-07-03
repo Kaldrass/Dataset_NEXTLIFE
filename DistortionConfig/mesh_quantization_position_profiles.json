@@ -1,0 +1,17 @@
+[
+  {
+    "profile_id": "qp7",
+    "qp": 7,
+    "label": "high"
+  },
+  {
+    "profile_id": "qp9",
+    "qp": 9,
+    "label": "medium"
+  },
+  {
+    "profile_id": "qp11",
+    "qp": 11,
+    "label": "low"
+  }
+]

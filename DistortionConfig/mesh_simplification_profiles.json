@@ -1,0 +1,20 @@
+[
+  {
+    "profile_id": "simpL1",
+    "simpL": 1,
+    "label": "low",
+    "target_face_ratio": 0.9
+  },
+  {
+    "profile_id": "simpL5",
+    "simpL": 5,
+    "label": "medium",
+    "target_face_ratio": 0.5
+  },
+  {
+    "profile_id": "simpL10",
+    "simpL": 10,
+    "label": "high",
+    "target_face_ratio": 0.1
+  }
+]

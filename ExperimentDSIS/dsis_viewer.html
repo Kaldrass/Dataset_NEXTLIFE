@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NEXTLIFE DSIS solo</title>
+  <link rel="stylesheet" href="./style.css?v=20260615-compact-progress">
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.165.0/build/three.module.js",
+        "three/addons/": "https://unpkg.com/three@0.165.0/examples/jsm/"
+      }
+    }
+  </script>
+</head>
+<body>
+  <main class="app">
+    <header class="topbar">
+      <div>
+        <strong>NEXTLIFE DSIS solo</strong>
+        <span id="progress">0 / 0</span>
+      </div>
+      <div class="actions">
+        <button id="scaleBtn" type="button">Echelle</button>
+        <button id="prevBtn" type="button">Precedent</button>
+        <button id="resetBtn" type="button">Reset</button>
+        <button id="exportCsvBtn" type="button">CSV</button>
+        <button id="exportJsonBtn" type="button">JSON</button>
+      </div>
+    </header>
+
+    <section class="stimuli" aria-label="Stimuli DSIS">
+      <figure>
+        <figcaption>Reference</figcaption>
+        <canvas id="referenceCanvas" width="960" height="960"></canvas>
+      </figure>
+      <figure>
+        <figcaption>Distorsion</figcaption>
+        <canvas id="distortedCanvas" width="960" height="960"></canvas>
+      </figure>
+    </section>
+
+    <section class="panel">
+      <div class="trial-meta">
+        <span id="objectName"></span>
+        <span id="distortionName"></span>
+      </div>
+      <div class="rating-controls">
+        <span id="progressCompact" class="progress-chip">0 / 0</span>
+        <button id="nextBtn" class="primary compact-validate" type="button">Valider</button>
+        <div class="score-row" id="scoreButtons" aria-label="Note de distance perceptive de 0 a 5"></div>
+      </div>
+      <textarea id="comment" rows="2" placeholder="Commentaire court"></textarea>
+      <p id="status" role="status"></p>
+      <aside id="scaleHelp" class="scale-help" hidden>
+        <strong>Echelle de distance</strong>
+        <span>0: identique ou quasi identique</span>
+        <span>1: differences a peine visibles</span>
+        <span>2: differences visibles mais faibles</span>
+        <span>3: plusieurs changements nets</span>
+        <span>4: objet tres modifie</span>
+        <span>5: plus de ressemblance exploitable</span>
+      </aside>
+    </section>
+  </main>
+  <script type="module" src="./viewer.js?v=20260615-compact-progress"></script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NEXTLIFE - Explorateur sécurité visuelle</title>
+  <link rel="stylesheet" href="./dataset_explorer.css?v=20260702-2">
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.165.0/build/three.module.js",
+        "three/addons/": "https://unpkg.com/three@0.165.0/examples/jsm/"
+      }
+    }
+  </script>
+</head>
+<body>
+  <main class="app-shell">
+    <header class="topbar">
+      <div class="brand-block">
+        <strong>NEXTLIFE</strong>
+        <span>Explorateur sécurité visuelle</span>
+        <span id="catalogCount" class="muted"></span>
+      </div>
+      <div class="top-actions">
+        <label class="inline-control" for="sceneMode">
+          <span>Contexte</span>
+          <select id="sceneMode">
+            <option value="context">Scène</option>
+            <option value="neutral" selected>Fond neutre</option>
+          </select>
+        </label>
+        <button id="exportCsvBtn" type="button">Exporter CSV</button>
+        <button id="exportJsonBtn" type="button">Exporter JSON</button>
+      </div>
+    </header>
+
+    <section class="explorer-grid">
+      <aside class="object-panel" aria-label="Sélection des objets">
+        <div class="panel-heading">
+          <div>
+            <h1>Objets</h1>
+            <span id="objectSelectionCount" class="muted"></span>
+          </div>
+          <div class="compact-actions">
+            <button id="selectVisibleBtn" type="button">Tout</button>
+            <button id="clearVisibleBtn" type="button">Aucun</button>
+          </div>
+        </div>
+
+        <div class="filters">
+          <input id="objectSearch" type="search" placeholder="Rechercher un objet">
+          <select id="classFilter" aria-label="Filtrer par classe">
+            <option value="">Toutes les classes</option>
+          </select>
+          <select id="sceneFilter" aria-label="Filtrer par scène">
+            <option value="">Toutes les scènes</option>
+          </select>
+        </div>
+
+        <div id="objectList" class="object-list"></div>
+      </aside>
+
+      <section class="viewer-column">
+        <div class="viewer-toolbar">
+          <div class="segmented" aria-label="Mode de regroupement">
+            <button class="mode-btn selected" data-mode="object" type="button">Par objet</button>
+            <button class="mode-btn" data-mode="distortion" type="button">Par distorsion</button>
+          </div>
+
+          <label class="inline-control" for="scopeSelect">
+            <span>Périmètre</span>
+            <select id="scopeSelect">
+              <option value="security">Sécurité - 9 profils</option>
+              <option value="canonical">Canoniques - 28 profils</option>
+              <option value="all">Toutes les variantes</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="viewer-wrap">
+          <canvas id="modelCanvas" width="960" height="960"></canvas>
+          <div id="loadingState" class="loading-state" hidden>Chargement...</div>
+        </div>
+
+        <section class="current-panel">
+          <div class="current-title-row">
+            <div>
+              <strong id="currentObject">Aucun objet</strong>
+              <span id="currentDistortion" class="muted"></span>
+            </div>
+            <span id="currentMeta" class="meta-badge"></span>
+          </div>
+
+          <div class="classification-row">
+            <span class="classification-label">Classement</span>
+            <div id="securityChoices" class="security-choices"></div>
+            <button id="clearRatingBtn" type="button">Effacer</button>
+          </div>
+
+          <textarea id="annotationNote" rows="2" placeholder="Note de classement"></textarea>
+          <span id="status" class="status" role="status"></span>
+        </section>
+      </section>
+
+      <aside class="result-panel" aria-label="Variantes disponibles">
+        <div class="result-controls">
+          <label for="axisSelect" id="axisLabel">Objet</label>
+          <select id="axisSelect"></select>
+          <label for="sortSelect">Trier</label>
+          <select id="sortSelect">
+            <option value="name">Nom</option>
+            <option value="family">Famille</option>
+            <option value="rating">Classement</option>
+          </select>
+        </div>
+
+        <div class="result-heading">
+          <strong id="resultTitle">Variantes</strong>
+          <span id="resultCount" class="muted"></span>
+        </div>
+        <div id="resultList" class="result-list"></div>
+      </aside>
+    </section>
+  </main>
+
+  <script type="module" src="./dataset_explorer.js?v=20260702-2"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+[
+  {
+    "profile_id": "texture_block_obscuration_level1",
+    "method_id": "texture_block_obscuration_level1",
+    "group_id": "texture_block_obscuration",
+    "method_family": "Block_all_operation",
+    "level": 1,
+    "parameter_suffix": "32",
+    "operator_rel": "operators/block_all_operation/block_all_operation",
+    "args_template": "scramble {input} {mask} {width/32} key {output}"
+  },
+  {
+    "profile_id": "texture_block_obscuration_level2",
+    "method_id": "texture_block_obscuration_level2",
+    "group_id": "texture_block_obscuration",
+    "method_family": "Block_all_operation",
+    "level": 2,
+    "parameter_suffix": "64",
+    "operator_rel": "operators/block_all_operation/block_all_operation",
+    "args_template": "scramble {input} {mask} {width/64} key {output}"
+  },
+  {
+    "profile_id": "texture_block_obscuration_level3",
+    "method_id": "texture_block_obscuration_level3",
+    "group_id": "texture_block_obscuration",
+    "method_family": "Block_all_operation",
+    "level": 3,
+    "parameter_suffix": "128",
+    "operator_rel": "operators/block_all_operation/block_all_operation",
+    "args_template": "scramble {input} {mask} {width/128} key {output}"
+  },
+  {
+    "profile_id": "texture_encryption_level1",
+    "method_id": "texture_encryption_level1",
+    "group_id": "texture_encryption",
+    "method_family": "AES",
+    "level": 1,
+    "parameter_suffix": "0-6LSB",
+    "operator_rel": "operators/aes/aes_image_tool",
+    "args_template": "--op encrypt --mode bits --bits 0,1,2,3,4,5,6 --in {input} --out {output} --key operators/aes/key.bin --iv operators/aes/iv.bin --mask {mask}"
+  },
+  {
+    "profile_id": "texture_encryption_level2",
+    "method_id": "texture_encryption_level2",
+    "group_id": "texture_encryption",
+    "method_family": "AES",
+    "level": 2,
+    "parameter_suffix": "MSB",
+    "operator_rel": "operators/aes/aes_image_tool",
+    "args_template": "--op encrypt --mode bits --bits 7 --in {input} --out {output} --key operators/aes/key.bin --iv operators/aes/iv.bin --mask {mask}"
+  },
+  {
+    "profile_id": "texture_encryption_level3",
+    "method_id": "texture_encryption_level3",
+    "group_id": "texture_encryption",
+    "method_family": "AES",
+    "level": 3,
+    "parameter_suffix": "FULL",
+    "operator_rel": "operators/aes/aes_image_tool",
+    "args_template": "--op encrypt --mode bits --bits 0,1,2,3,4,5,6,7 --in {input} --out {output} --key operators/aes/key.bin --iv operators/aes/iv.bin --mask {mask}"
+  },
+  {
+    "profile_id": "texture_blur_level1",
+    "method_id": "texture_blur_level1",
+    "group_id": "texture_blur",
+    "method_family": "Blurring",
+    "level": 1,
+    "parameter_suffix": "32",
+    "operator_rel": "operators/blurring/masked_blur",
+    "args_template": "{input} {mask} {output} {1width/32}"
+  },
+  {
+    "profile_id": "texture_blur_level2",
+    "method_id": "texture_blur_level2",
+    "group_id": "texture_blur",
+    "method_family": "Blurring",
+    "level": 2,
+    "parameter_suffix": "64",
+    "operator_rel": "operators/blurring/masked_blur",
+    "args_template": "{input} {mask} {output} {1width/64}"
+  },
+  {
+    "profile_id": "texture_blur_level3",
+    "method_id": "texture_blur_level3",
+    "group_id": "texture_blur",
+    "method_family": "Blurring",
+    "level": 3,
+    "parameter_suffix": "128",
+    "operator_rel": "operators/blurring/masked_blur",
+    "args_template": "{input} {mask} {output} {1width/128}"
+  }
+]

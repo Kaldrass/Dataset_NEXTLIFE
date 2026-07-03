@@ -1,0 +1,32 @@
+[
+  {
+    "profile_id": "texture_blur_level1",
+    "group_id": "texture_blur",
+    "method_family": "Blurring",
+    "level": 1,
+    "parameter_suffix": "32",
+    "operator_rel": "operators/blurring/masked_blur",
+    "args_template": "{input} {mask} {output} {1width/32}",
+    "notes": "Kernel size derived from nearest odd value of width/32."
+  },
+  {
+    "profile_id": "texture_blur_level2",
+    "group_id": "texture_blur",
+    "method_family": "Blurring",
+    "level": 2,
+    "parameter_suffix": "64",
+    "operator_rel": "operators/blurring/masked_blur",
+    "args_template": "{input} {mask} {output} {1width/64}",
+    "notes": "Kernel size derived from nearest odd value of width/64."
+  },
+  {
+    "profile_id": "texture_blur_level3",
+    "group_id": "texture_blur",
+    "method_family": "Blurring",
+    "level": 3,
+    "parameter_suffix": "128",
+    "operator_rel": "operators/blurring/masked_blur",
+    "args_template": "{input} {mask} {output} {1width/128}",
+    "notes": "Kernel size derived from nearest odd value of width/128."
+  }
+]

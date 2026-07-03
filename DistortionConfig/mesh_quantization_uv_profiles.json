@@ -1,0 +1,17 @@
+[
+  {
+    "profile_id": "qt6",
+    "qt": 6,
+    "label": "high"
+  },
+  {
+    "profile_id": "qt8",
+    "qt": 8,
+    "label": "medium"
+  },
+  {
+    "profile_id": "qt10",
+    "qt": 10,
+    "label": "low"
+  }
+]

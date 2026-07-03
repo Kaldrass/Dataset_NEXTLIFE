@@ -1,0 +1,189 @@
+{
+  "version": 1,
+  "summary": {
+    "implemented_atomic_profile_count": 15,
+    "curated_external_atomic_profile_count": 13,
+    "planned_import_atomic_profile_count": 0,
+    "total_atomic_profile_count": 28,
+    "full_cartesian_count_if_all_groups_are_combined": 19683,
+    "full_cartesian_formula": "3 * 3 * 3 * 3 * 3 * 3 * 3 * 3 * 3 * 1"
+  },
+  "groups": [
+    {
+      "group_id": "texture_resize",
+      "modality": "texture",
+      "category": "quality",
+      "status": "implemented",
+      "execution_stage": 1,
+      "operator_id": "texture_resize",
+      "profile_source": {
+        "type": "json_file",
+        "path": "DistortionConfig/texture_resize_profiles.json"
+      },
+      "profile_count": 3,
+      "notes": "Independent texture resize axis. Uses ts values 1, 2, and 4."
+    },
+    {
+      "group_id": "texture_jpeg_quality",
+      "modality": "texture",
+      "category": "quality",
+      "status": "implemented",
+      "execution_stage": 2,
+      "operator_id": "texture_jpeg_quality",
+      "profile_source": {
+        "type": "json_file",
+        "path": "DistortionConfig/texture_jpeg_quality_profiles.json"
+      },
+      "profile_count": 3,
+      "notes": "Independent JPEG quality axis. Uses tq values 100, 75, and 50. On non-JPEG textures this keeps the original file format."
+    },
+    {
+      "group_id": "texture_blur",
+      "modality": "texture",
+      "category": "quality",
+      "status": "curated_external_workspace",
+      "execution_stage": 3,
+      "operator_id": "texture_blur",
+      "profile_source": {
+        "type": "json_file",
+        "path": "ExternalDistortions/methods/texture_blur.json"
+      },
+      "profile_count": 3,
+      "notes": "Curated from methods_NEXTLIFE.json. Three NEXTLIFE blur levels."
+    },
+    {
+      "group_id": "texture_encryption",
+      "modality": "texture",
+      "category": "protection",
+      "status": "curated_external_workspace",
+      "execution_stage": 4,
+      "operator_id": "texture_encryption",
+      "exclusive_group": "texture_protection",
+      "profile_source": {
+        "type": "json_file",
+        "path": "ExternalDistortions/methods/texture_encryption.json"
+      },
+      "profile_count": 3,
+      "notes": "Curated from methods_NEXTLIFE.json. Treat as mutually exclusive with texture block obscuration until composability is verified."
+    },
+    {
+      "group_id": "texture_block_obscuration",
+      "modality": "texture",
+      "category": "protection",
+      "status": "curated_external_workspace",
+      "execution_stage": 4,
+      "operator_id": "texture_block_obscuration",
+      "exclusive_group": "texture_protection",
+      "profile_source": {
+        "type": "json_file",
+        "path": "ExternalDistortions/methods/texture_block_obscuration.json"
+      },
+      "profile_count": 3,
+      "notes": "Curated from methods_NEXTLIFE.json. Treat as mutually exclusive with texture encryption until composability is verified."
+    },
+    {
+      "group_id": "mesh_simplification",
+      "modality": "mesh",
+      "category": "quality",
+      "status": "implemented",
+      "execution_stage": 1,
+      "operator_id": "mesh_simplification",
+      "profile_source": {
+        "type": "json_file",
+        "path": "DistortionConfig/mesh_simplification_profiles.json"
+      },
+      "profile_count": 3,
+      "notes": "Independent simplification axis. Uses simpL values 1, 5, and 10 with target face ratios 0.9, 0.5, and 0.1."
+    },
+    {
+      "group_id": "mesh_quantization_position",
+      "modality": "mesh",
+      "category": "quality",
+      "status": "implemented",
+      "execution_stage": 2,
+      "operator_id": "mesh_quantization_position",
+      "profile_source": {
+        "type": "json_file",
+        "path": "DistortionConfig/mesh_quantization_position_profiles.json"
+      },
+      "profile_count": 3,
+      "notes": "Independent Draco position-quantization axis. Uses qp values 7, 9, and 11."
+    },
+    {
+      "group_id": "mesh_quantization_uv",
+      "modality": "mesh",
+      "category": "quality",
+      "status": "implemented",
+      "execution_stage": 3,
+      "operator_id": "mesh_quantization_uv",
+      "profile_source": {
+        "type": "json_file",
+        "path": "DistortionConfig/mesh_quantization_uv_profiles.json"
+      },
+      "profile_count": 3,
+      "notes": "Independent Draco UV-quantization axis. Uses qt values 6, 8, and 10."
+    },
+    {
+      "group_id": "mesh_encryption",
+      "modality": "mesh",
+      "category": "protection",
+      "status": "curated_external_workspace",
+      "execution_stage": 4,
+      "operator_id": "mesh_encryption",
+      "exclusive_group": "mesh_protection",
+      "profile_source": {
+        "type": "json_file",
+        "path": "3D_encryption/methods/mesh_encryption.json"
+      },
+      "profile_count": 3,
+      "notes": "Curated from the 3D_encryption workspace. Uses mantissa selective encryption with three bit-depth levels: 17, 21, and 23. Treat as mutually exclusive with mesh data hiding until composability is verified."
+    },
+    {
+      "group_id": "mesh_data_hiding",
+      "modality": "mesh",
+      "category": "protection",
+      "status": "curated_external_workspace",
+      "execution_stage": 4,
+      "operator_id": "mesh_data_hiding",
+      "exclusive_group": "mesh_protection",
+      "profile_source": {
+        "type": "json_file",
+        "path": "3D_encryption/methods/mesh_data_hiding.json"
+      },
+      "profile_count": 1,
+      "notes": "Simulated for now using the same 3D_encryption mantissa operator at a low level of 5, as a proxy for hidden-message insertion into mantissa bits. Treat as mutually exclusive with mesh encryption until a dedicated data-hiding implementation is added."
+    }
+  ],
+  "recommended_recipe_sets": [
+    {
+      "recipe_set_id": "atomic_single_operator",
+      "description": "Generate variants with exactly one active distortion group at a time.",
+      "estimated_variants_per_object": 28
+    },
+    {
+      "recipe_set_id": "current_quality_only",
+      "description": "Use only the split implemented quality distortions.",
+      "estimated_variants_per_object": 243
+    },
+    {
+      "recipe_set_id": "combined_quality_with_optional_texture_security",
+      "description": "Use split mesh quality and split texture quality as a base, with optional blur and optional one texture protection operator.",
+      "estimated_variants_per_object": 6804
+    },
+    {
+      "recipe_set_id": "quality_plus_one_texture_protection",
+      "description": "Use the current split quality pipeline and require exactly one texture protection operator.",
+      "estimated_variants_per_object": 1458
+    },
+    {
+      "recipe_set_id": "security_only_atomic",
+      "description": "Generate currently integrated protection distortions one operator at a time.",
+      "estimated_variants_per_object": 10
+    },
+    {
+      "recipe_set_id": "quality_anchor_subset",
+      "description": "Use a small curated subset of quality profiles rather than the full product for every object.",
+      "estimated_variants_per_object": 5
+    }
+  ]
+}

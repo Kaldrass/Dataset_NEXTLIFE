@@ -1,0 +1,14 @@
+[
+  {
+    "profile_id": "mesh_data_hiding_bits5",
+    "group_id": "mesh_data_hiding",
+    "method_family": "MantissaDataHidingProxy",
+    "level": 5,
+    "nbBitsEnc": 5,
+    "nbClearLSB": 0,
+    "nbBytesKey": 16,
+    "nbBytesIV": 16,
+    "operator_rel": "app",
+    "notes": "Simulated mesh data hiding using low-level mantissa selective processing. This is a proxy built on the same 3D_encryption operator until a dedicated data-hiding implementation is added."
+  }
+]

@@ -1,0 +1,21 @@
+{
+    "outputFolder": "/mnt/c/Users/adubar/Documents/Dataset/Models/Unzip/OBJ/RWT419/3D_protect/",
+    "meshPath": "/mnt/c/Users/adubar/Documents/Dataset/Models/Unzip/OBJ/RWT419/test.obj",
+    "nbBytesKey": 16,
+    "nbBytesIV": 16,
+    "nbAttempts": 1,
+    "save": {"orig": false, "qp": true, "enc": true, "dec": false},
+    "plot": {"orig": false, "qp": false, "enc": false, "dec": false},
+    "qp": 30,
+    "funcEncMantissa": {"nbBitsEnc": 15, "nbClearLSB": 0},
+    "funcDefAxis": {
+        "ranges": {"minRange": 0.15, "maxRange": 0.75, "idBand": 0.1},
+        "oscillatory": {
+            "f0Min"   :  2.0,
+            "f0Max"   : 10.0,
+            "f1Cycles":  2.0,
+            "dMax"    :  1.6
+        },
+        "monotonic": {"aMin": 0.5, "aMax": 2.0, "bMin": 0.5, "bMax": 2.0}
+    }
+}

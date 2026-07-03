@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "execution": {
+    "dry_run": true,
+    "overwrite_existing": false,
+    "max_objects": 1,
+    "max_recipes": 10,
+    "object_whitelist": [],
+    "write_draco_file": true,
+    "tool_paths": {}
+  },
+  "active_recipe_plan_id": "atomic_single_operator",
+  "recipe_plans": [
+    {
+      "recipe_plan_id": "atomic_single_operator",
+      "mode": "atomic_single_operator",
+      "enabled_groups": [
+        "texture_resize",
+        "texture_jpeg_quality",
+        "texture_blur",
+        "texture_encryption",
+        "texture_block_obscuration",
+        "mesh_simplification",
+        "mesh_quantization_position",
+        "mesh_quantization_uv",
+        "mesh_encryption",
+        "mesh_data_hiding"
+      ],
+      "notes": "Minimal shared configuration: generate one distortion group at a time with the three curated parameter levels."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "profile_id": "texture_block_obscuration_level1",
+    "group_id": "texture_block_obscuration",
+    "method_family": "Block_all_operation",
+    "level": 1,
+    "parameter_suffix": "32",
+    "operator_rel": "operators/block_all_operation/block_all_operation",
+    "args_template": "scramble {input} {mask} {width/32} key {output}",
+    "notes": "Applies the combined block operation with block size width/32."
+  },
+  {
+    "profile_id": "texture_block_obscuration_level2",
+    "group_id": "texture_block_obscuration",
+    "method_family": "Block_all_operation",
+    "level": 2,
+    "parameter_suffix": "64",
+    "operator_rel": "operators/block_all_operation/block_all_operation",
+    "args_template": "scramble {input} {mask} {width/64} key {output}",
+    "notes": "Applies the combined block operation with block size width/64."
+  },
+  {
+    "profile_id": "texture_block_obscuration_level3",
+    "group_id": "texture_block_obscuration",
+    "method_family": "Block_all_operation",
+    "level": 3,
+    "parameter_suffix": "128",
+    "operator_rel": "operators/block_all_operation/block_all_operation",
+    "args_template": "scramble {input} {mask} {width/128} key {output}",
+    "notes": "Applies the combined block operation with block size width/128."
+  }
+]
