@@ -4,8 +4,9 @@ import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
 import { MTLLoader } from "three/addons/loaders/MTLLoader.js";
 import { OBJLoader } from "three/addons/loaders/OBJLoader.js";
 
-const STORAGE_KEY = "nextlife_recognition_security_answers_v1";
-const CURRENT_INDEX_KEY = "nextlife_recognition_security_current_index_v1";
+let STORAGE_KEY = "nextlife_recognition_security_answers_v1";
+let CURRENT_INDEX_KEY = "nextlife_recognition_security_current_index_v1";
+let datasetRelease = "";
 const DEFAULT_SCENE_METRICS = {
   floorY: -1.25,
   center: new THREE.Vector3(0, 0, 0),
@@ -508,6 +509,16 @@ class ModelViewer {
     object.rotation.copy(eulerDegFrom(objectPlacement.rotationDeg));
     object.updateMatrixWorld(true);
 
+    // Use complete, transformed geometry for floor contact rather than quantiles.
+    // Explicit scene-origin placements keep their calibrated coordinates.
+    if (this.sceneMetrics.objectPlacementMode !== "origin") {
+      const groundBox = new THREE.Box3().setFromObject(object, true);
+      if (!groundBox.isEmpty() && Number.isFinite(groundBox.min.y)) {
+        object.position.y += floorY + 0.015 - groundBox.min.y;
+        object.updateMatrixWorld(true);
+      }
+    }
+
     const fittedBox = new THREE.Box3().setFromObject(object);
     const fittedCenter = new THREE.Vector3();
     const fittedSize = new THREE.Vector3();
@@ -660,6 +671,7 @@ function recordAnswer() {
   const existingIndex = state.answers.findIndex((item) => item.trial_id === trial.trial_id);
   const answer = {
     timestamp: new Date().toISOString(),
+    dataset_release: datasetRelease,
     trial_id: trial.trial_id,
     object_id: trial.object_id,
     object_name: trial.object_name,
@@ -759,6 +771,7 @@ function exportJson() {
 function exportCsv() {
   const headers = [
     "timestamp",
+    "dataset_release",
     "trial_id",
     "object_id",
     "object_name",
@@ -788,6 +801,9 @@ async function loadExperiment() {
   const response = await fetch("./recognition_trials.json", { cache: "no-store" });
   if (!response.ok) throw new Error("recognition_trials.json introuvable");
   const payload = await response.json();
+  datasetRelease = payload.release || "";
+  STORAGE_KEY = "nextlife_recognition_security_answers_v1" + (datasetRelease ? `::${datasetRelease}` : "");
+  CURRENT_INDEX_KEY = "nextlife_recognition_security_current_index_v1" + (datasetRelease ? `::${datasetRelease}` : "");
   state.trials = payload.trials || [];
   if (!state.trials.length) throw new Error("Aucun essai dans recognition_trials.json");
   loadSavedAnswers();

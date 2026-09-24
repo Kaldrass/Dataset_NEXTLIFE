@@ -10,19 +10,24 @@ from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional, Set, Tuple
 
 
-ROOT = Path(__file__).resolve().parents[2]
-ORIGINALS_DIR = ROOT / "Objects" / "Originals"
-DISTORTED_DIR = ROOT / "Objects" / "Distorted"
+# The shared copy can contain Scripts/Scripts/; locate the dataset explicitly.
+ROOT = next(
+    parent for parent in Path(__file__).resolve().parents
+    if (parent / "DistortionConfig" / "distortion_groups.json").is_file()
+    and (parent / "metadata.json").is_file()
+)
+ORIGINALS_DIR = Path(os.environ.get("NEXTLIFE_ORIGINALS_DIR", ROOT / "Objects" / "Originals")).resolve()
+DISTORTED_DIR = Path(os.environ.get("NEXTLIFE_DISTORTED_DIR", ROOT / "Objects" / "Distorted")).resolve()
 MESH_VARIANTS_DIR = DISTORTED_DIR / "MeshVariants"
 TEXTURE_VARIANTS_DIR = DISTORTED_DIR / "TextureVariants"
 COMBINED_VARIANTS_DIR = DISTORTED_DIR / "CombinedVariants"
-WORK_TMP_DIR = ROOT / ".tmp" / "distortion_work"
+WORK_TMP_DIR = Path(os.environ.get("NEXTLIFE_WORK_DIR", ROOT / ".tmp" / "distortion_work")).resolve()
 EXTERNAL_DISTORTIONS_DIR = ROOT / "ExternalDistortions"
 MESH_ENCRYPTION_DIR = ROOT / "3D_encryption"
 
 DISTORTION_GROUPS_JSON = ROOT / "DistortionConfig" / "distortion_groups.json"
 DEFAULT_GENERATION_CONFIG_JSON = ROOT / "DistortionConfig" / "unified_generation_config.json"
-RUNTIME_REPORTS_DIR = ROOT / ".tmp" / "distortion_runtime"
+RUNTIME_REPORTS_DIR = Path(os.environ.get("NEXTLIFE_REPORTS_DIR", ROOT / ".tmp" / "distortion_runtime")).resolve()
 DRACO_COMPRESSION_LEVEL = 7
 
 SUPPORTED_IMAGE_EXTS = {".jpg", ".jpeg", ".png", ".bmp", ".tif", ".tiff", ".webp"}

@@ -1,4 +1,5 @@
 import shlex
+import os
 import subprocess
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
@@ -12,6 +13,11 @@ from ...common import EXTERNAL_DISTORTIONS_DIR, RuntimeState, is_elf_binary, is_
 
 
 def resolve_external_operator(operator_rel: str) -> Path:
+    if os.environ.get("NEXTLIFE_OPERATOR_BIN_DIR"):
+        candidate = Path(os.environ["NEXTLIFE_OPERATOR_BIN_DIR"]) / Path(operator_rel).name
+        if not candidate.is_file():
+            raise FileNotFoundError(candidate)
+        return candidate
     base = EXTERNAL_DISTORTIONS_DIR / operator_rel
     if base.exists():
         return base
@@ -93,6 +99,13 @@ def run_external_texture_method(texture_path: Path, original_folder: Path, profi
 
         args = tokenize_template(profile["args_template"])
         args = replace_placeholders(args, placeholder_map)
+        # Encryption generates these files. Keep them alongside each output
+        # instead of overwriting repository files shared by concurrent workers.
+        if "--op" in args and args[args.index("--op") + 1] == "encrypt":
+            for flag, suffix in (("--key", "key.bin"), ("--iv", "iv.bin")):
+                if flag in args:
+                    sidecar = texture_path.with_name(f"{texture_path.name}.{profile['profile_id']}.{suffix}").resolve()
+                    args[args.index(flag) + 1] = path_to_wsl(sidecar) if use_wsl_operator else str(sidecar)
 
         if use_wsl_operator:
             wsl_cwd = path_to_wsl(EXTERNAL_DISTORTIONS_DIR)

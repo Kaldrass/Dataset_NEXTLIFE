@@ -1,6 +1,35 @@
-# NEXTLIFE Dataset Share Copy
+# NEXTLIFE — code et documentation
 
-This folder is a cleaned shareable copy of the NEXTLIFE dataset workspace. It contains:
+Le dépôt Git partage les viewers, scripts, configurations et métadonnées
+(`metadata.json`). Les assets `Objects/`, `Scenes/`, `image/`, `images/` et
+l'archive `Old/` restent locaux et sont exclus de Git, ainsi que les images,
+objets 3D, catalogues, trials, exports de résultats et journaux générés.
+Les assets doivent être transmis séparément et replacés à la racine du clone.
+Pour des sorties personnalisées, utiliser `ExperimentSecurity/results/`,
+`ExperimentDSIS/results/` ou `.tmp/` afin de conserver leur exclusion.
+
+Deux expériences distinctes sont conservées :
+
+- [ExperimentDSIS](ExperimentDSIS/README.md) : ancienne expérience DSIS.
+- [ExperimentSecurity](ExperimentSecurity/README.md) : test participant de
+  reconnaissance/sécurité visuelle, explorateur interne et viewer Three.js partagé.
+  Les classes de chats sont regroupées dans `Cat` ; les générateurs parcourent
+  `Objects/` et ne prennent pas l'archive `Old/` en compte.
+
+Après avoir obtenu les assets, suivre les README des expériences pour régénérer
+les catalogues/trials et lancer le serveur local.
+
+**État des scripts de génération :** les fichiers sont actuellement dans
+`Scripts/Scripts/`. La documentation historique ci-dessous suppose `Scripts/`.
+Le calcul de racine détecte désormais le dépôt à partir de `metadata.json` et
+`DistortionConfig/distortion_groups.json`, même avec cet emboîtement.
+Le point d'entrée réel est `python Scripts/Scripts/generate_distorted_variants.py`.
+La configuration par défaut reste une simulation limitée ; préparer une configuration
+de régénération dédiée avant toute production.
+
+## Description historique de l'espace de travail local
+
+The full local NEXTLIFE dataset workspace (including assets supplied separately) contains:
 
 * the reference objects
 * the distorted object variants

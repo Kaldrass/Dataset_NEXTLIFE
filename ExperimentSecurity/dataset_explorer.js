@@ -1,9 +1,9 @@
-import { ModelViewer } from "./dataset_model_viewer.js";
+import { ModelViewer } from "./dataset_model_viewer.js?v=20260918-3";
 
 
 const CATALOG_URL = "./dataset_catalog.json";
 const SELECTION_KEY = "nextlife_dataset_explorer_selection_v1";
-const ANNOTATION_KEY = "nextlife_dataset_explorer_annotations_v1";
+let ANNOTATION_KEY = "nextlife_dataset_explorer_annotations_v1";
 const SECURITY_LEVELS = ["Original", "Transparent", "Suffisant", "Confidentiel"];
 const SECURITY_ORDER = new Map(SECURITY_LEVELS.map((level, index) => [level, index]));
 
@@ -51,6 +51,7 @@ const els = {
 };
 
 const viewer = new ModelViewer(document.getElementById("modelCanvas"));
+let viewerLoad = Promise.resolve();
 
 function readJsonStorage(key, fallback) {
   try {
@@ -101,7 +102,7 @@ function variantMatchesScope(variant) {
 
 function scopedVariants() {
   return state.catalog.variants.filter(
-    (variant) => variantMatchesScope(variant) && state.selectedObjectIds.has(variant.object_id)
+    (variant) => variantMatchesScope(variant) && selectedVisibleObjects().some(object => object.object_id === variant.object_id)
   );
 }
 
@@ -344,7 +345,10 @@ function setClassification(level) {
 }
 
 function clearCurrentVariant() {
+  ++state.loadToken;
   state.activeVariant = null;
+  document.getElementById("modelCanvas").style.visibility = "hidden";
+  els.loadingState.hidden = true;
   els.currentObject.textContent = "Aucun objet";
   els.currentDistortion.textContent = "";
   els.currentMeta.textContent = "";
@@ -354,6 +358,7 @@ function clearCurrentVariant() {
 async function loadVariant(variant) {
   state.activeVariant = variant;
   state.activeObjectId = variant.object_id;
+  document.getElementById("modelCanvas").style.visibility = "hidden";
   const token = ++state.loadToken;
   els.currentObject.textContent = `${variant.imagenet_class} · ${variant.object_name}`;
   els.currentDistortion.textContent = variant.distortion_label;
@@ -365,9 +370,18 @@ async function loadVariant(variant) {
   renderObjectList();
 
   try {
-    const realScene = await viewer.setScene(variant.scene_id, state.sceneMode === "context");
-    await viewer.load(variant.model, variant);
+    const sceneMode = state.sceneMode;
+    const task = viewerLoad.catch(() => {}).then(async () => {
+      if (token !== state.loadToken) return;
+      const realScene = await viewer.setScene(variant.scene_id, sceneMode === "context");
+      if (token !== state.loadToken) return;
+      await viewer.load(variant.model, variant);
+      return realScene;
+    });
+    viewerLoad = task;
+    const realScene = await task;
     if (token !== state.loadToken) return;
+    document.getElementById("modelCanvas").style.visibility = "visible";
     if (state.sceneMode === "context" && !realScene) setStatus("Scène procédurale utilisée en secours.");
   } catch (error) {
     if (token === state.loadToken) setStatus(`Chargement impossible : ${error.message}`);
@@ -398,6 +412,7 @@ function annotatedRows() {
     if (!variant) return [];
     return [{
       updated_at: annotation.updated_at,
+      dataset_release: state.catalog.release || "",
       trial_id: variant.trial_id,
       condition: annotation.condition,
       object_selected: state.selectedObjectIds.has(variant.object_id),
@@ -433,6 +448,7 @@ function exportCsv() {
 function exportJson() {
   const payload = {
     schema_version: 1,
+    dataset_release: state.catalog.release || "",
     exported_at: new Date().toISOString(),
     selected_object_ids: [...state.selectedObjectIds],
     classifications: annotatedRows(),
@@ -445,9 +461,11 @@ async function loadCatalog() {
   const response = await fetch(CATALOG_URL, { cache: "no-store" });
   if (!response.ok) throw new Error("dataset_catalog.json introuvable");
   state.catalog = await response.json();
+  ANNOTATION_KEY = "nextlife_dataset_explorer_annotations_v1" + (state.catalog.release ? `::${state.catalog.release}` : "");
   const savedSelection = readJsonStorage(SELECTION_KEY, null);
+  const availableIds = new Set(state.catalog.objects.map((object) => object.object_id));
   state.selectedObjectIds = new Set(
-    Array.isArray(savedSelection) ? savedSelection : state.catalog.objects.map((object) => object.object_id)
+    Array.isArray(savedSelection) ? savedSelection.filter((id) => availableIds.has(id)) : availableIds
   );
   state.annotations = readJsonStorage(ANNOTATION_KEY, {});
   state.activeObjectId = state.catalog.objects[0]?.object_id || "";

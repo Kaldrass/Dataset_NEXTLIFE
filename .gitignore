@@ -2,6 +2,7 @@
 /Objects/
 /Scenes/
 /image/
+/images/
 /Old/
 /3D_encryption/ply3dtools/
 
@@ -34,6 +35,8 @@
 *.stl
 *.dae
 *.blend
+*.blend1
+*.blend2
 *.abc
 *.3ds
 *.x3d
@@ -46,15 +49,43 @@
 /Objects/**/*.bin
 /Scenes/**/*.bin
 
+# Generated encryption key/IV files (local experiment artifacts)
+/ExternalDistortions/operators/aes/key.bin
+/ExternalDistortions/operators/aes/iv.bin
+*.key.bin
+*.iv.bin
+
+# Local credentials and environment configuration
+.env
+.env.*
+!.env.example
+
 # Regenerable experiment catalogs and trial batches
 /ExperimentSecurity/dataset_catalog.json
+/ExperimentSecurity/dataset_release.json
 /ExperimentSecurity/recognition_trials.json
 /ExperimentDSIS/dsis_trials.json
 
 # Local experiment outputs and server logs
-/*_results.csv
+nextlife_object_review*.json
+object_audit_*.json
+object_audit_*.csv
+*_results*.csv
+*_results*.json
+nextlife_visual_security_classification*.csv
+nextlife_visual_security_classification*.json
+recognition_security_summary.csv
+recognition_security_barplot_counts.csv
 /ExperimentSecurity/results/
+/ExperimentDSIS/results/
+/generation_and_manual_observation_log.md
+*.generation_log.csv
 *.log
+.tmp/
+
+# Local Python environments
+.venv/
+venv/
 
 # Python caches
 __pycache__/

@@ -6,6 +6,8 @@ from pathlib import Path
 
 from build_recognition_experiment import (
     ROOT,
+    ORIGINALS_DIR,
+    DISTORTED_DIR,
     combined_model_spec,
     find_original_model,
     load_json,
@@ -96,7 +98,7 @@ def build_catalog() -> dict:
     object_counts = Counter()
     object_security_counts = Counter()
 
-    for original_folder in sorted((ROOT / "Objects" / "Originals").iterdir()):
+    for original_folder in sorted(ORIGINALS_DIR.iterdir()):
         if not original_folder.is_dir():
             continue
         object_id = original_folder.name
@@ -133,7 +135,7 @@ def build_catalog() -> dict:
             }
         )
 
-    manifests = sorted((ROOT / "Objects" / "Distorted" / "CombinedVariants").glob("*/*/manifest.json"))
+    manifests = sorted((DISTORTED_DIR / "CombinedVariants").glob("*/*/manifest.json"))
     for manifest_path in manifests:
         try:
             manifest = load_json(manifest_path)
@@ -205,7 +207,7 @@ def build_catalog() -> dict:
             object_security_counts[object_id] += 1
 
     variants.sort(key=lambda item: (item["object_name"].lower(), item["distortion_label"], item["variant_id"]))
-    for original_folder in sorted((ROOT / "Objects" / "Originals").iterdir()):
+    for original_folder in sorted(ORIGINALS_DIR.iterdir()):
         if not original_folder.is_dir():
             continue
         object_id = original_folder.name
@@ -259,7 +261,8 @@ def build_catalog() -> dict:
     return {
         "schema_version": 1,
         "generated_at": datetime.now(timezone.utc).isoformat(),
-        "source": "metadata.json + Objects/Distorted/CombinedVariants (Old excluded)",
+        "source": f"metadata.json + {rel(DISTORTED_DIR / 'CombinedVariants')} (Old excluded)",
+        "release": rel(DISTORTED_DIR.parent) if DISTORTED_DIR.parent.parent == ROOT / "Objects/Releases" else "",
         "security_levels": ["Original", "Transparent", "Suffisant", "Confidentiel"],
         "core_security_families": sorted(CORE_SECURITY_FAMILIES),
         "counts": {

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NEXTLIFE — Tri des objets</title>
+  <link rel="stylesheet" href="./object_triage.css?v=1">
+  <script type="importmap">{"imports":{"three":"https://unpkg.com/three@0.165.0/build/three.module.js","three/addons/":"https://unpkg.com/three@0.165.0/examples/jsm/"}}</script>
+</head>
+<body>
+  <header><strong>NEXTLIFE · Tri des objets</strong><span id="progress"></span><a href="./dataset_explorer.html">Classement des distorsions</a></header>
+  <main>
+    <aside class="queue">
+      <label>Recherche <input id="search" type="search" placeholder="Nom, classe, identifiant"></label>
+      <label>Classe <select id="classFilter"><option value="">Toutes les classes</option></select></label>
+      <label>Décision <select id="reviewFilter"><option value="">Tous les statuts</option></select></label>
+      <label>Audit <select id="auditFilter"><option value="">Tous les objets</option><option value="alerts">Avec alertes importées</option></select></label>
+      <div id="objectList"></div>
+    </aside>
+    <section class="inspection">
+      <nav><button id="previous">← Précédent</button><button id="next">Suivant →</button><button id="original">Original [O]</button><button id="turn">Tourner de 90° [V]</button><button id="resetView">Recentrer</button></nav>
+      <label>Version à inspecter <select id="variantSelect"></select></label>
+      <strong id="displayed"></strong>
+      <div class="viewport"><canvas id="modelCanvas"></canvas><span id="loading" hidden>Chargement…</span></div>
+      <p id="status" role="status"></p>
+      <small>Contrôler l’original sous plusieurs angles : objet complet, classe identifiable, matériaux cohérents. Les variantes servent à vérifier la compatibilité, pas à noter la sécurité ici.</small>
+    </section>
+    <aside class="decisions">
+      <label><input id="autoNext" type="checkbox" checked> Passer au suivant après enregistrement</label>
+      <div class="quick"><button data-status="retained">1 · Retenir</button><button data-status="repair">2 · À réparer</button><button data-status="excluded">3 · Écarter</button><button data-status="pending">4 · À examiner</button></div>
+      <p class="hint">1 enregistre et avance. 2/3 choisissent la décision : préciser le motif puis Entrée pour enregistrer. ←/→ naviguent hors des champs.</p>
+      <div id="objectReview"></div>
+    </aside>
+  </main>
+  <script type="module" src="./object_triage.js?v=20260918-3"></script>
+</body></html>

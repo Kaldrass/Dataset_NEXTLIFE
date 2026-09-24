@@ -176,14 +176,17 @@ export class ModelViewer {
     this.setNeutralScene();
     this.resize();
     window.addEventListener("resize", () => this.resize());
+    this.resizeObserver = new ResizeObserver(() => this.resize());
+    this.resizeObserver.observe(this.canvas);
   }
 
   resize() {
     const rect = this.canvas.getBoundingClientRect();
-    const size = Math.max(1, Math.floor(Math.min(rect.width, rect.height || rect.width)));
-    this.renderer.setSize(size, size, false);
-    this.camera.aspect = 1;
+    if (rect.width <= 0 || rect.height <= 0) return;
+    this.renderer.setSize(Math.max(1, Math.round(rect.width)), Math.max(1, Math.round(rect.height)), false);
+    this.camera.aspect = rect.width / rect.height;
     this.camera.updateProjectionMatrix();
+    if (this.inspectionBounds && this.currentSceneId === "__neutral__") this.frameInspection();
   }
 
   disposeObject(object) {
@@ -210,16 +213,23 @@ export class ModelViewer {
   }
 
   async load(spec, trial = null) {
+    this.inspectionBounds = null;
     this.clear();
     if (!spec?.obj) throw new Error("Modèle sans OBJ");
     const manager = new THREE.LoadingManager();
-    if (spec.texture_folder) {
-      const textureRoot = `${assetUrl(spec.texture_folder)}/`;
-      manager.setURLModifier((url) => {
-        if (/\.(png|jpg|jpeg|bmp|webp|tif|tiff)$/i.test(url)) return textureRoot + fileName(url);
-        return url;
-      });
-    }
+    // Local repairs keep their filenames: request a fresh OBJ, MTL and textures
+    // for every inspection, including the "Original" and "Recentrer" actions.
+    const revision = crypto.randomUUID();
+    manager.setURLModifier((url) => {
+      if (/^(data:|blob:)/i.test(url)) return url;
+      const asset = new URL(url, document.baseURI);
+      if (spec.texture_folder && /\.(png|jpg|jpeg|bmp|webp|tif|tiff)$/i.test(asset.pathname)) {
+        const textureRoot = new URL(`${assetUrl(spec.texture_folder)}/`, document.baseURI);
+        asset.href = new URL(fileName(asset.pathname), textureRoot).href;
+      }
+      asset.searchParams.set("inspection_revision", revision);
+      return asset.href;
+    });
 
     const objLoader = new OBJLoader(manager);
     if (spec.mtl) {
@@ -439,6 +449,17 @@ export class ModelViewer {
     object.rotation.copy(eulerDegFrom(objectPlacement.rotationDeg));
     object.updateMatrixWorld(true);
 
+    // Quantile bounds are useful for framing, but can omit feet and thin supports.
+    // Ground the complete geometry after scale and rotation; preserve explicit
+    // scene-origin placements, whose coordinates are calibrated separately.
+    if (this.sceneMetrics.objectPlacementMode !== "origin") {
+      const groundBox = new THREE.Box3().setFromObject(object, true);
+      if (!groundBox.isEmpty() && Number.isFinite(groundBox.min.y)) {
+        object.position.y += floorY + 0.015 - groundBox.min.y;
+        object.updateMatrixWorld(true);
+      }
+    }
+
     const fittedBox = new THREE.Box3().setFromObject(object);
     const fittedCenter = new THREE.Vector3();
     const fittedSize = new THREE.Vector3();
@@ -465,6 +486,45 @@ export class ModelViewer {
     this.camera.lookAt(target);
     this.controls.minDistance = Math.max(0.25, objectViewHeight * 0.35);
     this.controls.maxDistance = Math.max(3.5, cameraDistance * 2.2);
+    this.controls.update();
+    if (this.currentSceneId === "__neutral__") {
+      this.inspectionBounds = new THREE.Box3().setFromObject(object, true);
+      this.frameInspection();
+    }
+  }
+
+  frameInspection() {
+    const box = this.inspectionBounds;
+    if (!box || box.isEmpty()) return;
+    const center = box.getCenter(new THREE.Vector3());
+    const radius = box.getSize(new THREE.Vector3()).length() / 2;
+    if (!Number.isFinite(radius) || radius <= 0) return;
+    const direction = this.camera.position.clone().sub(this.controls.target).normalize();
+    if (!direction.lengthSq()) direction.set(0, 0.35, 1).normalize();
+    this.camera.position.copy(center).add(direction);
+    this.camera.lookAt(center);
+    this.camera.updateMatrixWorld(true);
+    const inverseRotation = this.camera.quaternion.clone().invert();
+    const tanY = Math.tan(THREE.MathUtils.degToRad(this.camera.getEffectiveFOV()) / 2);
+    const tanX = tanY * this.camera.aspect;
+    let distance = 0;
+    // Fit all eight corners, including depth, with a 12% screen-space margin.
+    for (const x of [box.min.x, box.max.x]) {
+      for (const y of [box.min.y, box.max.y]) {
+        for (const z of [box.min.z, box.max.z]) {
+          const p = new THREE.Vector3(x, y, z).sub(center).applyQuaternion(inverseRotation);
+          distance = Math.max(distance, p.z + 1.12 * Math.abs(p.x) / tanX,
+            p.z + 1.12 * Math.abs(p.y) / tanY, p.z + radius * 0.05);
+        }
+      }
+    }
+    this.controls.target.copy(center);
+    this.controls.minDistance = radius * 0.05;
+    this.controls.maxDistance = Math.max(distance * 5, radius * 10);
+    this.camera.near = Math.max(radius * 0.001, 0.000001);
+    this.camera.far = Math.max(1000, this.controls.maxDistance + radius * 4);
+    this.camera.position.copy(center).addScaledVector(direction, distance);
+    this.camera.updateProjectionMatrix();
     this.controls.update();
   }
 

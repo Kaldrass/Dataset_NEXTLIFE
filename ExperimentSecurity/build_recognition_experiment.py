@@ -2,9 +2,12 @@ import argparse
 import json
 import random
 from pathlib import Path
+from object_review import retained_object_ids
+from dataset_paths import dataset_paths
 
 
 ROOT = Path(__file__).resolve().parents[1]
+ORIGINALS_DIR, DISTORTED_DIR = dataset_paths()
 OUT_DIR = ROOT / "ExperimentSecurity"
 SECURITY_LEVELS = ["Original", "Transparent", "Suffisant", "Confidentiel"]
 CAT_LABEL = "Cat"
@@ -52,7 +55,7 @@ def resolve_dataset_path(path_text: str | None) -> Path | None:
 
 
 def find_original_model(object_id: str) -> dict | None:
-    folder = ROOT / "Objects" / "Originals" / object_id
+    folder = ORIGINALS_DIR / object_id
     obj = folder / f"{object_id}.obj"
     if not obj.exists():
         candidates = sorted(folder.glob("*.obj"))
@@ -147,11 +150,11 @@ def choices_for(correct_label: str, labels: list[str], rng: random.Random, choic
     return choices
 
 
-def make_trials(max_objects: int, max_trials: int, seed: int, max_faces: int, choices: int) -> list[dict]:
+def make_trials(max_objects: int, max_trials: int, seed: int, max_faces: int, choices: int, retained_ids: set[str] | None = None) -> list[dict]:
     metadata = load_json(ROOT / "metadata.json")
     labels = label_pool(metadata)
     rng = random.Random(seed)
-    manifests = sorted((ROOT / "Objects" / "Distorted" / "CombinedVariants").glob("*/*/manifest.json"))
+    manifests = sorted((DISTORTED_DIR / "CombinedVariants").glob("*/*/manifest.json"))
     rng.shuffle(manifests)
 
     selected_objects = set()
@@ -163,6 +166,8 @@ def make_trials(max_objects: int, max_trials: int, seed: int, max_faces: int, ch
             continue
 
         object_id = str(manifest.get("object_id") or manifest_path.parent.parent.name)
+        if retained_ids is not None and object_id not in retained_ids:
+            continue
         meta = metadata_for(metadata, object_id)
         raw_imagenet_class = str(meta.get("imagenet_class", "")).strip()
         correct_label = normalize_label(raw_imagenet_class)
@@ -219,11 +224,21 @@ def main() -> None:
     parser.add_argument("--choices", type=int, default=6)
     parser.add_argument("--seed", type=int, default=20260622)
     parser.add_argument("--output", default=str(OUT_DIR / "recognition_trials.json"))
+    parser.add_argument("--object-review", type=Path, help="Export JSON du tri : seuls les objets retained sont inclus.")
     args = parser.parse_args()
 
-    trials = make_trials(args.max_objects, args.max_trials, args.seed, args.max_faces, args.choices)
+    try:
+        retained_ids = retained_object_ids(args.object_review) if args.object_review else None
+    except (OSError, ValueError) as error:
+        parser.error(str(error))
+    if retained_ids is not None and not retained_ids:
+        parser.error("Aucun objet retenu dans le fichier de tri ; aucun trial écrit.")
+    trials = make_trials(args.max_objects, args.max_trials, args.seed, args.max_faces, args.choices, retained_ids)
+    if retained_ids is not None and not trials:
+        parser.error("Aucun trial exploitable pour les objets retenus ; sortie existante préservée.")
     payload = {
         "experiment": "NEXTLIFE_recognition_security",
+        "release": rel(DISTORTED_DIR.parent) if DISTORTED_DIR.parent.parent == ROOT / "Objects/Releases" else "",
         "protocol": {
             "task_1": "Choose the object label among forced choices.",
             "task_2": "Choose one visual security level.",
@@ -231,6 +246,8 @@ def main() -> None:
             "viewer": "single freely rotatable and zoomable distorted object",
         },
         "filters": {
+            "object_review": str(args.object_review) if args.object_review else None,
+            "retained_object_ids": sorted(retained_ids) if retained_ids is not None else None,
             "max_objects": args.max_objects,
             "max_trials": args.max_trials,
             "max_faces": args.max_faces,
