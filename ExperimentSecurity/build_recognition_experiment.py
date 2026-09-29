@@ -3,7 +3,7 @@ import json
 import random
 from pathlib import Path
 from object_review import retained_object_ids
-from dataset_paths import dataset_paths
+from dataset_paths import dataset_paths, dataset_identity, dataset_selection
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -151,6 +151,9 @@ def choices_for(correct_label: str, labels: list[str], rng: random.Random, choic
 
 
 def make_trials(max_objects: int, max_trials: int, seed: int, max_faces: int, choices: int, retained_ids: set[str] | None = None) -> list[dict]:
+    selection = dataset_selection(DISTORTED_DIR)
+    if selection is not None:
+        retained_ids = selection if retained_ids is None else retained_ids & selection
     metadata = load_json(ROOT / "metadata.json")
     labels = label_pool(metadata)
     rng = random.Random(seed)
@@ -238,7 +241,7 @@ def main() -> None:
         parser.error("Aucun trial exploitable pour les objets retenus ; sortie existante préservée.")
     payload = {
         "experiment": "NEXTLIFE_recognition_security",
-        "release": rel(DISTORTED_DIR.parent) if DISTORTED_DIR.parent.parent == ROOT / "Objects/Releases" else "",
+        "release": dataset_identity(DISTORTED_DIR),
         "protocol": {
             "task_1": "Choose the object label among forced choices.",
             "task_2": "Choose one visual security level.",

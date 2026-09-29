@@ -3,6 +3,7 @@ import json
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
+from dataset_paths import dataset_identity, dataset_selection
 
 from build_recognition_experiment import (
     ROOT,
@@ -91,6 +92,7 @@ def distortion_identity(active_groups: list[dict], recipe_id: str) -> tuple[str,
 
 
 def build_catalog() -> dict:
+    retained = dataset_selection(DISTORTED_DIR)
     metadata = load_json(ROOT / "metadata.json")
     group_config, active_pairs = active_profile_catalog()
     objects = []
@@ -102,6 +104,8 @@ def build_catalog() -> dict:
         if not original_folder.is_dir():
             continue
         object_id = original_folder.name
+        if retained is not None and object_id not in retained:
+            continue
         meta = metadata_for(metadata, object_id)
         original = find_original_model(object_id)
         if not original:
@@ -142,6 +146,8 @@ def build_catalog() -> dict:
         except (OSError, json.JSONDecodeError):
             continue
         object_id = str(manifest.get("object_id") or manifest_path.parent.parent.name)
+        if retained is not None and object_id not in retained:
+            continue
         meta = metadata_for(metadata, object_id)
         model = combined_model_spec(manifest, manifest_path)
         if not model:
@@ -211,6 +217,8 @@ def build_catalog() -> dict:
         if not original_folder.is_dir():
             continue
         object_id = original_folder.name
+        if retained is not None and object_id not in retained:
+            continue
         meta = metadata_for(metadata, object_id)
         raw_label = str(meta.get("imagenet_class", "")).strip()
         objects.append(
@@ -262,7 +270,7 @@ def build_catalog() -> dict:
         "schema_version": 1,
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "source": f"metadata.json + {rel(DISTORTED_DIR / 'CombinedVariants')} (Old excluded)",
-        "release": rel(DISTORTED_DIR.parent) if DISTORTED_DIR.parent.parent == ROOT / "Objects/Releases" else "",
+        "release": dataset_identity(DISTORTED_DIR),
         "security_levels": ["Original", "Transparent", "Suffisant", "Confidentiel"],
         "core_security_families": sorted(CORE_SECURITY_FAMILIES),
         "counts": {

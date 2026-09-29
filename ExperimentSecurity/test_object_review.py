@@ -67,6 +67,11 @@ class ObjectReviewTests(unittest.TestCase):
                 self.assertEqual([t["object_id"] for t in trials], ["b"])
                 self.assertEqual(trials[0]["imagenet_class"], "Cat")
                 self.assertEqual(builder.make_trials(1, 10, 42, 0, 6, set()), [])
+                (root / "Objects/Distorted/dataset_info.json").write_text(json.dumps({
+                    "release": "stable-release", "retained_object_ids": ["b"]}))
+                self.assertEqual([t["object_id"] for t in builder.make_trials(0, 0, 42, 0, 6)], ["b"])
+                self.assertEqual(builder.make_trials(0, 0, 42, 0, 6, {"a"}), [])
+                self.assertEqual(builder.dataset_identity(root / "Objects/Distorted"), "stable-release")
 
     def test_audit_geometry_and_missing_texture(self):
         with tempfile.TemporaryDirectory() as tmp:

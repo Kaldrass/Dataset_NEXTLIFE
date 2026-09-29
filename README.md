@@ -27,6 +27,22 @@ Le point d'entrée réel est `python Scripts/Scripts/generate_distorted_variants
 La configuration par défaut reste une simulation limitée ; préparer une configuration
 de régénération dédiée avant toute production.
 
+## Organisation de travail actuelle
+
+- `Objects/Originals/` : références de travail, conservées sans suppression.
+- `Objects/Distorted/` : distorsions actives (`MeshVariants/`, `TextureVariants/`,
+  `CombinedVariants/`). `dataset_info.json` conserve la sélection des objets
+  retenus et l'identifiant stable du dataset.
+- `Old/dataset_archive_*/` : anciennes distorsions, copies de référence et
+  rapports de génération archivés. Ce dossier n'est pas parcouru par les outils.
+- `ExperimentSecurity/` : outils et documentation ; `results/` reste réservé
+  aux exports locaux.
+
+Il n'est pas nécessaire de régénérer les distorsions pour les utiliser. Les
+viewers et les générateurs de catalogues utilisent les dossiers usuels ci-dessus.
+`Objects/Releases/` est seulement un espace de préparation pour une future
+régénération, pas un deuxième dataset actif.
+
 ## Description historique de l'espace de travail local
 
 The full local NEXTLIFE dataset workspace (including assets supplied separately) contains:

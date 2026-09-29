@@ -1,6 +1,28 @@
 # Experience reconnaissance / securite visuelle
 
-## Régénérer après un nettoyage des références
+## Utilisation courante
+
+Les références sont dans `Objects/Originals/` et les distorsions actives dans
+`Objects/Distorted/`, réparties entre `MeshVariants/`, `TextureVariants/` et
+`CombinedVariants/`. Le fichier `Objects/Distorted/dataset_info.json` conserve
+la sélection validée et l'identifiant du dataset : déplacer les fichiers ne
+réinitialise pas les classements du navigateur. Les objets écartés restent
+sur le disque mais ne réapparaissent pas dans les catalogues régénérés.
+
+Les anciens assets et dossiers de génération sont regroupés sous
+`Old/dataset_archive_*/`, jamais utilisés pour les analyses actives.
+
+```powershell
+python ExperimentSecurity\build_dataset_catalog.py
+python -m http.server 8015 --bind 127.0.0.1
+```
+
+Ouvrir `http://127.0.0.1:8015/ExperimentSecurity/dataset_explorer.html`.
+
+## Régénération avancée après un nouveau nettoyage des références
+
+Cette procédure crée un dossier de préparation séparé. Elle n'est pas nécessaire
+pour utiliser ou examiner les distorsions déjà installées dans `Objects/Distorted/`.
 
 Le script `regenerate_reviewed_dataset.py` lit le tri final, copie les seuls objets
 retenus dans une nouvelle version sous `Objects/Releases/`, recalcule leurs masques
