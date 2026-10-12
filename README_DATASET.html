@@ -1,0 +1,154 @@
+<h2>NEXTLIFE — 3D Objects and Distortions</h2>
+
+<p>A dataset for studying how 3D object distortions affect <strong>object recognition and visual security</strong>.</p>
+
+<ul>
+  <li><strong>119</strong> retained reference objects, with their materials and textures.</li>
+  <li><strong>3,332</strong> distorted variants, corresponding to <strong>28 profiles per object</strong>.</li>
+  <li><strong>5</strong> experimental environments.</li>
+  <li><strong>6 archive volumes</strong> to download, approximately <strong>13.8 GiB</strong> in total.</li>
+</ul>
+
+<p>The transformations include mesh simplification and quantization, texture resizing, compression and blurring, as well as encryption and obscuration. The mesh “data hiding” profile currently uses an <em>encryption-based proxy</em>.</p>
+
+<h3>1. Download contents</h3>
+
+<p>The assets are provided as three separate ZIP archives, split into volumes of at most <strong>4 GiB</strong>. All three archives have passed 7-Zip integrity checks and file-inventory verification.</p>
+
+<h4>Reference objects — one volume</h4>
+<ul>
+  <li><code>NEXTLIFE_20260930_source.zip.001</code></li>
+</ul>
+
+<h4>Distorted variants — four volumes</h4>
+<ul>
+  <li><code>NEXTLIFE_20260930_distorted.zip.001</code></li>
+  <li><code>NEXTLIFE_20260930_distorted.zip.002</code></li>
+  <li><code>NEXTLIFE_20260930_distorted.zip.003</code></li>
+  <li><code>NEXTLIFE_20260930_distorted.zip.004</code></li>
+</ul>
+
+<h4>Experimental environments — one volume</h4>
+<ul>
+  <li><code>NEXTLIFE_20260930_scenes.zip.001</code></li>
+</ul>
+
+<p><strong>Download every volume and keep all original filenames.</strong> Place the volumes together in one download folder. Use 7-Zip and start extraction from <code>.zip.001</code> only: the remaining volumes are read automatically. Do not extract the parts separately or rename them to <code>.zip</code>.</p>
+
+<p>The download also includes:</p>
+<ul>
+  <li><code>README_EXTRACT.txt</code> — installation and extraction instructions.</li>
+  <li><code>dataset_info.json</code> — archive inventory, volume sizes and checksums.</li>
+  <li><code>SHA256SUMS.txt</code> — SHA-256 checksums for checking the downloaded volumes.</li>
+</ul>
+
+<h3>2. Folder structure</h3>
+
+<p>After extraction, the assets follow the repository folder structure:</p>
+
+<pre><code>Objects/
+├── Originals/              Reference objects, materials and textures
+└── Distorted/
+    ├── MeshVariants/       Transformed meshes
+    ├── TextureVariants/    Transformed textures
+    ├── CombinedVariants/   Manifests linking meshes and textures
+    └── dataset_info.json   Validated selection and dataset identifier
+Scenes/                    Five active experimental environments</code></pre>
+
+<p>Keep the complete folder structure unchanged. A variant manifest references other files; it is <strong>not a standalone 3D object</strong>. Excluded reference objects are not included in this distribution.</p>
+
+<p><code>Objects/Distorted/dataset_info.json</code> preserves the validated object selection and the stable dataset identifier. It is different from the <code>dataset_info.json</code> supplied beside the archives, which describes the download itself.</p>
+
+<h3>3. Code and tools</h3>
+
+<p>The 3D assets are distributed separately from the code. The viewers, scripts, configuration files and metadata needed to run the experiments are available in the <a href="https://github.com/Kaldrass/Dataset_NEXTLIFE">NEXTLIFE GitHub repository</a>.</p>
+
+<p>The tools allow users to explore objects, compare distorted variants and run an object recognition and visual security experiment. <strong>The distortions are already generated:</strong> no regeneration is required to use this download.</p>
+
+<h3>4. Installation on Windows</h3>
+
+<h4>Step 1 — Prepare the tools</h4>
+
+<p>Install <strong>Git, Python 3.12 and 7-Zip</strong>. Open PowerShell in a working directory and run these commands, one line at a time:</p>
+
+<pre><code>git clone https://github.com/Kaldrass/Dataset_NEXTLIFE.git
+cd Dataset_NEXTLIFE
+python -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt</code></pre>
+
+<h4>Step 2 — Extract the assets</h4>
+
+<p>Download all six archive volumes into one folder, for example <code>D:\Downloads\NEXTLIFE</code>. From the root of the cloned repository, run the following commands, adapting the download path:</p>
+
+<pre><code>$assets = "D:\Downloads\NEXTLIFE"
+&amp; "$env:ProgramFiles\7-Zip\7z.exe" x "$assets\NEXTLIFE_20260930_source.zip.001" -o.
+&amp; "$env:ProgramFiles\7-Zip\7z.exe" x "$assets\NEXTLIFE_20260930_distorted.zip.001" -o.
+&amp; "$env:ProgramFiles\7-Zip\7z.exe" x "$assets\NEXTLIFE_20260930_scenes.zip.001" -o.</code></pre>
+
+<p>These commands assume that 7-Zip is installed in its standard Windows location. Alternatively, open each <code>.zip.001</code> file in the 7-Zip application, choose <strong>Extract</strong>, and select the root of the cloned repository as the destination.</p>
+
+<p><strong>Extract into a fresh clone to avoid mixing asset versions.</strong> The archives create <code>Objects/Originals/</code>, <code>Objects/Distorted/</code> and <code>Scenes/</code> directly beside <code>metadata.json</code> and <code>ExperimentSecurity/</code>. Do not extract into an additional <code>Objects/</code> folder.</p>
+
+<p>Allow enough disk space for both the downloaded archives and approximately <strong>50 GiB of extracted assets</strong>.</p>
+
+<h4>Step 3 — Verify the download</h4>
+
+<p>Calculate the SHA-256 checksum of each volume and compare it with the corresponding entry in <code>SHA256SUMS.txt</code>. For example:</p>
+
+<pre><code>Get-FileHash "$assets\NEXTLIFE_20260930_source.zip.001" -Algorithm SHA256</code></pre>
+
+<p>Repeat this check for the other five volumes.</p>
+
+<h4>Linux and macOS</h4>
+
+<p>With the 7-Zip command-line tool installed, extract from the repository root using the following commands. Adapt the download path:</p>
+
+<pre><code>7zz x /path/to/downloads/NEXTLIFE_20260930_source.zip.001 -o.
+7zz x /path/to/downloads/NEXTLIFE_20260930_distorted.zip.001 -o.
+7zz x /path/to/downloads/NEXTLIFE_20260930_scenes.zip.001 -o.</code></pre>
+
+<p>For the Python commands in this guide, create the environment with <code>python3 -m venv .venv</code> and use <code>.venv/bin/python</code> instead of <code>.\.venv\Scripts\python.exe</code>. Use forward slashes in script paths.</p>
+
+<h3>5. Explore the dataset and run a demonstration</h3>
+
+<h4>Build the catalog</h4>
+
+<p>From the repository root:</p>
+
+<pre><code>.\.venv\Scripts\python.exe ExperimentSecurity\build_dataset_catalog.py</code></pre>
+
+<h4>Prepare a small trial set</h4>
+
+<p>This command prepares a demonstration with up to <strong>20 trials</strong> and <strong>5 distinct objects</strong>:</p>
+
+<pre><code>.\.venv\Scripts\python.exe ExperimentSecurity\build_recognition_experiment.py --max-objects 5 --max-trials 20 --max-faces 0 --choices 6 --seed 20260622</code></pre>
+
+<p><strong>This replaces <code>recognition_trials.json</code>.</strong> Back up any existing trial set before changing it. The demonstration checks that the tools work; it is not a balanced experimental design.</p>
+
+<h4>Start the local server</h4>
+
+<pre><code>.\.venv\Scripts\python.exe -m http.server 8015 --bind 127.0.0.1</code></pre>
+
+<p>Keep the terminal open, then open one of these addresses in Chrome:</p>
+
+<ul>
+  <li><strong>Dataset explorer:</strong> <a href="http://127.0.0.1:8015/ExperimentSecurity/dataset_explorer.html">compare reference objects and distorted variants</a>.</li>
+  <li><strong>Participant experiment:</strong> <a href="http://127.0.0.1:8015/ExperimentSecurity/recognition_viewer.html">run the recognition and visual security task</a>.</li>
+</ul>
+
+<p>These links work <strong>on the computer running the local server</strong>. The viewers load Three.js from the Internet. If the scenes are missing, a fallback environment is used: obtain the intended scenes before running an actual study. To stop the server, press <kbd>Ctrl + C</kbd> in the terminal.</p>
+
+<h3>6. Export results</h3>
+
+<ol>
+  <li>For each trial, choose an object label and a visual security level, then click <strong>“Valider” (Validate)</strong>.</li>
+  <li>After validating the final trial, export the responses using the <strong>JSON</strong> or <strong>CSV</strong> button.</li>
+  <li>Name each export using an anonymous participant identifier.</li>
+  <li>Export the current session before using <strong>Reset</strong> for the next participant.</li>
+</ol>
+
+<p>Responses are stored in the browser and are <strong>not automatically sent to the server</strong>.</p>
+
+<p>Analysis commands and detailed usage instructions are available in the <a href="https://github.com/Kaldrass/Dataset_NEXTLIFE/blob/main/ExperimentSecurity/README.md">ExperimentSecurity documentation on GitHub</a>.</p>
+
+<p><em><code>ExperimentDSIS/</code> contains a separate historical experiment. The <code>Old/</code> archives, temporary files and earlier generations are not needed to use these assets.</em></p>
